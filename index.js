@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 import { router as indexRouter } from './routes/index.js';
 import { router as usersRouter } from './routes/userRoutes.js';
 import { router as crawlersRouter } from './routes/crawlersRoutes.js'
-
+import { initDb } from './db/init.js'
 import errorHandler from './middlewares/errorHandler.js';
 import logger from './middlewares/logger.js';
 
@@ -44,8 +44,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 错误处理器（放最后）
 app.use(errorHandler);
 
+// 启动
+async function main() {
+  await initDb();
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => {
+    console.log(`✅ Server running at http://localhost:${PORT}`);
+  });
+}
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+main().catch(console.error);
