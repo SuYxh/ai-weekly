@@ -1,9 +1,180 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Express SQLite App</title>
+  <title>AI Weekly Crawler - Multi-Platform</title>
+  <!-- 引入 Vue.js -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4; }
+    #app { display: flex; flex-wrap: wrap; gap: 20px; } /* Flexbox for cards */
+    .platform-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: calc(50% - 40px); /* Adjust width for two columns, considering gap */
+      min-width: 300px; /* Minimum width for smaller screens */
+      display: flex;
+      flex-direction: column;
+    }
+    .platform-card h2 { margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    .controls label { display: inline-block; margin-right: 5px; margin-top: 10px; }
+    .controls input[type="number"] { width: 60px; margin-left: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 4px; }
+    .controls button { margin-top: 15px; padding: 8px 15px; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 4px; }
+    .controls button:disabled { background-color: #aaa; cursor: not-allowed; }
+    .results { margin-top: 20px; border: 1px solid #eee; padding: 15px; min-height: 150px; background-color: #f9f9f9; flex-grow: 1; /* Allow results to grow */ overflow-y: auto; /* Add scroll if content overflows */ max-height: 400px; /* Limit max height */}
+    .loading, .error, .no-data { font-style: italic; color: #555; padding: 10px; text-align: center; }
+    .error { color: red; font-weight: bold; }
+    .article { border-bottom: 1px dashed #eee; padding-bottom: 10px; margin-bottom: 10px; overflow: hidden; /* Clear floats */ }
+    .article:last-child { border-bottom: none; }
+    .article h4 { margin: 5px 0; font-size: 1em; }
+    .article p { margin: 5px 0; font-size: 0.9em; color: #333; }
+    .article img { max-width: 80px; float: left; margin-right: 10px; border-radius: 4px; }
+    .article .meta { font-size: 0.8em; color: #777; clear: both; padding-top: 5px; }
+    .article .tags span { background-color: #e0e0e0; padding: 2px 5px; border-radius: 3px; margin-right: 5px; font-size: 0.8em; display: inline-block; margin-top: 3px; }
+    [v-cloak] { display: none; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to your Express + SQLite app!</h1>
+
+  <div id="app" v-cloak>
+    <!-- 使用 v-for 遍历平台数据，为每个平台创建一个卡片 -->
+    <div v-for="platform in platforms" :key="platform.id" class="platform-card">
+      <h2>{{ platform.name }}</h2>
+
+      <div class="controls">
+        <label :for="'pages-' + platform.id">页数:</label>
+        <input type="number" :id="'pages-' + platform.id" v-model.number="platform.params.pages" min="1">
+
+        <label :for="'perPage-' + platform.id">每页数量:</label>
+        <input type="number" :id="'perPage-' + platform.id" v-model.number="platform.params.perPage" min="1">
+
+        <button @click="fetchNews(platform)" :disabled="platform.loading">
+          {{ platform.loading ? '正在加载...' : '获取新闻' }}
+        </button>
+      </div>
+
+      <div class="results">
+        <div v-if="platform.loading" class="loading">正在加载中...</div>
+        <div v-if="platform.error" class="error">{{ platform.error }}</div>
+        <div v-if="!platform.loading && !platform.error && platform.articles.length === 0 && platform.initialLoadDone" class="no-data">
+          未能获取到新闻数据。
+        </div>
+        <div v-if="!platform.loading && !platform.error && platform.articles.length > 0">
+          <div v-for="article in platform.articles" :key="platform.id + '-' + article.link" class="article">
+            <img v-if="article.img" :src="getImageUrl(platform.id, article.img)" :alt="article.title" loading="lazy">
+            <h4><a :href="getArticleUrl(platform.id, article.link)" target="_blank">{{ article.title }}</a></h4>
+            <p>{{ article.summary || '无摘要' }}</p>
+            <div class="meta">
+              日期: {{ article.date || '未知' }}
+              <div v-if="article.tags && article.tags.length > 0" class="tags" style="display: inline; margin-left: 10px;">
+                标签: <span v-for="tag in article.tags" :key="tag" class="tag">{{ tag }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 你可以在这里添加更多平台的卡片 -->
+    <!--
+    <div class="platform-card">
+      <h2>另一个平台 (示例)</h2>
+      <p>这里可以放另一个平台的控件和结果...</p>
+    </div>
+    -->
+
+  </div>
+
+  <script>
+    const { createApp, reactive } = Vue;
+
+    createApp({
+      setup() {
+        // 使用 reactive 创建响应式对象来存储平台数据
+        const platforms = reactive([
+          {
+            id: 'qbitai',
+            name: 'QbitAI 新闻',
+            apiUrl: '/api/v1/crawlers/getQbitNews', // API 端点
+            params: { pages: 1, perPage: 10 },
+            articles: [],
+            loading: false,
+            error: null,
+            initialLoadDone: false,
+            baseUrl: 'https://www.qbitai.com' // 特定于平台的基础 URL
+          },
+          // --- 在这里添加其他平台 ---
+          // {
+          //   id: 'anotherPlatform',
+          //   name: '另一个平台',
+          //   apiUrl: '/api/v1/crawlers/getAnotherNews',
+          //   params: { count: 5 }, // 示例不同参数
+          //   articles: [],
+          //   loading: false,
+          //   error: null,
+          //   initialLoadDone: false,
+          //   baseUrl: 'https://another.example.com'
+          // },
+        ]);
+
+        // 获取新闻的方法，接收平台对象作为参数
+        const fetchNews = async (platform) => {
+          platform.loading = true;
+          platform.error = null;
+          platform.articles = [];
+          platform.initialLoadDone = true;
+
+          // 构建带参数的 URL
+          const urlParams = new URLSearchParams(platform.params).toString();
+          const apiUrlWithParams = `${platform.apiUrl}?${urlParams}`;
+
+          try {
+            const response = await fetch(apiUrlWithParams);
+            const result = await response.json();
+            console.log(result)
+            console.log(JSON.stringify(result))
+
+            if (response.ok && result.code === 0) {
+              platform.articles = result.data || [];
+            } else {
+              platform.error = `请求失败: ${result.msg || response.statusText}`;
+            }
+          } catch (err) {
+            console.error(`Fetch error for ${platform.name}:`, err);
+            platform.error = `发生错误: ${err.message}`;
+          } finally {
+            platform.loading = false;
+          }
+        };
+
+        // 处理图片 URL，现在接收平台 ID
+        const getImageUrl = (platformId, imgSrc) => {
+          if (!imgSrc) return '';
+          const platform = platforms.find(p => p.id === platformId);
+          if (!platform || !platform.baseUrl) return imgSrc; // 如果找不到平台或 baseUrl，返回原始 src
+          return imgSrc.startsWith('http') ? imgSrc : `${platform.baseUrl}${imgSrc}`;
+        };
+
+        // 处理文章链接 URL，现在接收平台 ID
+        const getArticleUrl = (platformId, link) => {
+          if (!link) return '#';
+          const platform = platforms.find(p => p.id === platformId);
+          if (!platform || !platform.baseUrl) return link; // 如果找不到平台或 baseUrl，返回原始 link
+          return link.startsWith('http') ? link : `${platform.baseUrl}${link}`;
+        };
+
+        // 返回需要在模板中使用的数据和方法
+        return {
+          platforms,
+          fetchNews,
+          getImageUrl,
+          getArticleUrl
+        };
+      }
+    }).mount('#app');
+  </script>
+
 </body>
 </html>

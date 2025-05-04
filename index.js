@@ -6,6 +6,8 @@ import { fileURLToPath } from 'url';
 
 import { router as indexRouter } from './routes/index.js';
 import { router as usersRouter } from './routes/userRoutes.js';
+import { router as crawlersRouter } from './routes/crawlersRoutes.js'
+
 import errorHandler from './middlewares/errorHandler.js';
 import logger from './middlewares/logger.js';
 
@@ -34,6 +36,7 @@ app.use(logger);
 // 路由（先挂 API）
 app.use('/api', indexRouter);
 app.use('/api/v1/users', usersRouter);
+app.use('/api/v1/crawlers', crawlersRouter);
 
 // 静态文件（仅用于非 API 的前端页面或资源）
 app.use(express.static(path.join(__dirname, 'public')));

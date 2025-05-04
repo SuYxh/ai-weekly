@@ -1,0 +1,110 @@
+[
+  {
+    "title": "3B模型逆袭7B巨头！Video-XL-Pro突破长视频理解极限，大海捞针准确率超98%",
+    "link": "https://www.qbitai.com/2025/05/279960.html",
+    "date": "1小时前",
+    "summary": "单卡可处理近万帧视频，超长视频理解新SOTA",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/WX20250504-223638@2x-e1746369954406.png",
+    "tags": [
+      "上海交通大学",
+      "大海捞针",
+      "视频理解"
+    ]
+  },
+  {
+    "title": "2年就过气！ChatGPT催生的百万年薪岗位，大厂不愿意招了",
+    "link": "https://www.qbitai.com/2025/05/279889.html",
+    "date": "4小时前",
+    "summary": "大模型进化太快，自己催生的岗位自己替代",
+    "img": "https://www.qbitai.com/wp-content/uploads/replace/c236955208ba006cf3cc4f399a4cb011.png",
+    "tags": [
+      "提示词",
+      "提示词工程师"
+    ]
+  },
+  {
+    "title": "大模型终于通关《宝可梦蓝》！网友：Gemini 2.5 Pro酷爆了",
+    "link": "https://www.qbitai.com/2025/05/279839.html",
+    "date": "昨天 12:40",
+    "summary": "首个大模型宝可梦联盟冠军",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/图层-14.png",
+    "tags": [
+      "Gemini",
+      "宝可梦"
+    ]
+  },
+  {
+    "title": "用多模态LLM超越YOLOv3！强化学习突破多模态感知极限｜开源",
+    "link": "https://www.qbitai.com/2025/05/279768.html",
+    "date": "昨天 12:15",
+    "summary": "首个突破30AP的纯多模态开源LLM",
+    "img": "https://www.qbitai.com/wp-content/uploads/replace/e82b1576ce1dce45a93d647500c6d70e-e1746245704705.jpeg",
+    "tags": [
+      "纯多模态开源LLM"
+    ]
+  },
+  {
+    "title": "OpenAI最新技术报告：GPT-4o变谄媚的原因万万没想到",
+    "link": "https://www.qbitai.com/2025/05/279740.html",
+    "date": "昨天 12:03",
+    "summary": "自曝上线前已经发现模型“有些不对劲”",
+    "img": "https://www.qbitai.com/wp-content/uploads/replace/d6ea49f13a3d5bbcc19feea9ab268020-e1746245010532.jpeg",
+    "tags": [
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Claude网页版接入MCP！10款应用一键调用，开发者30分钟可创建新集成",
+    "link": "https://www.qbitai.com/2025/05/279725.html",
+    "date": "前天 18:20",
+    "summary": "Max、Team和Enterprise用户可用",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/截屏2025-05-02-18.18.50.png",
+    "tags": [
+      "Claude",
+      "MCP"
+    ]
+  },
+  {
+    "title": "大模型竞技场再被锤！Llama4私下测试27个版本，只取最佳成绩",
+    "link": "https://www.qbitai.com/2025/05/279565.html",
+    "date": "前天 13:25",
+    "summary": "“竞技场不应该是唯一基准参考”",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/xRrCcdkf_400x400-e1746163546927.jpg",
+    "tags": [
+      "刷榜",
+      "大模型竞技场"
+    ]
+  },
+  {
+    "title": "微软CEO和奥特曼失了和，OpenAI被“断粮”",
+    "link": "https://www.qbitai.com/2025/05/279412.html",
+    "date": "前天 13:12",
+    "summary": "",
+    "img": "https://www.qbitai.com/wp-content/uploads/replace/ddb9492eea36ccdc6b05b4a55c8d08db-e1746162747536.jpeg",
+    "tags": [
+      "OpenAI",
+      "微软"
+    ]
+  },
+  {
+    "title": "DeepSeek新数学模型刷爆记录！7B小模型自主发现671B模型不会的新技能",
+    "link": "https://www.qbitai.com/2025/05/279383.html",
+    "date": "2025-05-01",
+    "summary": "通过强化学习发现新技能",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/Xnip2025-05-01_12-03-24-e1746072292503.jpg",
+    "tags": [
+      "Deepseek"
+    ]
+  },
+  {
+    "title": "一次示范就能终身掌握！让手机AI轻松搞定复杂操作丨浙大&vivo出品",
+    "link": "https://www.qbitai.com/2025/05/279354.html",
+    "date": "2025-05-01",
+    "summary": "步发布的LearnGUI基准，首次构建了面向移动端示范学习的评估体系",
+    "img": "https://www.qbitai.com/wp-content/uploads/2025/05/2025-05-01-11.52.12-e1746071676724.png",
+    "tags": [
+      "LearnAct框架",
+      "手机智能体"
+    ]
+  }
+]

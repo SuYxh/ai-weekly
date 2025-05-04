@@ -13,9 +13,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cheerio": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   },
