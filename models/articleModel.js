@@ -369,6 +369,123 @@ export async function getAllArticles(options = {}) {
   return result;
 }
 
+
+/**
+ * 获取最近两周内的文章数据
+ * @param {Object} options - 查询选项
+ * @param {number} options.limit - 限制返回数量
+ * @param {number} options.offset - 分页偏移量
+ * @param {string} options.platform - 平台筛选
+ * @param {string} options.tag - 标签筛选
+ * @param {string} options.category - 分类筛选
+ * @param {string} options.orderBy - 排序字段，默认为 date
+ * @param {string} options.order - 排序方式，默认为 DESC
+ * @param {number} options.days - 获取最近几天的数据，默认为14天（两周）
+ * @returns {Array} - 文章列表（包含媒体、标签和分类信息）
+ */
+export async function getRecentArticles(options = {}) {
+  const db = await getDb();
+  
+  // 计算两周前的日期
+  const days = options.days || 14; // 默认两周
+  const twoWeeksAgo = new Date();
+  twoWeeksAgo.setDate(twoWeeksAgo.getDate() - days);
+  const twoWeeksAgoStr = twoWeeksAgo.toISOString();
+  
+  // 构建基础查询
+  let query = 'SELECT * FROM articles WHERE date >= ?';
+  const params = [twoWeeksAgoStr];
+  
+  // 添加筛选条件
+  if (options.platform) {
+    query += ' AND platform = ?';
+    params.push(options.platform);
+  }
+  
+  // 添加标签筛选
+  if (options.tag) {
+    query = `
+      SELECT a.* FROM articles a
+      JOIN article_tags at ON a.id = at.article_id
+      WHERE a.date >= ? AND at.tag = ?
+    `;
+    params[1] = options.tag; // 替换第二个参数
+    
+    // 如果有平台筛选
+    if (options.platform) {
+      query += ' AND a.platform = ?';
+      params.push(options.platform);
+    }
+  } 
+  // 添加分类筛选
+  else if (options.category) {
+    query = `
+      SELECT a.* FROM articles a
+      JOIN article_categories ac ON a.id = ac.article_id
+      WHERE a.date >= ? AND ac.category = ?
+    `;
+    params[1] = options.category; // 替换第二个参数
+    
+    // 如果有平台筛选
+    if (options.platform) {
+      query += ' AND a.platform = ?';
+      params.push(options.platform);
+    }
+  }
+  
+  // 添加排序
+  const orderBy = options.orderBy || 'date';
+  const order = options.order || 'DESC';
+  query += ` ORDER BY ${orderBy} ${order}`;
+  
+  // 添加分页
+  if (options.limit) {
+    query += ' LIMIT ?';
+    params.push(options.limit);
+    
+    if (options.offset) {
+      query += ' OFFSET ?';
+      params.push(options.offset);
+    }
+  }
+  
+  // 获取文章列表
+  const articles = await db.all(query, params);
+  
+  // 为每篇文章获取媒体、标签和分类信息
+  const result = [];
+  for (const article of articles) {
+    // 获取媒体信息
+    const media = await db.all(
+      'SELECT type, url FROM media WHERE article_id = ?',
+      [article.id]
+    );
+    
+    // 获取标签
+    const tags = await db.all(
+      'SELECT tag FROM article_tags WHERE article_id = ?',
+      [article.id]
+    );
+    
+    // 获取分类
+    const categories = await db.all(
+      'SELECT category FROM article_categories WHERE article_id = ?',
+      [article.id]
+    );
+    
+    // 组合完整的文章信息
+    result.push({
+      ...article,
+      media: media,
+      tags: tags.map(t => t.tag),
+      categories: categories.map(c => c.category)
+    });
+  }
+  
+  return result;
+}
+
+
 /**
  * 获取文章统计信息
  * @returns {Object} 包含文章总数、标签统计和分类统计的对象

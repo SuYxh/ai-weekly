@@ -59,3 +59,15 @@ export function mergeGptWithArticles(gptResults, articles) {
 
   return merged;
 }
+
+export function groupArticlesByField(articles, field = 'ownCategory') {
+  return articles.reduce((acc, article) => {
+    const key = article[field] || 'uncategorized';
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(article);
+    return acc;
+  }, {});
+}
+
