@@ -1,10 +1,5 @@
 import { formatArticleData } from '../services/formatArticleData.js'
-import { writeFileContent, resolvePathFromMeta } from "../../utils/file.js";
-
-import {
-    summarizeText,
-    translateText,
-} from "../../ai/index.js";
+import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
 
 
 export async function crawlHuggingfaceNews({ skip = 0 }) {
@@ -38,7 +33,7 @@ export async function crawlHuggingfaceNews({ skip = 0 }) {
             content,
             rawContent: post.rawContent,
             link: `https://huggingface.co${post.url}`,
-            date: post.publishedAt,
+            date: parseDateString(post.publishedAt),
             summary,
             img: coverImage,
             platform: 'huggingface',
@@ -48,10 +43,12 @@ export async function crawlHuggingfaceNews({ skip = 0 }) {
     }
 
 
+    const recentNews = filterRecentNews(parsed);
+
     // 使用 __dirname 构建路径 (代码不变)
     const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'huggingface-news.json');
-    await writeFileContent(outputFilePath, parsed)
+    await writeFileContent(outputFilePath, recentNews)
 
-    console.log(`✅ 共抓取 ${parsed.length} 条资讯 ✅`);
-    return parsed;
+    console.log(`✅ 共抓取 ${recentNews.length} 条资讯 ✅`);
+    return recentNews;
 }

@@ -1,6 +1,6 @@
 import { createRequire } from "module";
 import { fetchHtml, formatArticleData } from '../services/index.js'
-import { writeFileContent, resolvePathFromMeta } from '../../utils/file.js'
+import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
@@ -8,6 +8,9 @@ const BASE_URL = "https://www.qbitai.com/category/%E8%B5%84%E8%AE%AF?page=";
 
 export async function fetchOnePage(page = 1, perPage = 10) {
   const html = await fetchHtml(`${BASE_URL}${page}`);
+
+  const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'qbit-html.txt');
+  await writeFileContent(outputFilePath, html)
 
   const $ = cheerio.load(html);
   const articles = [];
@@ -19,6 +22,8 @@ export async function fetchOnePage(page = 1, perPage = 10) {
     const link = $(el).find(".text_box h4 a").attr("href");
     const summary = $(el).find(".text_box p").text().trim();
     const date = $(el).find(".info .time").text().trim();
+    const authorElement = $(el).find(".info .author a");
+    const authorName = authorElement.text().trim();
 
     // ✅ 图片提取：picture 下 img 标签的 src 属性
     const img = $(el).find(".picture img").attr("src");
@@ -34,7 +39,10 @@ export async function fetchOnePage(page = 1, perPage = 10) {
 
     if (title && link) {
       articles.push(formatArticleData({
-        title, link, date, summary, img, tags, platform: 'qbitai'
+        author: authorName,
+        avatar: '',
+        title, link, 
+        date: parseDateString(date), summary, img, tags, platform: 'qbitai'
       }));
     }
   });
@@ -53,11 +61,14 @@ export async function crawlQbitNews({ pages = 1, perPage = 20 }) {
     allArticles = allArticles.concat(pageArticles);
   }
 
+  // 过滤最近的新闻
+  const recentNews = filterRecentNews(allArticles, 14)
+
   // 使用 __dirname 构建路径 (代码不变)
   const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'qbit-news.json');
-  await writeFileContent(outputFilePath, allArticles)
+  await writeFileContent(outputFilePath, recentNews)
 
-  console.log(`✅ 共抓取 ${allArticles.length} 条资讯 ✅`);
-  return allArticles;
+  console.log(`✅ 共抓取 ${recentNews.length} 条资讯 ✅`);
+  return recentNews;
 }
 

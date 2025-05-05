@@ -1,4 +1,4 @@
-import { writeFileContent, resolvePathFromMeta } from "../../utils/file.js";
+import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
 import { fetchHtml, formatArticleData } from "../services/index.js";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
@@ -30,7 +30,7 @@ async function fetchGooglePage(page = 1) {
                 content: description,
                 rawContent: description,
                 link: url,
-                date: publishedAtRaw,
+                date: parseDateString(publishedAtRaw),
                 summary: '',
                 img: image,
                 category: [category],
@@ -57,10 +57,14 @@ export async function crawlGoogleNews({ maxPages = 3 }) {
         allArticles = allArticles.concat(articles);
     }
 
+    // 过滤最近的新闻
+    const recentNews = filterRecentNews(allArticles)
+
     // 使用 __dirname 构建路径 (代码不变)
     const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'google-news.json');
     await writeFileContent(outputFilePath, allArticles)
-    return allArticles;
+    
+    return recentNews;
 }
 
 

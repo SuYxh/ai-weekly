@@ -1,5 +1,5 @@
 import { crawlQbitNews, crawlHuggingfaceNews, crawlAnthropicNews, crawlGoogleNews, crawlTwitterNews } from "../crawlers/index.js";
-import { addQbitNewsBatch } from "../models/articleModel.js";
+import { addNewsBatch } from "../models/articleModel.js";
 
 
 export async function getQbitNewsService(params) {
@@ -8,7 +8,7 @@ export async function getQbitNewsService(params) {
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
-    await addQbitNewsBatch(newsArticles)   
+    await addNewsBatch(newsArticles)   
   }
 
   return newsArticles
@@ -20,7 +20,7 @@ export async function getHuggingfaceNewsService(params) {
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
-    await addQbitNewsBatch(newsArticles)   
+    await addNewsBatch(newsArticles)   
   }
 
   return newsArticles
@@ -33,7 +33,7 @@ export async function getAnthropicNewsService(params) {
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
-    await addQbitNewsBatch(newsArticles)   
+    await addNewsBatch(newsArticles)   
   }
 
   return newsArticles
@@ -46,7 +46,7 @@ export async function getGoogleNewsService(params) {
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
-    await addQbitNewsBatch(newsArticles)   
+    await addNewsBatch(newsArticles)   
   }
 
   return newsArticles
@@ -58,7 +58,7 @@ export async function getTwitterNewsService(params) {
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
-    await addQbitNewsBatch(newsArticles)   
+    await addNewsBatch(newsArticles)   
   }
 
   return newsArticles

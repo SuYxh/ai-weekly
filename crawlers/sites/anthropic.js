@@ -1,24 +1,10 @@
 import { fetchHtml, formatArticleData } from "../services/index.js";
-import { writeFileContent, resolvePathFromMeta } from "../../utils/file.js";
+import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
-
 const BASE_URL = "https://www.anthropic.com/news";
-
-
-function filterRecentNews(newsList, days = 14) {
-    const now = new Date();
-    const cutoffDate = new Date();
-    cutoffDate.setDate(now.getDate() - days); // 最近 2 周 = 14 天
-
-    return newsList.filter(item => {
-        const publishedDate = new Date(item.date);
-        return publishedDate >= cutoffDate;
-    });
-}
-
 
 async function fetchAnthropicNews() {
     console.log(`📥 正在抓取 Anthropic 资讯...`);
@@ -46,7 +32,7 @@ async function fetchAnthropicNews() {
                 content: '',
                 rawContent: '',
                 link: url,
-                date,
+                date: parseDateString(date),
                 summary: '',
                 img: coverImage,
                 category: [category],
@@ -70,7 +56,7 @@ export async function crawlAnthropicNews() {
     await writeFileContent(outputFilePath, allNews)
 
     let recentTwoWeeksNews = filterRecentNews(allNews);
-    console.log(`🔍 筛选出最近 2 周发布的 ${recentTwoWeeksNews.length} 条资讯 🔍`, recentTwoWeeksNews);
+    console.log(`🔍 筛选出最近 2 周发布的 ${recentTwoWeeksNews.length} 条资讯 🔍`);
 
     if (recentTwoWeeksNews.length === 0) {
         console.log("❌ 最近 2 周没有发布新的资讯 ❌, 准备获取最近 1 个月的资讯...");

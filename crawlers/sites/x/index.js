@@ -11,12 +11,12 @@ function extractMedia(tweetResult) {
     const card = tweetResult?.card?.legacy;
     
     // 调试信息
-    console.log('Tweet 结构:', {
-        hasLegacy: !!legacy,
-        hasRetweet: !!retweet,
-        hasQuote: !!quote,
-        hasCard: !!card
-    });
+    // console.log('Tweet 结构:', {
+    //     hasLegacy: !!legacy,
+    //     hasRetweet: !!retweet,
+    //     hasQuote: !!quote,
+    //     hasCard: !!card
+    // });
 
     const tryMedia = (legacyObj) => {
         const mediaEntities = legacyObj?.extended_entities?.media || legacyObj?.entities?.media || [];
@@ -92,7 +92,7 @@ function extractMedia(tweetResult) {
         }
     }
     
-    console.log('提取的媒体:', uniqueResults);
+    // console.log('提取的媒体:', uniqueResults);
     
     return uniqueResults;
 }

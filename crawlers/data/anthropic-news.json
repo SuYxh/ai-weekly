@@ -1,6 +1,6 @@
 [
   {
-    "id": "art_1746425455373_3452",
+    "id": "art_1746435814829_3983",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude can now connect to your world",
@@ -15,12 +15,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4514bea5710e2690966d88ad19294aedab3337e5-1681x1261.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455373_2092",
+    "id": "art_1746435814829_9556",
     "author": "Anthropic",
     "avatar": "",
     "title": "Securing America's Compute Advantage: Anthropic’s Position on the Diffusion Rule",
@@ -35,12 +37,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F02a64107eca399bb4a0b7d9ef4265633ab8a7d9d-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455374_6422",
+    "id": "art_1746435814829_9812",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the Anthropic Economic Advisory Council",
@@ -55,12 +59,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F83b08dacbd6c815c34289c7c09ca100462258927-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455374_9249",
+    "id": "art_1746435814829_3122",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Economic Index: AI’s Impact on Software Development",
@@ -75,12 +81,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F05ad8715b4cc9f08c7858e7fd2a3ef35c4d36b5d-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455374_5094",
+    "id": "art_1746435814829_0366",
     "author": "Anthropic",
     "avatar": "",
     "title": "Detecting and Countering Malicious Uses of Claude: March 2025",
@@ -95,12 +103,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffbc2b3b568205a8ac3f47134dd21846ac72a7392-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455374_8286",
+    "id": "art_1746435814829_5580",
     "author": "Anthropic",
     "avatar": "",
     "title": "Our Approach to Understanding and Addressing AI Harms",
@@ -115,12 +125,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F69d30213eb0120f3c7a0a668d2b314bfe3714f5e-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455374_1616",
+    "id": "art_1746435814829_3796",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude takes research to new places",
@@ -135,12 +147,14 @@
         "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0d259ed89e181ad18dea036804f50080ea61e77a-1680x1260.svg"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_3911",
+    "id": "art_1746435814830_9678",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the Max Plan",
@@ -155,12 +169,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6214650e82ff766d6f82c190ae4446c50704e3c7-3361x2521.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_2119",
+    "id": "art_1746435814830_2047",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Education Report: How University Students Use Claude",
@@ -175,12 +191,14 @@
         "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/16f763380c8565e697df3ea3f0f23d8580bb4d25-1680x1260.svg"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_5550",
+    "id": "art_1746435814830_7623",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Appoints Guillaume Princen as Head of EMEA and Announces 100+ New Roles Across the Region",
@@ -195,12 +213,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_8750",
+    "id": "art_1746435814830_4600",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Anthropic's first developer conference: Code with Claude",
@@ -215,12 +235,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Event",
+    "category": [
+      "Event"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_0259",
+    "id": "art_1746435814830_4715",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
@@ -235,12 +257,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7391c50ba33b46c30e69da83c6aa66ac08268295-1681x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_6360",
+    "id": "art_1746435814830_8117",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Claude for Education",
@@ -255,12 +279,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff5d0990ee33385000ff56ed82f3c5efb4e2d33da-2400x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Education",
+    "category": [
+      "Education"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455375_3374",
+    "id": "art_1746435814830_7399",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
@@ -275,12 +301,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F83b08dacbd6c815c34289c7c09ca100462258927-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_9684",
+    "id": "art_1746435814830_3058",
     "author": "Anthropic",
     "avatar": "",
     "title": "Tracing the thoughts of a large language model",
@@ -295,12 +323,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbb0f8f60b7368d37b449a74363ee8054518150bf-1673x1257.jpg&w=3840&q=75"
       }
     ],
-    "category": "Interpretability",
+    "category": [
+      "Interpretability"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_1829",
+    "id": "art_1746435814830_5374",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude can now search the web",
@@ -315,12 +345,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F085eba3a6d956ab623a2919721452405c9e8a149-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_8592",
+    "id": "art_1746435814830_9787",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic’s Response to Governor Newsom’s AI Working Group Draft Report",
@@ -335,12 +367,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F45c41da0a894deb7c2265fffc882caa4a716947d-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_4758",
+    "id": "art_1746435814830_8460",
     "author": "Anthropic",
     "avatar": "",
     "title": "Progress from our Frontier Red Team",
@@ -355,12 +389,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_0435",
+    "id": "art_1746435814830_7798",
     "author": "Anthropic",
     "avatar": "",
     "title": "Token-saving updates on the Anthropic API",
@@ -375,12 +411,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F229b0104555e496b44d5f4fe95ccfa2e77a49193-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_3252",
+    "id": "art_1746435814830_7143",
     "author": "Anthropic",
     "avatar": "",
     "title": "Get to production faster with the upgraded Anthropic Console",
@@ -395,12 +433,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc7c4eb09d13e2316ada78691133f830beeb81a6b-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_4838",
+    "id": "art_1746435814830_7125",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic’s Recommendations to OSTP for the U.S. AI Action Plan",
@@ -415,12 +455,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F45c41da0a894deb7c2265fffc882caa4a716947d-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_0324",
+    "id": "art_1746435814830_4102",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic raises Series E at $61.5B post-money valuation",
@@ -435,12 +477,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff438a6545f4b5280560b58ee98eeca6c41ef82b7-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_9848",
+    "id": "art_1746435814830_4101",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic partners with U.S. National Labs for first 1,000 Scientist AI Jam",
@@ -455,12 +499,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_2753",
+    "id": "art_1746435814830_5305",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Anthropic's Transparency Hub",
@@ -475,12 +521,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1684a98e90b6bbc9e8e017b8a1a867ee75d1e8cf-1681x1261.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_8357",
+    "id": "art_1746435814830_1102",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude and Alexa+",
@@ -495,12 +543,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff7b5f2335bdee9c00d889ae1e90249154fcd7db1-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_9458",
+    "id": "art_1746435814830_6518",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3.7 Sonnet and Claude Code",
@@ -515,12 +565,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3e3d5d28255c40851e855234d8391dc0a0649f64-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455376_9956",
+    "id": "art_1746435814831_4767",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude’s extended thinking",
@@ -535,12 +587,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F35c3cf6f17013234144a4065dfd8b7d876521be1-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_1482",
+    "id": "art_1746435814831_6371",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic signs MOU with UK Government to explore how AI can transform UK public services",
@@ -555,12 +609,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F514d2bd8aeadab490cc631badefe6aaca8e8a458-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_3592",
+    "id": "art_1746435814831_3772",
     "author": "Anthropic",
     "avatar": "",
     "title": "Statement from Dario Amodei on the Paris AI Action Summit",
@@ -575,12 +631,14 @@
         "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/84dfc3a6a5b8bf79a0cd430524c1f5a89e376531-1681x1261.svg"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_7811",
+    "id": "art_1746435814831_4167",
     "author": "Anthropic",
     "avatar": "",
     "title": "The Anthropic Economic Index",
@@ -595,12 +653,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F83b08dacbd6c815c34289c7c09ca100462258927-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_6995",
+    "id": "art_1746435814831_0360",
     "author": "Anthropic",
     "avatar": "",
     "title": "Lyft to bring Claude to more than 40 million riders and over 1 million drivers",
@@ -615,12 +675,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_9482",
+    "id": "art_1746435814831_6255",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Citations on the Anthropic API",
@@ -635,12 +697,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe5d005a4187c7ceff6078b78ede4b2f1bc4c7ef9-1680x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_6907",
+    "id": "art_1746435814831_8578",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic achieves ISO 42001 certification for responsible AI",
@@ -655,12 +719,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ef75017975f8bc6aa910152bc68a09e18dc671a-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_6360",
+    "id": "art_1746435814831_8547",
     "author": "Anthropic",
     "avatar": "",
     "title": "Alignment faking in large language models",
@@ -675,12 +741,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Alignment",
+    "category": [
+      "Alignment"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_4121",
+    "id": "art_1746435814831_1829",
     "author": "Anthropic",
     "avatar": "",
     "title": "Elections and AI in 2024: observations and learnings",
@@ -695,12 +763,14 @@
         "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f1d1a4c75433996f97b87ea0f3791022370e2765-1680x1260.svg"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_2803",
+    "id": "art_1746435814831_2980",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock",
@@ -715,12 +785,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fee12b814761fd966609ddd2696c91f0dca62bb3c-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_3613",
+    "id": "art_1746435814831_7704",
     "author": "Anthropic",
     "avatar": "",
     "title": "Tailor Claude’s responses to your personal style",
@@ -735,12 +807,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F551b6df7329ee7db2ef4fd642e2b59f9b9859a44-1681x1260.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_0574",
+    "id": "art_1746435814831_6582",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the Model Context Protocol",
@@ -755,12 +829,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0106dec137d4720d9ccccc9b01b1f9b5d72585e4-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_6927",
+    "id": "art_1746435814831_7205",
     "author": "Anthropic",
     "avatar": "",
     "title": "Powering the next generation of AI development with AWS",
@@ -775,12 +851,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F919018bb005a47134a990389e76d9cc1766d17ca-2624x2624.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455377_6012",
+    "id": "art_1746435814831_6487",
     "author": "Anthropic",
     "avatar": "",
     "title": "Improve your prompts in the developer console",
@@ -795,12 +873,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcf6157303bb56c1b50c09e230a4d0325d6c3f332-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_6880",
+    "id": "art_1746435814831_7266",
     "author": "Anthropic",
     "avatar": "",
     "title": "The case for targeted regulation",
@@ -815,12 +895,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b04f486cfe0b8a62e4632f3186f23afcd22a890-2880x1621.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_8169",
+    "id": "art_1746435814831_4812",
     "author": "Anthropic",
     "avatar": "",
     "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
@@ -835,12 +917,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F85f273709539b4fd9b1909aa9feeabdc7712edf7-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_8021",
+    "id": "art_1746435814831_3407",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3.5 Sonnet on GitHub Copilot",
@@ -855,12 +939,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ee03b16aab67a255f6ddd5f35429b134acdf503-2624x2625.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_4131",
+    "id": "art_1746435814831_7982",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the analysis tool in Claude.ai",
@@ -875,12 +961,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe471874149fb531f4f5fefa51d800f123ff17d08-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_1062",
+    "id": "art_1746435814831_8369",
     "author": "Anthropic",
     "avatar": "",
     "title": "Developing a computer use model",
@@ -895,12 +983,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff7cf518c495670a1fe932f76c8e06f4f76f51b72-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_3709",
+    "id": "art_1746435814831_6120",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
@@ -915,12 +1005,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fed472910ff6fe8e8261435613a422048f27c5076-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_6629",
+    "id": "art_1746435814831_6249",
     "author": "Anthropic",
     "avatar": "",
     "title": "Announcing our updated Responsible Scaling Policy",
@@ -935,12 +1027,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F591404bad10f6fb79c2561d72999e30d633792f2-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_7247",
+    "id": "art_1746435814832_4967",
     "author": "Anthropic",
     "avatar": "",
     "title": "U.S. Elections Readiness",
@@ -955,12 +1049,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd349f9f92aaf574702f002fbb2b01159e6e4c659-1200x631.png&w=3840&q=75"
       }
     ],
-    "category": "Societal Impacts",
+    "category": [
+      "Societal Impacts"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455378_0123",
+    "id": "art_1746435814832_9135",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the Message Batches API",
@@ -975,12 +1071,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd509268466d2cde8e8973e8c28b6c38290ce620a-2624x2624.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_6939",
+    "id": "art_1746435814832_7717",
     "author": "Anthropic",
     "avatar": "",
     "title": "Fine-tuning for Claude 3 Haiku in Amazon Bedrock is now generally available",
@@ -995,12 +1093,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_0638",
+    "id": "art_1746435814832_7948",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Contextual Retrieval",
@@ -1015,12 +1115,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F98bc6d3ec0e065855c25d2f9a1dc912fe281bf45-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_3978",
+    "id": "art_1746435814832_4663",
     "author": "Anthropic",
     "avatar": "",
     "title": "Workspaces in the Anthropic API Console",
@@ -1035,12 +1137,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fee70bf6d28155965e821a7979107e49a6cb0b708-1920x1040.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_9317",
+    "id": "art_1746435814832_5529",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude for Enterprise",
@@ -1055,12 +1159,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F425b754b47260e1defd0aa56289251acb27d4a4c-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_4975",
+    "id": "art_1746435814832_0478",
     "author": "Anthropic",
     "avatar": "",
     "title": "Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude",
@@ -1075,12 +1181,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9ed5fc6354cc1fb1fffe7137f173dfa32d7af120-2000x2001.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_7369",
+    "id": "art_1746435814832_6148",
     "author": "Anthropic",
     "avatar": "",
     "title": "Artifacts are now generally available",
@@ -1095,12 +1203,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6be95ba82cb40ee2667d3e1ba5bd5f333ed4bf9c-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_1140",
+    "id": "art_1746435814832_4377",
     "author": "Anthropic",
     "avatar": "",
     "title": "Prompt caching with Claude",
@@ -1115,12 +1225,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8f46e72676cdb781668ad73010574bc1d480e62c-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_4344",
+    "id": "art_1746435814832_0601",
     "author": "Anthropic",
     "avatar": "",
     "title": "Expanding our model safety bug bounty program",
@@ -1135,12 +1247,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ef75017975f8bc6aa910152bc68a09e18dc671a-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_9633",
+    "id": "art_1746435814832_0904",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude is now available in Brazil",
@@ -1155,12 +1269,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc801bd032a7489f5fdd720b5e2fb0c842901e7aa-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_7861",
+    "id": "art_1746435814832_4674",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic partners with Menlo Ventures to launch Anthology Fund",
@@ -1175,12 +1291,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_5933",
+    "id": "art_1746435814832_0249",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude Android app",
@@ -1195,12 +1313,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdbb49bc8f825494d5bd4881a4e14a728ac61446f-2880x1620.jpg&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_3644",
+    "id": "art_1746435814832_5467",
     "author": "Anthropic",
     "avatar": "",
     "title": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
@@ -1215,12 +1335,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455379_9008",
+    "id": "art_1746435814832_3924",
     "author": "Anthropic",
     "avatar": "",
     "title": "Evaluate prompts in the developer console",
@@ -1235,12 +1357,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fee70bf6d28155965e821a7979107e49a6cb0b708-1920x1040.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_1697",
+    "id": "art_1746435814832_0106",
     "author": "Anthropic",
     "avatar": "",
     "title": "A new initiative for developing third-party model evaluations",
@@ -1255,12 +1379,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fedd06a55a33431380c89c1864a07859edb8065a7-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_9790",
+    "id": "art_1746435814832_8957",
     "author": "Anthropic",
     "avatar": "",
     "title": "Expanding access to Claude for government",
@@ -1275,12 +1401,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_8205",
+    "id": "art_1746435814832_2152",
     "author": "Anthropic",
     "avatar": "",
     "title": "Collaborate with Claude on Projects",
@@ -1295,12 +1423,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7a925b4d2bd05668ef74dd6fe12919ba22184481-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_4726",
+    "id": "art_1746435814832_7619",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3.5 Sonnet",
@@ -1315,12 +1445,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ad7d0ef82a489dc20e44f19ce313b09604e4252-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_2681",
+    "id": "art_1746435814832_1842",
     "author": "Anthropic",
     "avatar": "",
     "title": "Challenges in red teaming AI systems",
@@ -1335,12 +1467,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fedd06a55a33431380c89c1864a07859edb8065a7-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_4970",
+    "id": "art_1746435814833_7519",
     "author": "Anthropic",
     "avatar": "",
     "title": "Testing and mitigating elections-related risks",
@@ -1355,12 +1489,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F409cb399d3cd156905d9094be74949756790a9ac-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_9871",
+    "id": "art_1746435814833_8944",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Claude to Canada",
@@ -1375,12 +1511,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ad7d0ef82a489dc20e44f19ce313b09604e4252-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_7379",
+    "id": "art_1746435814833_6320",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude can now use tools",
@@ -1395,12 +1533,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8004bda925dcd5fa3b13235dab7b1dbadb06d58d-1920x1040.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_5975",
+    "id": "art_1746435814833_6853",
     "author": "Anthropic",
     "avatar": "",
     "title": "Jay Kreps appointed to Anthropic's Board of Directors",
@@ -1415,12 +1555,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_0023",
+    "id": "art_1746435814833_7598",
     "author": "Anthropic",
     "avatar": "",
     "title": "Golden Gate Claude",
@@ -1435,12 +1577,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_8701",
+    "id": "art_1746435814833_2612",
     "author": "Anthropic",
     "avatar": "",
     "title": "Krishna Rao joins Anthropic as Chief Financial Officer",
@@ -1455,12 +1599,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455380_9573",
+    "id": "art_1746435814833_8413",
     "author": "Anthropic",
     "avatar": "",
     "title": "Mapping the Mind of a Large Language Model",
@@ -1475,12 +1621,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdb02ab15f10baad44d20352a22c835471db187b9-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Interpretability",
+    "category": [
+      "Interpretability"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_0842",
+    "id": "art_1746435814833_7123",
     "author": "Anthropic",
     "avatar": "",
     "title": "Generate better prompts in the developer console",
@@ -1495,12 +1643,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2040b063bdd1610f79c2aee40d49aaa60ec34bb3-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_1840",
+    "id": "art_1746435814833_7534",
     "author": "Anthropic",
     "avatar": "",
     "title": "Reflections on our Responsible Scaling Policy",
@@ -1515,12 +1665,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F454127b470eed6d649e67d19afb6dd5ab354fb58-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_7819",
+    "id": "art_1746435814833_6209",
     "author": "Anthropic",
     "avatar": "",
     "title": "Mike Krieger joins Anthropic as Chief Product Officer",
@@ -1535,12 +1687,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_3278",
+    "id": "art_1746435814833_9859",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude is now available in Europe",
@@ -1555,12 +1709,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ad7d0ef82a489dc20e44f19ce313b09604e4252-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_3721",
+    "id": "art_1746435814833_8637",
     "author": "Anthropic",
     "avatar": "",
     "title": "Updating our Usage Policy",
@@ -1575,12 +1731,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_9191",
+    "id": "art_1746435814833_1871",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the Claude Team plan and iOS app",
@@ -1595,12 +1753,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F96d42b19e7b7239200d362e8a99d6df7743c4718-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_3094",
+    "id": "art_1746435814833_0575",
     "author": "Anthropic",
     "avatar": "",
     "title": "Aligning on child safety principles",
@@ -1615,12 +1775,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_8000",
+    "id": "art_1746435814833_6564",
     "author": "Anthropic",
     "avatar": "",
     "title": "Many-shot jailbreaking",
@@ -1635,12 +1797,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Alignment",
+    "category": [
+      "Alignment"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_5430",
+    "id": "art_1746435814833_3680",
     "author": "Anthropic",
     "avatar": "",
     "title": "Third-party testing as a key ingredient of AI policy",
@@ -1655,12 +1819,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F33ced8287c63ec94b50da01c1926e58750a7f67e-1312x1313.jpg&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_1492",
+    "id": "art_1746435814833_8257",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises",
@@ -1675,12 +1841,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc40f969caae8c6ae3c665bed90261655d45023fe-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_3112",
+    "id": "art_1746435814833_5806",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3 models on Vertex AI",
@@ -1695,12 +1863,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb42db5b8558fab6b7452cfe30bd4f8aa734e8337-1312x1312.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_6590",
+    "id": "art_1746435814833_4340",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 3 Haiku: our fastest model yet",
@@ -1715,12 +1885,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f8464f29d6f93067c69cc257db94bf04a661cc8-2880x1620.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455381_2206",
+    "id": "art_1746435814833_6278",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing the next generation of Claude",
@@ -1735,12 +1907,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ad7d0ef82a489dc20e44f19ce313b09604e4252-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0567",
+    "id": "art_1746435814834_8841",
     "author": "Anthropic",
     "avatar": "",
     "title": "Prompt engineering for business performance",
@@ -1755,12 +1929,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F80ef16b1598c418c3c0876ea6607b47e33417bc6-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_5183",
+    "id": "art_1746435814834_2604",
     "author": "Anthropic",
     "avatar": "",
     "title": "Preparing for global elections in 2024",
@@ -1775,12 +1951,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe8d6c1c10399c016ec89e36eb15bcfd2db8cb926-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0939",
+    "id": "art_1746435814834_0473",
     "author": "Anthropic",
     "avatar": "",
     "title": "Expanded legal protections and improvements to our API",
@@ -1795,12 +1973,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_4382",
+    "id": "art_1746435814834_4369",
     "author": "Anthropic",
     "avatar": "",
     "title": "Long context prompting for Claude 2.1",
@@ -1815,12 +1995,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdb02ab15f10baad44d20352a22c835471db187b9-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0236",
+    "id": "art_1746435814834_7550",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Claude 2.1",
@@ -1835,12 +2017,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F72d6358c4ac2a07fac44d1ea9abf63a1f0c7494d-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_5993",
+    "id": "art_1746435814834_0042",
     "author": "Anthropic",
     "avatar": "",
     "title": "Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit",
@@ -1855,12 +2039,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F136e899a164e36ccd50bdda8725046b2006ff342-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_8914",
+    "id": "art_1746435814834_2169",
     "author": "Anthropic",
     "avatar": "",
     "title": "Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy",
@@ -1875,12 +2061,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F29f7f151aac909fad9968c7fcc1dc0e8a6ca6b8c-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Policy",
+    "category": [
+      "Policy"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_8154",
+    "id": "art_1746435814834_9749",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude on Amazon Bedrock now available to every AWS customer",
@@ -1895,12 +2083,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F70e3ab32e0e10caa544b0656c959e16e5d879fdb-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0334",
+    "id": "art_1746435814834_0087",
     "author": "Anthropic",
     "avatar": "",
     "title": "Expanding access to safer AI with Amazon",
@@ -1915,12 +2105,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F919018bb005a47134a990389e76d9cc1766d17ca-2624x2624.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_1280",
+    "id": "art_1746435814834_5005",
     "author": "Anthropic",
     "avatar": "",
     "title": "Prompt engineering for Claude's long context window",
@@ -1935,12 +2127,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4bebf8fe3ff16ccb67a680da906387a3c85fb36d-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_5602",
+    "id": "art_1746435814834_6365",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic's Responsible Scaling Policy",
@@ -1955,12 +2149,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F454127b470eed6d649e67d19afb6dd5ab354fb58-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_7693",
+    "id": "art_1746435814834_4134",
     "author": "Anthropic",
     "avatar": "",
     "title": "The Long-Term Benefit Trust",
@@ -1975,12 +2171,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fecde3c5e01a286fc8353e0c8af70547956dde568-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0014",
+    "id": "art_1746435814834_6645",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic partners with BCG",
@@ -1995,12 +2193,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd3d37e66de882d7f018f6f50b13ecf63bfb8b813-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_6593",
+    "id": "art_1746435814834_0081",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Claude Pro",
@@ -2015,12 +2215,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F211a1d4c9b92f5ae255d983934ac197200d2bf21-1312x1312.jpg&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_5332",
+    "id": "art_1746435814834_3851",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 2 on Amazon Bedrock",
@@ -2035,12 +2237,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F945d4e64a68198f08a13ce34c019370f5a6f3e76-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Product",
+    "category": [
+      "Product"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_4761",
+    "id": "art_1746435814834_6706",
     "author": "Anthropic",
     "avatar": "",
     "title": "SKT Partnership Announcement",
@@ -2055,12 +2259,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0cba2996abd4346c54de05496c4f40f24f592f9f-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_6966",
+    "id": "art_1746435814839_3351",
     "author": "Anthropic",
     "avatar": "",
     "title": "Releasing Claude Instant 1.2",
@@ -2075,12 +2281,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5859a11467dde30ea2b3e9e8e6e595a0bf7b5c3-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455382_0679",
+    "id": "art_1746435814840_4326",
     "author": "Anthropic",
     "avatar": "",
     "title": "Frontier Threats Red Teaming for AI Safety",
@@ -2095,12 +2303,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fedd06a55a33431380c89c1864a07859edb8065a7-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_9669",
+    "id": "art_1746435814840_3286",
     "author": "Anthropic",
     "avatar": "",
     "title": "Frontier Model Security",
@@ -2115,12 +2325,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fda71c470d15fe19a6291299e0a7641236d875de6-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_2657",
+    "id": "art_1746435814840_5436",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude 2",
@@ -2135,12 +2347,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F72d6358c4ac2a07fac44d1ea9abf63a1f0c7494d-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_0789",
+    "id": "art_1746435814840_5587",
     "author": "Anthropic",
     "avatar": "",
     "title": "Charting a Path to AI Accountability",
@@ -2155,12 +2369,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5736ad2bdc8266d43112524e51c1fee5c2ee0398-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_2139",
+    "id": "art_1746435814840_4712",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products",
@@ -2175,12 +2391,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F96e0eefdefd7319a54e805514c1b1c9a5aa31488-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_6017",
+    "id": "art_1746435814840_5396",
     "author": "Anthropic",
     "avatar": "",
     "title": "Zoom Partnership and Investment in Anthropic",
@@ -2195,12 +2413,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F06d6fc72126ce9fb19624017225a909d934cc2e9-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_8160",
+    "id": "art_1746435814840_6627",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing 100K Context Windows",
@@ -2215,12 +2435,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2f2baa4b5244b4a62797211bfb623caacb64c304-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_7370",
+    "id": "art_1746435814840_7209",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude’s Constitution",
@@ -2235,12 +2457,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9e41f1798059d807389adfc0f113b2d23dac126a-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_6947",
+    "id": "art_1746435814840_3057",
     "author": "Anthropic",
     "avatar": "",
     "title": "Partnering with Scale to Bring Generative AI to Enterprises",
@@ -2255,12 +2479,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F05ef62035cbd5778eba10bc5c8fa40a6bf770b83-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_9717",
+    "id": "art_1746435814841_1014",
     "author": "Anthropic",
     "avatar": "",
     "title": "An AI Policy Tool for Today: Ambitiously Invest in NIST",
@@ -2275,12 +2501,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fecde3c5e01a286fc8353e0c8af70547956dde568-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_0014",
+    "id": "art_1746435814841_5885",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude, now in Slack",
@@ -2295,12 +2523,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fae488dc5046c9bf16844bc0190d5f7d2909768ff-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_9197",
+    "id": "art_1746435814841_9964",
     "author": "Anthropic",
     "avatar": "",
     "title": "Introducing Claude",
@@ -2315,12 +2545,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F062fb15ea8d9570a4456391f2acc2b502e1b451e-1600x1600.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_5620",
+    "id": "art_1746435814841_4207",
     "author": "Anthropic",
     "avatar": "",
     "title": "Core Views on AI Safety: When, Why, What, and How",
@@ -2335,12 +2567,14 @@
         "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3a738db1d29416f37b413faa01f6608fd0538903-1600x1203.png&w=3840&q=75"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_8611",
+    "id": "art_1746435814841_2443",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Partners with Google Cloud",
@@ -2355,12 +2589,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_7659",
+    "id": "art_1746435814841_6722",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic Raises Series B to Build Steerable, Interpretable, Robust AI Systems",
@@ -2375,12 +2611,14 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   },
   {
-    "id": "art_1746425455383_6624",
+    "id": "art_1746435814841_6064",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic raises $124 million to build more reliable, general AI systems",
@@ -2395,7 +2633,9 @@
         "url": "https://www.anthropic.com"
       }
     ],
-    "category": "Announcements",
+    "category": [
+      "Announcements"
+    ],
     "tags": [],
     "platform": "Anthropic"
   }

@@ -5,6 +5,18 @@ export function generateArticleId() {
 }
 
 
+export function filterRecentNews(newsList, days = 30) {
+  const now = new Date();
+  const cutoffDate = new Date();
+  // 默认是最近 2 周
+  cutoffDate.setDate(now.getDate() - days);
+
+  return newsList.filter(item => {
+      const publishedDate = new Date(item.date);
+      return publishedDate >= cutoffDate;
+  });
+}
+
 export function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }

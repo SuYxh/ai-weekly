@@ -1,4 +1,5 @@
 import { getQbitNewsService, getHuggingfaceNewsService, getAnthropicNewsService, getGoogleNewsService, getTwitterNewsService } from "../service/crawlersService.js";
+import { crawlAllPlatforms } from "../crawlers/tasks/crawlAll.js";
 import { success, fail } from "../utils/response.js";
 
 export async function getQbitNews(req, res) {
@@ -61,7 +62,6 @@ export async function getAnthropicNews(req, res) {
   }
 }
 
-
 export async function getGoogleNews(req, res) {
   // 添加 next 用于错误处理
   try {
@@ -96,6 +96,23 @@ export async function getTwitterNews(req, res) {
 
     // 返回 JSON 响应
     res.json(success(newsArticles, "获取成功"));
+  } catch (error) {
+    // 如果在爬取过程中发生错误，传递给错误处理中间件
+    console.error("获取 getTwitterNews 时出错:", error);
+    // 或者直接返回错误响应
+    res.status(500).json(fail("获取信息失败"));
+  }
+}
+
+
+export async function startAllCrawlers(req, res) {
+  try {
+    console.log("startAllCrawlers！！！");
+
+    const result = await crawlAllPlatforms();
+
+    // 返回 JSON 响应
+    res.json(success(result, "获取成功"));
   } catch (error) {
     // 如果在爬取过程中发生错误，传递给错误处理中间件
     console.error("获取 getTwitterNews 时出错:", error);

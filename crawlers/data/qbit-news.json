@@ -1,13 +1,60 @@
 [
   {
-    "id": "art_1746418473913_3136",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424140_8019",
+    "author": "衡宇",
+    "avatar": "/?author=54",
+    "title": "细节直逼亚毫米级！港科广分层建模突破3D人体生成｜CVPR 2025",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.qbitai.com/2025/05/280103.html",
+    "date": "2025-05-05 13:13:44",
+    "summary": "将人体分解为不同精度层级，再逐级细化",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.qbitai.com/wp-content/uploads/2025/05/2025-05-05-12.41.26-e1746420171709.png"
+      }
+    ],
+    "category": [],
+    "tags": [
+      "3D生成",
+      "港科广"
+    ],
+    "platform": "qbitai"
+  },
+  {
+    "id": "art_1746436424141_9526",
+    "author": "衡宇",
+    "avatar": "/?author=54",
+    "title": "o3一张图锁定地球表面坐标，AI看图猜地点战胜人类大师，奥特曼：这是我的「直升机」时刻",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.qbitai.com/2025/05/279974.html",
+    "date": "2025-05-05 13:13:44",
+    "summary": "能力科幻般提升",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.qbitai.com/wp-content/uploads/2025/05/2025-05-05-12.34.24-e1746419841354.png"
+      }
+    ],
+    "category": [],
+    "tags": [
+      "o3",
+      "OpenAI",
+      "看图猜地点"
+    ],
+    "platform": "qbitai"
+  },
+  {
+    "id": "art_1746436424141_9026",
+    "author": "十三",
+    "avatar": "/?author=21",
     "title": "3B模型逆袭7B巨头！Video-XL-Pro突破长视频理解极限，大海捞针准确率超98%",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/279960.html",
-    "date": "2025-05-04 23:14:33",
+    "date": "2025-05-04 23:13:44",
     "summary": "单卡可处理近万帧视频，超长视频理解新SOTA",
     "media": [
       {
@@ -24,14 +71,14 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473915_8495",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424142_9194",
+    "author": "十三",
+    "avatar": "/?author=21",
     "title": "2年就过气！ChatGPT催生的百万年薪岗位，大厂不愿意招了",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/279889.html",
-    "date": "2025-05-04 20:14:33",
+    "date": "2025-05-04 20:13:44",
     "summary": "大模型进化太快，自己催生的岗位自己替代",
     "media": [
       {
@@ -47,9 +94,9 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473915_6123",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424142_0479",
+    "author": "鱼羊",
+    "avatar": "/?author=16",
     "title": "大模型终于通关《宝可梦蓝》！网友：Gemini 2.5 Pro酷爆了",
     "content": "",
     "rawContent": "",
@@ -70,9 +117,9 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473916_5489",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424143_4868",
+    "author": "一水",
+    "avatar": "/?author=47840",
     "title": "用多模态LLM超越YOLOv3！强化学习突破多模态感知极限｜开源",
     "content": "",
     "rawContent": "",
@@ -92,9 +139,9 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473916_6663",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424143_0044",
+    "author": "一水",
+    "avatar": "/?author=47840",
     "title": "OpenAI最新技术报告：GPT-4o变谄媚的原因万万没想到",
     "content": "",
     "rawContent": "",
@@ -114,9 +161,9 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473916_7006",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424143_2026",
+    "author": "克雷西",
+    "avatar": "/?author=47832",
     "title": "Claude网页版接入MCP！10款应用一键调用，开发者30分钟可创建新集成",
     "content": "",
     "rawContent": "",
@@ -137,14 +184,14 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473917_5926",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424144_4651",
+    "author": "明敏",
+    "avatar": "/?author=34",
     "title": "大模型竞技场再被锤！Llama4私下测试27个版本，只取最佳成绩",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/279565.html",
-    "date": "2025-05-03 13:25:00",
+    "date": "2025-05-02 00:00:00",
     "summary": "“竞技场不应该是唯一基准参考”",
     "media": [
       {
@@ -160,14 +207,14 @@
     "platform": "qbitai"
   },
   {
-    "id": "art_1746418473917_5766",
-    "author": "",
-    "avatar": "",
+    "id": "art_1746436424144_3484",
+    "author": "明敏",
+    "avatar": "/?author=34",
     "title": "微软CEO和奥特曼失了和，OpenAI被“断粮”",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/279412.html",
-    "date": "2025-05-03 13:12:00",
+    "date": "2025-05-02 00:00:00",
     "summary": "",
     "media": [
       {
@@ -179,51 +226,6 @@
     "tags": [
       "OpenAI",
       "微软"
-    ],
-    "platform": "qbitai"
-  },
-  {
-    "id": "art_1746418473917_4989",
-    "author": "",
-    "avatar": "",
-    "title": "DeepSeek新数学模型刷爆记录！7B小模型自主发现671B模型不会的新技能",
-    "content": "",
-    "rawContent": "",
-    "link": "https://www.qbitai.com/2025/05/279383.html",
-    "date": "2025-05-01 00:00:00",
-    "summary": "通过强化学习发现新技能",
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://www.qbitai.com/wp-content/uploads/2025/05/Xnip2025-05-01_12-03-24-e1746072292503.jpg"
-      }
-    ],
-    "category": [],
-    "tags": [
-      "Deepseek"
-    ],
-    "platform": "qbitai"
-  },
-  {
-    "id": "art_1746418473918_9078",
-    "author": "",
-    "avatar": "",
-    "title": "一次示范就能终身掌握！让手机AI轻松搞定复杂操作丨浙大&vivo出品",
-    "content": "",
-    "rawContent": "",
-    "link": "https://www.qbitai.com/2025/05/279354.html",
-    "date": "2025-05-01 00:00:00",
-    "summary": "步发布的LearnGUI基准，首次构建了面向移动端示范学习的评估体系",
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://www.qbitai.com/wp-content/uploads/2025/05/2025-05-01-11.52.12-e1746071676724.png"
-      }
-    ],
-    "category": [],
-    "tags": [
-      "LearnAct框架",
-      "手机智能体"
     ],
     "platform": "qbitai"
   }

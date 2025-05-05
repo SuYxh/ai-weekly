@@ -1,4 +1,4 @@
-import { parseDateString, generateArticleId } from "../../utils/index.js";
+import { generateArticleId } from "../../utils/index.js";
 
 
 
@@ -34,8 +34,6 @@ export function formatArticleData(rawData) {
     media.push({ type: "video", url: video });
   }
 
-  const formattedDate = parseDateString(date);
-
   return {
     id: id || "", // ID 需要生成策略，例如基于 link 哈希，暂时为空
     author: author || "", // 列表页通常没有作者信息
@@ -44,7 +42,7 @@ export function formatArticleData(rawData) {
     content: content || "", // 完整内容需要访问详情页获取
     rawContent: rawContent || "", // 原始内容需要访问详情页获取
     link: link || "", // 确保有默认值
-    date: formattedDate || "", // 暂时使用原始字符串
+    date: date || "", // 暂时使用原始字符串
     summary: summary || "", // 确保有默认值
     media: media,
     category: category || [], // qbitai 这个分类下的文章，可以暂时硬编码或留空 []

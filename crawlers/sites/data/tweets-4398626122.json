@@ -12,7 +12,7 @@
               "type": "TimelinePinEntry",
               "entry": {
                 "entryId": "tweet-1916947241086095434",
-                "sortIndex": "1919299368842690560",
+                "sortIndex": "1919317047003578368",
                 "content": {
                   "entryType": "TimelineTimelineItem",
                   "__typename": "TimelineTimelineItem",
@@ -72,15 +72,15 @@
                                 },
                                 "fast_followers_count": 0,
                                 "favourites_count": 808,
-                                "followers_count": 4119167,
+                                "followers_count": 4119223,
                                 "friends_count": 3,
                                 "has_custom_timelines": false,
                                 "is_translator": false,
-                                "listed_count": 23266,
+                                "listed_count": 23259,
                                 "location": "",
                                 "media_count": 332,
                                 "name": "OpenAI",
-                                "normal_followers_count": 4119167,
+                                "normal_followers_count": 4119223,
                                 "pinned_tweet_ids_str": [
                                   "1916947241086095434"
                                 ],
@@ -112,7 +112,7 @@
                         },
                         "is_translatable": false,
                         "views": {
-                          "count": "2556471",
+                          "count": "2557157",
                           "state": "EnabledWithCount"
                         },
                         "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -133,12 +133,12 @@
                             "urls": [],
                             "user_mentions": []
                           },
-                          "favorite_count": 13558,
+                          "favorite_count": 13563,
                           "favorited": false,
                           "full_text": "We're excited to announce we’ve launched several improvements to ChatGPT search, and today we’re starting to roll out a better shopping experience.\n\nSearch has become one of our most popular &amp; fastest growing features, with over 1 billion web searches just in the past week 🧵",
                           "is_quote_status": false,
                           "lang": "en",
-                          "quote_count": 376,
+                          "quote_count": 377,
                           "reply_count": 523,
                           "retweet_count": 1170,
                           "retweeted": false,
@@ -169,7 +169,7 @@
               "entries": [
                 {
                   "entryId": "tweet-1918321280790741189",
-                  "sortIndex": "1919299368842690559",
+                  "sortIndex": "1919317047003578367",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -229,15 +229,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -688,15 +688,15 @@
                                       },
                                       "fast_followers_count": 0,
                                       "favourites_count": 808,
-                                      "followers_count": 4119167,
+                                      "followers_count": 4119223,
                                       "friends_count": 3,
                                       "has_custom_timelines": false,
                                       "is_translator": false,
-                                      "listed_count": 23266,
+                                      "listed_count": 23259,
                                       "location": "",
                                       "media_count": 332,
                                       "name": "OpenAI",
-                                      "normal_followers_count": 4119167,
+                                      "normal_followers_count": 4119223,
                                       "pinned_tweet_ids_str": [
                                         "1916947241086095434"
                                       ],
@@ -730,13 +730,13 @@
                           },
                           "is_translatable": false,
                           "views": {
-                            "count": "1976281",
+                            "count": "1977906",
                             "state": "EnabledWithCount"
                           },
                           "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                           "grok_analysis_button": true,
                           "legacy": {
-                            "bookmark_count": 1487,
+                            "bookmark_count": 1488,
                             "bookmarked": false,
                             "created_at": "Fri May 02 15:06:48 +0000 2025",
                             "conversation_id_str": "1918321280790741189",
@@ -761,7 +761,7 @@
                               ],
                               "user_mentions": []
                             },
-                            "favorite_count": 4818,
+                            "favorite_count": 4821,
                             "favorited": false,
                             "full_text": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
                             "is_quote_status": false,
@@ -788,7 +788,7 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
@@ -796,7 +796,7 @@
                 },
                 {
                   "entryId": "tweet-1917607109853872183",
-                  "sortIndex": "1919299368842690558",
+                  "sortIndex": "1919317047003578366",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -856,15 +856,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -1338,7 +1338,7 @@
                                       },
                                       "fast_followers_count": 0,
                                       "favourites_count": 11916,
-                                      "followers_count": 1119778,
+                                      "followers_count": 1119765,
                                       "friends_count": 558,
                                       "has_custom_timelines": true,
                                       "is_translator": false,
@@ -1346,7 +1346,7 @@
                                       "location": "",
                                       "media_count": 6529,
                                       "name": "Reddit, Inc.",
-                                      "normal_followers_count": 1119778,
+                                      "normal_followers_count": 1119765,
                                       "pinned_tweet_ids_str": [],
                                       "possibly_sensitive": false,
                                       "profile_banner_url": "https://pbs.twimg.com/profile_banners/811377/1701277609",
@@ -1389,7 +1389,7 @@
                           },
                           "is_translatable": false,
                           "views": {
-                            "count": "697559",
+                            "count": "697942",
                             "state": "EnabledWithCount"
                           },
                           "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -1447,15 +1447,15 @@
                                       },
                                       "fast_followers_count": 0,
                                       "favourites_count": 808,
-                                      "followers_count": 4119167,
+                                      "followers_count": 4119223,
                                       "friends_count": 3,
                                       "has_custom_timelines": false,
                                       "is_translator": false,
-                                      "listed_count": 23266,
+                                      "listed_count": 23259,
                                       "location": "",
                                       "media_count": 332,
                                       "name": "OpenAI",
-                                      "normal_followers_count": 4119167,
+                                      "normal_followers_count": 4119223,
                                       "pinned_tweet_ids_str": [
                                         "1916947241086095434"
                                       ],
@@ -1906,15 +1906,15 @@
                                           },
                                           "fast_followers_count": 0,
                                           "favourites_count": 808,
-                                          "followers_count": 4119167,
+                                          "followers_count": 4119223,
                                           "friends_count": 3,
                                           "has_custom_timelines": false,
                                           "is_translator": false,
-                                          "listed_count": 23266,
+                                          "listed_count": 23259,
                                           "location": "",
                                           "media_count": 332,
                                           "name": "OpenAI",
-                                          "normal_followers_count": 4119167,
+                                          "normal_followers_count": 4119223,
                                           "pinned_tweet_ids_str": [
                                             "1916947241086095434"
                                           ],
@@ -1948,7 +1948,7 @@
                               },
                               "is_translatable": false,
                               "views": {
-                                "count": "3295818",
+                                "count": "3296628",
                                 "state": "EnabledWithCount"
                               },
                               "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -1979,14 +1979,14 @@
                                   ],
                                   "user_mentions": []
                                 },
-                                "favorite_count": 8586,
+                                "favorite_count": 8585,
                                 "favorited": false,
                                 "full_text": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
                                 "is_quote_status": false,
                                 "lang": "en",
                                 "possibly_sensitive": false,
                                 "possibly_sensitive_editable": true,
-                                "quote_count": 468,
+                                "quote_count": 469,
                                 "reply_count": 682,
                                 "retweet_count": 882,
                                 "retweeted": false,
@@ -2031,7 +2031,7 @@
                                 }
                               ]
                             },
-                            "favorite_count": 1933,
+                            "favorite_count": 1934,
                             "favorited": false,
                             "full_text": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
                             "is_quote_status": true,
@@ -2045,7 +2045,7 @@
                               "expanded": "https://twitter.com/OpenAI/status/1917411480548565332",
                               "display": "x.com/OpenAI/status/…"
                             },
-                            "reply_count": 296,
+                            "reply_count": 297,
                             "retweet_count": 199,
                             "retweeted": false,
                             "user_id_str": "4398626122",
@@ -2064,7 +2064,7 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
@@ -2072,7 +2072,7 @@
                 },
                 {
                   "entryId": "tweet-1917411480548565332",
-                  "sortIndex": "1919299368842690557",
+                  "sortIndex": "1919317047003578365",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -2132,15 +2132,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -2591,15 +2591,15 @@
                                       },
                                       "fast_followers_count": 0,
                                       "favourites_count": 808,
-                                      "followers_count": 4119167,
+                                      "followers_count": 4119223,
                                       "friends_count": 3,
                                       "has_custom_timelines": false,
                                       "is_translator": false,
-                                      "listed_count": 23266,
+                                      "listed_count": 23259,
                                       "location": "",
                                       "media_count": 332,
                                       "name": "OpenAI",
-                                      "normal_followers_count": 4119167,
+                                      "normal_followers_count": 4119223,
                                       "pinned_tweet_ids_str": [
                                         "1916947241086095434"
                                       ],
@@ -2633,7 +2633,7 @@
                           },
                           "is_translatable": false,
                           "views": {
-                            "count": "3295818",
+                            "count": "3296628",
                             "state": "EnabledWithCount"
                           },
                           "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -2664,14 +2664,14 @@
                               ],
                               "user_mentions": []
                             },
-                            "favorite_count": 8586,
+                            "favorite_count": 8585,
                             "favorited": false,
                             "full_text": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
                             "is_quote_status": false,
                             "lang": "en",
                             "possibly_sensitive": false,
                             "possibly_sensitive_editable": true,
-                            "quote_count": 468,
+                            "quote_count": 469,
                             "reply_count": 682,
                             "retweet_count": 882,
                             "retweeted": false,
@@ -2691,7 +2691,7 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
@@ -2699,7 +2699,7 @@
                 },
                 {
                   "entryId": "tweet-1917292316114706884",
-                  "sortIndex": "1919299368842690556",
+                  "sortIndex": "1919317047003578364",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -2759,15 +2759,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -2897,15 +2897,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 1022,
-                                        "followers_count": 3698190,
+                                        "followers_count": 3698393,
                                         "friends_count": 956,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 22726,
+                                        "listed_count": 22729,
                                         "location": "SF",
                                         "media_count": 351,
                                         "name": "Sam Altman",
-                                        "normal_followers_count": 3698190,
+                                        "normal_followers_count": 3698393,
                                         "pinned_tweet_ids_str": [],
                                         "possibly_sensitive": false,
                                         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1904933748015255552/k43GMz63_normal.jpg",
@@ -2933,7 +2933,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "1720595",
+                                  "count": "1721002",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -2954,7 +2954,7 @@
                                     "urls": [],
                                     "user_mentions": []
                                   },
-                                  "favorite_count": 6285,
+                                  "favorite_count": 6284,
                                   "favorited": false,
                                   "full_text": "we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again when it's finished for paid users, hopefully later today\n\nwe're working on additional fixes to model personality and will share more in the coming days",
                                   "in_reply_to_screen_name": "sama",
@@ -2963,7 +2963,7 @@
                                   "is_quote_status": false,
                                   "lang": "en",
                                   "quote_count": 183,
-                                  "reply_count": 782,
+                                  "reply_count": 783,
                                   "retweet_count": 393,
                                   "retweeted": false,
                                   "user_id_str": "1605",
@@ -2985,21 +2985,21 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "who-to-follow-1919299368842690565",
-                  "sortIndex": "1919299368842690555",
+                  "entryId": "who-to-follow-1919317047003578373",
+                  "sortIndex": "1919317047003578363",
                   "content": {
                     "entryType": "TimelineTimelineModule",
                     "__typename": "TimelineTimelineModule",
                     "items": [
                       {
-                        "entryId": "who-to-follow-1919299368842690565-user-1605",
+                        "entryId": "who-to-follow-1919317047003578373-user-1605",
                         "item": {
                           "itemContent": {
                             "itemType": "TimelineUser",
@@ -3055,15 +3055,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 1022,
-                                  "followers_count": 3698190,
+                                  "followers_count": 3698393,
                                   "friends_count": 956,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 22726,
+                                  "listed_count": 22729,
                                   "location": "SF",
                                   "media_count": 351,
                                   "name": "Sam Altman",
-                                  "normal_followers_count": 3698190,
+                                  "normal_followers_count": 3698393,
                                   "pinned_tweet_ids_str": [],
                                   "possibly_sensitive": false,
                                   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1904933748015255552/k43GMz63_normal.jpg",
@@ -3088,14 +3088,14 @@
                               "timelinesDetails": {
                                 "injectionType": "WhoToFollow",
                                 "controllerData": "DAACDAACDAABCgABAAAAAAAAAAgAAAAA",
-                                "sourceData": "DAABCgABHScBCQT0EGIKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
+                                "sourceData": "DAABCgABXJwKiR4HY/YKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "who-to-follow-1919299368842690565-user-778764142412984320",
+                        "entryId": "who-to-follow-1919317047003578373-user-778764142412984320",
                         "item": {
                           "itemContent": {
                             "itemType": "TimelineUser",
@@ -3148,7 +3148,7 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 8146,
-                                  "followers_count": 502559,
+                                  "followers_count": 502576,
                                   "friends_count": 202,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
@@ -3156,7 +3156,7 @@
                                   "location": "NYC and Paris and 🌏",
                                   "media_count": 447,
                                   "name": "Hugging Face",
-                                  "normal_followers_count": 502559,
+                                  "normal_followers_count": 502576,
                                   "pinned_tweet_ids_str": [
                                     "1825620479895547992"
                                   ],
@@ -3184,14 +3184,14 @@
                               "timelinesDetails": {
                                 "injectionType": "WhoToFollow",
                                 "controllerData": "DAACDAACDAABCgABAAAAAAAAAAgAAAAA",
-                                "sourceData": "DAABCgABHScBCQT0EGIKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
+                                "sourceData": "DAABCgABXJwKiR4HY/YKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "who-to-follow-1919299368842690565-user-4783690002",
+                        "entryId": "who-to-follow-1919317047003578373-user-1084212657761148928",
                         "item": {
                           "itemContent": {
                             "itemType": "TimelineUser",
@@ -3199,76 +3199,47 @@
                             "user_results": {
                               "result": {
                                 "__typename": "User",
-                                "id": "VXNlcjo0NzgzNjkwMDAy",
-                                "rest_id": "4783690002",
+                                "id": "VXNlcjoxMDg0MjEyNjU3NzYxMTQ4OTI4",
+                                "rest_id": "1084212657761148928",
                                 "affiliates_highlighted_label": {},
                                 "has_graduated_access": true,
                                 "parody_commentary_fan_label": "None",
-                                "is_blue_verified": false,
-                                "profile_image_shape": "Square",
+                                "is_blue_verified": true,
+                                "profile_image_shape": "Circle",
                                 "legacy": {
                                   "following": false,
                                   "can_dm": false,
                                   "can_media_tag": true,
-                                  "created_at": "Tue Jan 19 13:46:08 +0000 2016",
+                                  "created_at": "Sat Jan 12 22:16:56 +0000 2019",
                                   "default_profile": true,
                                   "default_profile_image": false,
-                                  "description": "We’re a team of scientists, engineers, ethicists and more, committed to solving intelligence, to advance science and benefit humanity.",
+                                  "description": "deep learning",
                                   "entities": {
                                     "description": {
                                       "urls": []
-                                    },
-                                    "url": {
-                                      "urls": [
-                                        {
-                                          "display_url": "deepmind.google",
-                                          "expanded_url": "http://deepmind.google",
-                                          "url": "https://t.co/uR24kkW95X",
-                                          "indices": [
-                                            0,
-                                            23
-                                          ]
-                                        }
-                                      ]
                                     }
                                   },
                                   "fast_followers_count": 0,
-                                  "favourites_count": 2475,
-                                  "followers_count": 1121045,
-                                  "friends_count": 276,
-                                  "has_custom_timelines": true,
+                                  "favourites_count": 6,
+                                  "followers_count": 457143,
+                                  "friends_count": 28,
+                                  "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 12388,
-                                  "location": "London, UK",
-                                  "media_count": 1429,
-                                  "name": "Google DeepMind",
-                                  "normal_followers_count": 1121045,
-                                  "pinned_tweet_ids_str": [
-                                    "1917593514566901800"
-                                  ],
+                                  "listed_count": 6198,
+                                  "location": "",
+                                  "media_count": 2,
+                                  "name": "Geoffrey Hinton",
+                                  "normal_followers_count": 457143,
+                                  "pinned_tweet_ids_str": [],
                                   "possibly_sensitive": false,
-                                  "profile_banner_url": "https://pbs.twimg.com/profile_banners/4783690002/1742922590",
-                                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+                                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1084213316963057664/fQGCUSt0_normal.jpg",
                                   "profile_interstitial_type": "",
-                                  "screen_name": "GoogleDeepMind",
-                                  "statuses_count": 3714,
+                                  "screen_name": "geoffreyhinton",
+                                  "statuses_count": 136,
                                   "translator_type": "none",
-                                  "url": "https://t.co/uR24kkW95X",
                                   "verified": false,
-                                  "verified_type": "Business",
                                   "want_retweets": false,
                                   "withheld_in_countries": []
-                                },
-                                "professional": {
-                                  "rest_id": "1608581743665156103",
-                                  "professional_type": "Business",
-                                  "category": [
-                                    {
-                                      "id": 713,
-                                      "name": "Science & Technology",
-                                      "icon_name": "IconBriefcaseStroke"
-                                    }
-                                  ]
                                 },
                                 "tipjar_settings": {}
                               }
@@ -3282,7 +3253,7 @@
                               "timelinesDetails": {
                                 "injectionType": "WhoToFollow",
                                 "controllerData": "DAACDAACDAABCgABAAAAAAAAAAgAAAAA",
-                                "sourceData": "DAABCgABHScBCQT0EGIKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
+                                "sourceData": "DAABCgABXJwKiR4HY/YKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
                               }
                             }
                           }
@@ -3309,21 +3280,21 @@
                         "timelinesDetails": {
                           "injectionType": "WhoToFollow",
                           "controllerData": "DAACDAACDAABCgABAAAAAAAAAAgAAAAA",
-                          "sourceData": "DAABCgABHScBCQT0EGIKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
+                          "sourceData": "DAABCgABXJwKiR4HY/YKAAIAAAAAAAAAAAAIAAIAAACDCAADAAAAAgwABQwAAgwAAgwAAQoAAQAAAAAAAAAIAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "profile-conversation-1919299368842690566",
-                  "sortIndex": "1919299368842690554",
+                  "entryId": "profile-conversation-1919317047003578374",
+                  "sortIndex": "1919317047003578362",
                   "content": {
                     "entryType": "TimelineTimelineModule",
                     "__typename": "TimelineTimelineModule",
                     "items": [
                       {
-                        "entryId": "profile-conversation-1919299368842690566-tweet-1916947241086095434",
+                        "entryId": "profile-conversation-1919317047003578374-tweet-1916947241086095434",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -3382,15 +3353,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -3422,7 +3393,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "2556471",
+                                  "count": "2557157",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -3443,12 +3414,12 @@
                                     "urls": [],
                                     "user_mentions": []
                                   },
-                                  "favorite_count": 13558,
+                                  "favorite_count": 13563,
                                   "favorited": false,
                                   "full_text": "We're excited to announce we’ve launched several improvements to ChatGPT search, and today we’re starting to roll out a better shopping experience.\n\nSearch has become one of our most popular &amp; fastest growing features, with over 1 billion web searches just in the past week 🧵",
                                   "is_quote_status": false,
                                   "lang": "en",
-                                  "quote_count": 376,
+                                  "quote_count": 377,
                                   "reply_count": 523,
                                   "retweet_count": 1170,
                                   "retweeted": false,
@@ -3468,14 +3439,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690566-tweet-1916947248153563145",
+                        "entryId": "profile-conversation-1919317047003578374-tweet-1916947248153563145",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -3534,15 +3505,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -3574,7 +3545,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "274231",
+                                  "count": "274428",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -3799,7 +3770,7 @@
                                       }
                                     ]
                                   },
-                                  "favorite_count": 1951,
+                                  "favorite_count": 1952,
                                   "favorited": false,
                                   "full_text": "Improved Citations\n\nChatGPT can now include multiple citations for a given response, allowing you to learn more or verify information across more sources. \n\nWe’ve also added a new ‘highlight’ UI to more clearly show which part of the answer the citation refers to. https://t.co/NdojcPyA9T",
                                   "in_reply_to_screen_name": "OpenAI",
@@ -3829,14 +3800,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690566-tweet-1916947250036756925",
+                        "entryId": "profile-conversation-1919317047003578374-tweet-1916947250036756925",
                         "dispensable": false,
                         "item": {
                           "itemContent": {
@@ -3895,15 +3866,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -3935,7 +3906,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "241536",
+                                  "count": "241670",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -4207,7 +4178,7 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
@@ -4232,21 +4203,21 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "profile-conversation-1919299368842690567",
-                  "sortIndex": "1919299368842690553",
+                  "entryId": "profile-conversation-1919317047003578375",
+                  "sortIndex": "1919317047003578361",
                   "content": {
                     "entryType": "TimelineTimelineModule",
                     "__typename": "TimelineTimelineModule",
                     "items": [
                       {
-                        "entryId": "profile-conversation-1919299368842690567-tweet-1915505959931437178",
+                        "entryId": "profile-conversation-1919317047003578375-tweet-1915505959931437178",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -4305,15 +4276,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -4345,7 +4316,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "1099453",
+                                  "count": "1099557",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -4373,7 +4344,7 @@
                                   "lang": "en",
                                   "quote_count": 210,
                                   "reply_count": 407,
-                                  "retweet_count": 734,
+                                  "retweet_count": 732,
                                   "retweeted": false,
                                   "user_id_str": "4398626122",
                                   "id_str": "1915505959931437178"
@@ -4391,14 +4362,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690567-tweet-1915505961500070245",
+                        "entryId": "profile-conversation-1919317047003578375-tweet-1915505961500070245",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -4457,15 +4428,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -4497,7 +4468,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "345534",
+                                  "count": "345590",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -4731,7 +4702,7 @@
                                       }
                                     ]
                                   },
-                                  "favorite_count": 1523,
+                                  "favorite_count": 1524,
                                   "favorited": false,
                                   "full_text": "The lightweight version of deep research is powered by a version of OpenAI o4-mini and is nearly as intelligent as the deep research people already know and love, while being significantly cheaper to serve.\n\nResponses will typically be shorter while maintaining the depth and https://t.co/H2UD5GThVj",
                                   "in_reply_to_screen_name": "OpenAI",
@@ -4761,14 +4732,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690567-tweet-1915505964142514321",
+                        "entryId": "profile-conversation-1919317047003578375-tweet-1915505964142514321",
                         "dispensable": false,
                         "item": {
                           "itemContent": {
@@ -4827,15 +4798,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -4867,7 +4838,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "178011",
+                                  "count": "178052",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -4947,7 +4918,7 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
@@ -4970,7 +4941,7 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
@@ -4978,7 +4949,7 @@
                 },
                 {
                   "entryId": "tweet-1915097151472079141",
-                  "sortIndex": "1919299368842690552",
+                  "sortIndex": "1919317047003578360",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -5038,15 +5009,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -5195,7 +5166,7 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 798,
-                                        "followers_count": 177151,
+                                        "followers_count": 177156,
                                         "friends_count": 1,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
@@ -5203,7 +5174,7 @@
                                         "location": "",
                                         "media_count": 111,
                                         "name": "OpenAI Developers",
-                                        "normal_followers_count": 177151,
+                                        "normal_followers_count": 177156,
                                         "pinned_tweet_ids_str": [],
                                         "possibly_sensitive": false,
                                         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1633874951508721686/1738627939",
@@ -5244,7 +5215,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "1061381",
+                                  "count": "1061570",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -5488,7 +5459,7 @@
                                       }
                                     ]
                                   },
-                                  "favorite_count": 4669,
+                                  "favorite_count": 4670,
                                   "favorited": false,
                                   "full_text": "Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilities available to developers worldwide starting today.\n\n✅ More accurate, high fidelity images\n🎨 Diverse visual styles\n✏️ Precise image editing\n🌎 Rich world https://t.co/ndC3hIpSlX",
                                   "is_quote_status": false,
@@ -5518,21 +5489,21 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "profile-conversation-1919299368842690569",
-                  "sortIndex": "1919299368842690551",
+                  "entryId": "profile-conversation-1919317047003578377",
+                  "sortIndex": "1919317047003578359",
                   "content": {
                     "entryType": "TimelineTimelineModule",
                     "__typename": "TimelineTimelineModule",
                     "items": [
                       {
-                        "entryId": "profile-conversation-1919299368842690569-tweet-1912255254512722102",
+                        "entryId": "profile-conversation-1919317047003578377-tweet-1912255254512722102",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -5591,15 +5562,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -5631,7 +5602,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "727289",
+                                  "count": "727335",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -5863,14 +5834,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690569-tweet-1912921639656071231",
+                        "entryId": "profile-conversation-1919317047003578377-tweet-1912921639656071231",
                         "dispensable": false,
                         "item": {
                           "itemContent": {
@@ -5929,15 +5900,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -5969,7 +5940,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "167799",
+                                  "count": "167824",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -6194,7 +6165,7 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
@@ -6216,21 +6187,21 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "profile-conversation-1919299368842690570",
-                  "sortIndex": "1919299368842690550",
+                  "entryId": "profile-conversation-1919317047003578378",
+                  "sortIndex": "1919317047003578358",
                   "content": {
                     "entryType": "TimelineTimelineModule",
                     "__typename": "TimelineTimelineModule",
                     "items": [
                       {
-                        "entryId": "profile-conversation-1919299368842690570-tweet-1912560057100955661",
+                        "entryId": "profile-conversation-1919317047003578378-tweet-1912560057100955661",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -6289,15 +6260,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -6329,13 +6300,13 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "3112351",
+                                  "count": "3112594",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                                 "grok_analysis_button": true,
                                 "legacy": {
-                                  "bookmark_count": 2157,
+                                  "bookmark_count": 2155,
                                   "bookmarked": false,
                                   "created_at": "Wed Apr 16 17:33:45 +0000 2025",
                                   "conversation_id_str": "1912560057100955661",
@@ -6551,14 +6522,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690570-tweet-1912560062004179424",
+                        "entryId": "profile-conversation-1919317047003578378-tweet-1912560062004179424",
                         "dispensable": true,
                         "item": {
                           "itemContent": {
@@ -6617,15 +6588,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -6657,7 +6628,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "214661",
+                                  "count": "214685",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -6727,14 +6698,14 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
                         }
                       },
                       {
-                        "entryId": "profile-conversation-1919299368842690570-tweet-1912560063455346786",
+                        "entryId": "profile-conversation-1919317047003578378-tweet-1912560063455346786",
                         "dispensable": false,
                         "item": {
                           "itemContent": {
@@ -6793,15 +6764,15 @@
                                         },
                                         "fast_followers_count": 0,
                                         "favourites_count": 808,
-                                        "followers_count": 4119167,
+                                        "followers_count": 4119223,
                                         "friends_count": 3,
                                         "has_custom_timelines": false,
                                         "is_translator": false,
-                                        "listed_count": 23266,
+                                        "listed_count": 23259,
                                         "location": "",
                                         "media_count": 332,
                                         "name": "OpenAI",
-                                        "normal_followers_count": 4119167,
+                                        "normal_followers_count": 4119223,
                                         "pinned_tweet_ids_str": [
                                           "1916947241086095434"
                                         ],
@@ -6833,7 +6804,7 @@
                                 },
                                 "is_translatable": false,
                                 "views": {
-                                  "count": "193691",
+                                  "count": "193717",
                                   "state": "EnabledWithCount"
                                 },
                                 "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -6903,7 +6874,7 @@
                             "details": {
                               "timelinesDetails": {
                                 "injectionType": "RankedOrganicTweet",
-                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                                "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                               }
                             }
                           }
@@ -6928,7 +6899,7 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
@@ -6936,7 +6907,7 @@
                 },
                 {
                   "entryId": "tweet-1912549344978645199",
-                  "sortIndex": "1919299368842690549",
+                  "sortIndex": "1919317047003578357",
                   "content": {
                     "entryType": "TimelineTimelineItem",
                     "__typename": "TimelineTimelineItem",
@@ -6996,15 +6967,15 @@
                                   },
                                   "fast_followers_count": 0,
                                   "favourites_count": 808,
-                                  "followers_count": 4119167,
+                                  "followers_count": 4119223,
                                   "friends_count": 3,
                                   "has_custom_timelines": false,
                                   "is_translator": false,
-                                  "listed_count": 23266,
+                                  "listed_count": 23259,
                                   "location": "",
                                   "media_count": 332,
                                   "name": "OpenAI",
-                                  "normal_followers_count": 4119167,
+                                  "normal_followers_count": 4119223,
                                   "pinned_tweet_ids_str": [
                                     "1916947241086095434"
                                   ],
@@ -7431,15 +7402,15 @@
                                       },
                                       "fast_followers_count": 0,
                                       "favourites_count": 808,
-                                      "followers_count": 4119167,
+                                      "followers_count": 4119223,
                                       "friends_count": 3,
                                       "has_custom_timelines": false,
                                       "is_translator": false,
-                                      "listed_count": 23266,
+                                      "listed_count": 23259,
                                       "location": "",
                                       "media_count": 332,
                                       "name": "OpenAI",
-                                      "normal_followers_count": 4119167,
+                                      "normal_followers_count": 4119223,
                                       "pinned_tweet_ids_str": [
                                         "1916947241086095434"
                                       ],
@@ -7473,7 +7444,7 @@
                           },
                           "is_translatable": false,
                           "views": {
-                            "count": "4091345",
+                            "count": "4091383",
                             "state": "EnabledWithCount"
                           },
                           "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
@@ -7504,7 +7475,7 @@
                               ],
                               "user_mentions": []
                             },
-                            "favorite_count": 3713,
+                            "favorite_count": 3712,
                             "favorited": false,
                             "full_text": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
                             "is_quote_status": false,
@@ -7531,29 +7502,29 @@
                       "details": {
                         "timelinesDetails": {
                           "injectionType": "RankedOrganicTweet",
-                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkami0FeRaQAAAAAAA="
+                          "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkagBxD9tdgAAAAAAA="
                         }
                       }
                     }
                   }
                 },
                 {
-                  "entryId": "cursor-top-1919299368842690561",
-                  "sortIndex": "1919299368842690561",
+                  "entryId": "cursor-top-1919317047003578369",
+                  "sortIndex": "1919317047003578369",
                   "content": {
                     "entryType": "TimelineTimelineCursor",
                     "__typename": "TimelineTimelineCursor",
-                    "value": "DAAHCgABGqK4m2mAJxELAAIAAAATMTkxODMyMTI4MDc5MDc0MTE4OQgAAwAAAAEAAA",
+                    "value": "DAAHCgABGqLIr24AJxELAAIAAAATMTkxODMyMTI4MDc5MDc0MTE4OQgAAwAAAAEAAA",
                     "cursorType": "Top"
                   }
                 },
                 {
-                  "entryId": "cursor-bottom-1919299368842690548",
-                  "sortIndex": "1919299368842690548",
+                  "entryId": "cursor-bottom-1919317047003578356",
+                  "sortIndex": "1919317047003578356",
                   "content": {
                     "entryType": "TimelineTimelineCursor",
                     "__typename": "TimelineTimelineCursor",
-                    "value": "DAAHCgABGqK4m2l___QLAAIAAAATMTkxMjU0OTM0NDk3ODY0NTE5OQgAAwAAAAIAAA",
+                    "value": "DAAHCgABGqLIr23___QLAAIAAAATMTkxMjU0OTM0NDk3ODY0NTE5OQgAAwAAAAIAAA",
                     "cursorType": "Bottom"
                   }
                 }

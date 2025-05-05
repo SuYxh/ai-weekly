@@ -5,7 +5,7 @@ import { getDb } from '../db/sqlite.js';
  * @param {Object} article - 文章对象
  * @returns {Object|null} 插入成功返回文章对象，重复则返回 null
  */
-export async function addQbitNewsArticle(article) {
+export async function addNewsArticle(article) {
   const db = await getDb();
 
   try {
@@ -82,11 +82,11 @@ export async function addQbitNewsArticle(article) {
  * @param {Array} articles - 文章数组
  * @returns {Array} 成功添加的文章列表
  */
-export async function addQbitNewsBatch(articles) {
+export async function addNewsBatch(articles) {
   console.log('开始批量添加文章...');
   const results = [];
   for (const article of articles) {
-    const inserted = await addQbitNewsArticle(article);
+    const inserted = await addNewsArticle(article);
     if (inserted) results.push(inserted);
   }
   console.log('批量添加完成，成功添加:', results.length, '篇文章');
