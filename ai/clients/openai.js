@@ -36,8 +36,8 @@ export async function chatWithAI({
       body: JSON.stringify({
         model,
         messages: fullMessages,
-        temperature,
-        max_tokens,
+        // temperature,
+        // max_tokens,
       }),
     });
 

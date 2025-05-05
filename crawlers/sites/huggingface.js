@@ -23,8 +23,8 @@ export async function crawlHuggingfaceNews({ skip = 0 }) {
     for (const [index, post] of rawPosts.entries()) {
         const coverImage = post.attachments?.find(a => a.type === 'image')?.url;
 
-        // const summary = await summarizeText(content); // ⬅️ 添加自动摘要
-        // const content = await translateText(content); // ⬅️ 添加自动翻译
+        // const summary = await summarizeText(post.rawContent); // ⬅️ 添加自动摘要
+        // const content = await translateText(post.rawContent); // ⬅️ 添加自动翻译
 
         const summary = ''; // ⬅️ 添加自动摘要
         const content = ''; // ⬅️ 添加自动翻译

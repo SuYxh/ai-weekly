@@ -1,10 +1,14 @@
 import fetch from 'node-fetch';
+import dotenv from 'dotenv';
 import { getSystemPrompt } from '../prompt/systemPrompts.js'
 
-const prompt = getSystemPrompt('assistant')
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const OPENAI_API_URL = 'https://ark-cn-beijing.bytedance.net/api/v3/chat/completions';
+dotenv.config();
 
+const prompt = getSystemPrompt('assistant')
+const VOLCENGINE_API_KEY = process.env.VOLCENGINE_API_KEY;
+const VOLCENGINE_API_URL = 'https://ark-cn-beijing.bytedance.net/api/v3/chat/completions';
+
+console.log("VOLCENGINE_API_KEY", VOLCENGINE_API_KEY)
 
 /**
  * 通用 OpenAI 对话接口
@@ -22,23 +26,32 @@ export async function chatWithAI({
   messages = [],
   // temperature = 0.7,
 }) {
+
+  if (typeof systemPrompt !== 'string') {
+    systemPrompt = systemPrompt.content
+  } else {
+    systemPrompt = systemPrompt
+  }
+
   try {
     const fullMessages = [
       { role: 'system', content: systemPrompt },
       ...messages,
     ];
 
-    const res = await fetch(OPENAI_API_URL, {
+    console.log("fullMessages", fullMessages)
+
+    const res = await fetch(VOLCENGINE_API_URL, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${OPENAI_API_KEY}`,
+        Authorization: `Bearer ${VOLCENGINE_API_KEY}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         model,
         messages: fullMessages,
-        temperature,
-        max_tokens,
+        // temperature,
+        // max_tokens,
       }),
     });
 
