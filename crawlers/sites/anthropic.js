@@ -49,7 +49,7 @@ async function fetchAnthropicNews() {
                 date,
                 summary: '',
                 img: coverImage,
-                category,
+                category: [category],
                 platform: 'Anthropic',
             })
 

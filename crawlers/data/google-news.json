@@ -1,0 +1,266 @@
+[
+  {
+    "id": "art_1746426642419_1076",
+    "author": "google",
+    "avatar": "",
+    "title": "Music AI Sandbox, now with new features and broader access",
+    "content": "Helping music professionals explore the potential of generative AI",
+    "rawContent": "Helping music professionals explore the potential of generative AI",
+    "link": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+    "date": "2025-04-24 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/XFT_zIfIE9A9pNk0hylwxSrXa2z3AncSXWjkjl9064wCTmFqGcQ7dz2NMUOgcZWL3myEyX0qjeBdugClyEvfAwPsFj6xONo7saU52TXLSo6xcAPTdsk=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642421_5513",
+    "author": "google",
+    "avatar": "",
+    "title": "Introducing Gemini 2.5 Flash",
+    "content": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+    "rawContent": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+    "link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "date": "2025-04-17 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/oLv3Jl8j5l64yXU6YCE-238fqaeNuq9DOmOhksHZwUjJNDlB18xVehDswPohGRaN1cdArPSFA5cdZsXSqhFU-Jy5F6THyhGfo9L_QkZfNQDeKzxP2S8=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642421_9718",
+    "author": "google",
+    "avatar": "",
+    "title": "Generate videos in Gemini and Whisk with Veo 2",
+    "content": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+    "rawContent": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+    "link": "https://blog.google/products/gemini/video-generation/",
+    "date": "2025-04-15 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/kKc-lZheuv6Uf2ime6MiysAb6tyEP0dU-w0l0x5T_aFP3P7kyKOli2n-UlncPcDBripaYBiLUGZE8eHvPep0BkoI085RqoPXajYQKE25lguhrgq2Cw=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642421_0736",
+    "author": "google",
+    "avatar": "",
+    "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+    "content": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+    "rawContent": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+    "link": "https://blog.google/technology/ai/dolphingemma/",
+    "date": "2025-04-14 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/I4XIOUffm7QcLIdlD4MzdDyyhRfZSPyX6Ay0GSZ6f_LcmQ0FS3MoGg8mTsHsePHQkfG1Mg4P8C-nG17FDk0MJ2lQIhe1c_TkOwYKGOiWHMC9ouRzsQ=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Research"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642422_0309",
+    "author": "google",
+    "avatar": "",
+    "title": "Taking a responsible path to AGI",
+    "content": "We’re exploring the frontiers of AGI, prioritizing technical safety, proactive risk assessment, and collaboration with the AI community.",
+    "rawContent": "We’re exploring the frontiers of AGI, prioritizing technical safety, proactive risk assessment, and collaboration with the AI community.",
+    "link": "https://deepmind.google/discover/blog/taking-a-responsible-path-to-agi/",
+    "date": "2025-04-02 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/0sOE0EshCImNhSW7FRZvw-v_eyJJt_WUEh9evgRbhB4tl0o7qY2VAJdAloF5q3Q6CKTCiXdEvv1kUfsyZz8h6rR7Rl9jUhH02ADOyl7A7w-0QDWWr1Y=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Responsibility & Safety"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642422_3792",
+    "author": "google",
+    "avatar": "",
+    "title": "Evaluating potential cybersecurity threats of advanced AI",
+    "content": "Our framework enables cybersecurity experts to identify which defenses are necessary—and how to prioritize them",
+    "rawContent": "Our framework enables cybersecurity experts to identify which defenses are necessary—and how to prioritize them",
+    "link": "https://deepmind.google/discover/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/",
+    "date": "2025-04-02 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/qVftghWK2fcPAfl80FKEGIuxUxYuwlN2guNdIpH5A1nF4KYf5jufujNE7j3zv5uJ3CGPEJ47ec4UaUa1vl8H3rpuEX8jIkdQlXgCEYeGhAAEj3p06IY=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Responsibility & Safety"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642422_4770",
+    "author": "google",
+    "avatar": "",
+    "title": "Gemini 2.5: Our most intelligent AI model",
+    "content": "Gemini 2.5 is our most intelligent AI model, now with thinking built in.",
+    "rawContent": "Gemini 2.5 is our most intelligent AI model, now with thinking built in.",
+    "link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "date": "2025-03-25 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/96oZcWWgwhOaOAj0rvnywoRq4dzxG4o5HtmmU7N7H_OLETQh8xuMf8uFDWOk-9M9s9XvCQhNjR_PEnwituxDmhwJvklO2o9bv7B0rD3-SuNItYsoxA=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642422_1805",
+    "author": "google",
+    "avatar": "",
+    "title": "Gemini Robotics brings AI into the physical world",
+    "content": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.",
+    "rawContent": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.",
+    "link": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "date": "2025-03-12 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/J74rVi68EPPNMBLxhxI76Bli7QggLtYRYfp5Pk2HVPtSt2NIIk2VmLktQbwDZeIlZiW3AHwlpLNcswHuz_ecR-oj4kI-mtF53yYsGJKfvPugAw5ulQ=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642422_6712",
+    "author": "google",
+    "avatar": "",
+    "title": "Experiment with Gemini 2.0 Flash native image generation",
+    "content": "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API.",
+    "rawContent": "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API.",
+    "link": "https://developers.googleblog.com/en/experiment-with-gemini-20-flash-native-image-generation/",
+    "date": "2025-03-12 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/3YfTGZst3RNar_7vzz6PhJ8L0508dMqxLq9XLl9u2k1HXTsdn-vifGNLHfF9Kel_VVJPtaxrueirXVf9RiZmGRsnqO7TNLDfaLKiy6t6qFytX6dZ=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642423_0284",
+    "author": "google",
+    "avatar": "",
+    "title": "Introducing Gemma 3",
+    "content": "The most capable model you can run on a single GPU or TPU.",
+    "rawContent": "The most capable model you can run on a single GPU or TPU.",
+    "link": "https://blog.google/technology/developers/gemma-3/",
+    "date": "2025-03-12 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/pd84c3HIdaWj5JDWm1cMSvUcuFjmYxzpzlIzW8Cr9K8-W9IhbRCWhaIV97aeABjUDGEgxjFdC116y3YkWF3Y5G7bKiNQmtkA5CJbIn7lebU9mVF7SCA=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642423_3813",
+    "author": "google",
+    "avatar": "",
+    "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+    "content": "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI",
+    "rawContent": "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI",
+    "link": "https://developers.googleblog.com/en/start-building-with-the-gemini-2-0-flash-family",
+    "date": "2025-02-25 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/ppuR9mrJez2EawCQCHGzrYEoXiZJavMD77HIMV0icT4X-clg7Ss42pO-mPQrvVwBVZ8-9tEXPf91f7ARmwLOOsKtSe5-0DLLEavnhI6uK3UFMRMM=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746426642423_5692",
+    "author": "google",
+    "avatar": "",
+    "title": "Gemini 2.0 is now available to everyone",
+    "content": "We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.",
+    "rawContent": "We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.",
+    "link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025",
+    "date": "2025-02-05 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/jOZg_YMBxrm-cz0kTZPehtQ29D90UZ21AXq9E54u3RZ67VEoXNy2KEsmD3oPgCDCIBw39ydczc8VQHH3QlUzIjdsgSPwIFdAEHXiHhsnUIKqmhppSQ=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  }
+]
