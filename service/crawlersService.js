@@ -1,4 +1,4 @@
-import { crawlQbitNews, crawlHuggingfaceNews } from "../crawlers/index.js";
+import { crawlQbitNews, crawlHuggingfaceNews, crawlAnthropicNews } from "../crawlers/index.js";
 import { addQbitNewsBatch } from "../models/articleModel.js";
 
 
@@ -17,6 +17,19 @@ export async function getQbitNewsService(params) {
 export async function getHuggingfaceNewsService(params) {
   // 调用爬虫函数，传递参数
   const newsArticles = await crawlHuggingfaceNews({ skip: params.skip });
+
+  if (params.storage === 1 && newsArticles?.length > 0) {
+    // 批量添加文章
+    await addQbitNewsBatch(newsArticles)   
+  }
+
+  return newsArticles
+}
+
+
+export async function getAnthropicNewsService(params) {
+  // 调用爬虫函数，传递参数
+  const newsArticles = await crawlAnthropicNews();
 
   if (params.storage === 1 && newsArticles?.length > 0) {
     // 批量添加文章
