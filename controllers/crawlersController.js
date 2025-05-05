@@ -1,6 +1,7 @@
 import { getQbitNewsService, getHuggingfaceNewsService, getAnthropicNewsService, getGoogleNewsService, getTwitterNewsService } from "../service/crawlersService.js";
 import { crawlAllPlatforms } from "../crawlers/tasks/crawlAll.js";
 import { success, fail } from "../utils/response.js";
+import { testMailer } from "../utils/mailer.js";
 
 export async function getQbitNews(req, res) {
   // 添加 next 用于错误处理
@@ -109,13 +110,31 @@ export async function startAllCrawlers(req, res) {
   try {
     console.log("startAllCrawlers！！！");
 
-    const result = await crawlAllPlatforms();
+    // 执行爬虫
+    crawlAllPlatforms();
 
     // 返回 JSON 响应
-    res.json(success(result, "获取成功"));
+    res.json(success({}, "数据爬取任务已经开始，结束后通过邮件告知"));
   } catch (error) {
     // 如果在爬取过程中发生错误，传递给错误处理中间件
-    console.error("获取 getTwitterNews 时出错:", error);
+    console.error("获取 startAllCrawlers 时出错:", error);
+    // 或者直接返回错误响应
+    res.status(500).json(fail("获取信息失败"));
+  }
+}
+
+export async function sendTestCrawlReport(req, res) {
+  try {
+    console.log("sendTestCrawlReport 开始执行");
+
+    // 发送测试邮件
+    testMailer();
+
+    // 返回 JSON 响应
+    res.json(success({}, "邮件已发送，请注意查收"));
+  } catch (error) {
+    // 如果在爬取过程中发生错误，传递给错误处理中间件
+    console.error("sendTestCrawlReport 时出错:", error);
     // 或者直接返回错误响应
     res.status(500).json(fail("获取信息失败"));
   }

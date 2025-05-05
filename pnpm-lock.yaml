@@ -8,6 +8,7 @@ specifiers:
   fs-extra: ^11.3.0
   node-cron: ^3.0.3
   node-fetch: ^3.3.2
+  nodemailer: ^7.0.2
   nodemon: ^3.1.10
   sqlite: ^5.1.1
   sqlite3: ^5.1.7
@@ -20,6 +21,7 @@ dependencies:
   fs-extra: 11.3.0
   node-cron: 3.0.3
   node-fetch: 3.3.2
+  nodemailer: 7.0.2
   sqlite: 5.1.1
   sqlite3: 5.1.7
 
@@ -1156,6 +1158,11 @@ packages:
       - supports-color
     dev: false
     optional: true
+
+  /nodemailer/7.0.2:
+    resolution: {integrity: sha512-SYsisPeLFYli5Q+BCGSyHT5CVvezPmQjHgINV9KVvVLV1aktuoD4E0Np9Q3ND9I481qIHzUQzVT+Tl/Tw7Ivdg==}
+    engines: {node: '>=6.0.0'}
+    dev: false
 
   /nodemon/3.1.10:
     resolution: {integrity: sha512-WDjw3pJ0/0jMFmyNDp3gvY2YizjLmmOUQo6DEBY+JgdvW/yQ9mEeSw6H5ythl5Ny2ytb7f9C2nIbjSxMNzbJXw==}

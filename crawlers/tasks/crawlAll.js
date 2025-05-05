@@ -5,6 +5,7 @@ import { crawlAnthropicNews } from '../sites/anthropic.js';
 import { crawlGoogleNews } from '../sites/google.js';
 import { addNewsBatch } from '../../models/articleModel.js';
 import { resetAllTables } from '../../models/articleModel.js';
+import { sendCrawlReport } from "../../utils/mailer.js";
 
 /**
  * 爬取所有平台的数据并保存到数据库
@@ -19,7 +20,8 @@ export async function crawlAllPlatforms(options = {}) {
     console.log('🚀 开始爬取所有平台数据...');
 
     const defaultOptions = {
-        reset: true,
+        sendEmail: false,
+        reset: false,
         qbit: true,
         huggingface: true,
         anthropic: true,
@@ -137,6 +139,21 @@ export async function crawlAllPlatforms(options = {}) {
         } catch (error) {
             console.error('❌ Twitter 爬取失败:', error);
             results.platforms.twitter = { error: error.message };
+        }
+    }
+
+    // 发送邮件通知
+    if (opts.sendEmail) {
+        try {
+            console.log('📧 正在发送爬虫报告邮件...');
+            const emailResult = await sendCrawlReport(results);
+            if (emailResult.success) {
+                console.log('✅ 爬虫报告邮件发送成功');
+            } else {
+                console.error('❌ 爬虫报告邮件发送失败:', emailResult.error);
+            }
+        } catch (error) {
+            console.error('❌ 爬虫报告邮件发送失败:', error);
         }
     }
 
