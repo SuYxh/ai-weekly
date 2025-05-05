@@ -22,11 +22,12 @@ export async function addQbitNewsArticle(article) {
     const id = article.id;
     await db.run(
       `INSERT INTO articles (
-        id, author, title, content, raw_content, link, date, summary, category, tags, platform
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        id, author, avatar, title, content, raw_content, link, date, summary, category, tags, platform
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         id,
         article.author || '',
+        article.avatar || '',
         article.title,
         article.content || '',
         article.raw_content || '',

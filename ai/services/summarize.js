@@ -1,5 +1,5 @@
-import { chatWithAI } from '../clients/volcengine';
-import { getSystemPrompt } from '../prompt/systemPrompts';
+import { chatWithAI } from '../clients/volcengine.js';
+import { getSystemPrompt } from '../prompt/systemPrompts.js';
 
 // 英文文档总结 Prompt
 const promptEnToZh = getSystemPrompt('articleSummarizerEnToZh');

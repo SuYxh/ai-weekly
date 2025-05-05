@@ -11,6 +11,7 @@ export function formatArticleData(rawData) {
   let {
     id = generateArticleId(),
     author,
+    avatar,
     title,
     content,
     rawContent,
@@ -38,6 +39,7 @@ export function formatArticleData(rawData) {
   return {
     id: id || "", // ID 需要生成策略，例如基于 link 哈希，暂时为空
     author: author || "", // 列表页通常没有作者信息
+    avatar: avatar || "", // 头像
     title: title || "", // 确保有默认值
     content: content || "", // 完整内容需要访问详情页获取
     rawContent: rawContent || "", // 原始内容需要访问详情页获取

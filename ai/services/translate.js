@@ -1,6 +1,6 @@
-import { chatWithAI } from '../clients/volcengine';
+import { chatWithAI } from '../clients/volcengine.js';
 // 如果有特定的翻译 System Prompt，可以取消下面的注释并确保路径正确
-import { getSystemPrompt } from '../prompt/systemPrompts';
+import { getSystemPrompt } from '../prompt/systemPrompts.js';
 
 // 可以预先定义一些常用的 System Prompt，或者在函数内动态生成
 const translationPrompt = getSystemPrompt('translator'); // 假设有一个名为 'translator' 的 prompt

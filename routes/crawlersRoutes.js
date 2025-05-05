@@ -1,6 +1,8 @@
 import { Router } from 'express';
-import { getQbitNews } from '../controllers/crawlersController.js';
+import { getQbitNews, getHuggingfaceNews } from '../controllers/crawlersController.js';
 
 export const router = Router();
 
 router.get('/getQbitNews', getQbitNews);
+router.get('/getHuggingfaceNews', getHuggingfaceNews);
+

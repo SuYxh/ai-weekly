@@ -1,4 +1,4 @@
-import { getQbitNewsService } from "../service/crawlersService.js";
+import { getQbitNewsService, getHuggingfaceNewsService } from "../service/crawlersService.js";
 import { success, fail } from "../utils/response.js";
 
 export async function getQbitNews(req, res) {
@@ -17,6 +17,26 @@ export async function getQbitNews(req, res) {
   } catch (error) {
     // 如果在爬取过程中发生错误，传递给错误处理中间件
     console.error("获取 Qbit News 时出错:", error);
+    // 或者直接返回错误响应
+    res.status(500).json(fail("获取信息失败"));
+  }
+}
+
+export async function getHuggingfaceNews(req, res) {
+  // 添加 next 用于错误处理
+  try {
+    // 从 req.query 获取参数，并提供默认值。使用 parseInt 确保它们是数字，如果解析失败或未提供，则使用默认值
+    const skip = parseInt(req.query.skip, 10) || 0;
+    const storage = parseInt(req.query.storage, 10) || 1;
+    console.log("getHuggingfaceNews 参数:", { skip, storage });
+
+    const newsArticles = await getHuggingfaceNewsService({ skip, storage });
+
+    // 返回 JSON 响应
+    res.json(success(newsArticles, "获取成功"));
+  } catch (error) {
+    // 如果在爬取过程中发生错误，传递给错误处理中间件
+    console.error("获取 getHuggingfaceNews 时出错:", error);
     // 或者直接返回错误响应
     res.status(500).json(fail("获取信息失败"));
   }

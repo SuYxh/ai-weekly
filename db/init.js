@@ -21,6 +21,7 @@ export async function initDb() {
     CREATE TABLE IF NOT EXISTS articles (
       id TEXT PRIMARY KEY,
       author TEXT,
+      avatar TEXT,
       title TEXT NOT NULL,
       content TEXT,
       raw_content TEXT,
@@ -32,6 +33,7 @@ export async function initDb() {
       platform TEXT
     );
   `);
+
 
   // 创建 media 表（图片、视频等）
   await db.exec(`

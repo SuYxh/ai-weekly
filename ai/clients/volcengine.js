@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { getSystemPrompt } from '../prompt/systemPrompts'
+import { getSystemPrompt } from '../prompt/systemPrompts.js'
 
 const prompt = getSystemPrompt('assistant')
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
