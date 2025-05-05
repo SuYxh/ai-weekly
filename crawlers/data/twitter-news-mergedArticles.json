@@ -3,8 +3,8 @@
     "id": "1918321280790741189",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
-    "content": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
+    "title": "我们过去几天深入研究了上周 ChatGPT 中 GPT-4o 更新出现的问题",
+    "content": "我们过去几天深入研究了上周 ChatGPT 中 GPT-4o 更新出现的问题。\n\n扩展了我们关于奉承行为的遗漏以及未来将进行的更改：\nhttps://t.co/LX0fSIe72s",
     "rawContent": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
     "link": "https://twitter.com/OpenAI/status/1918321280790741189",
     "date": "2025-05-02 23:06:48",
@@ -17,14 +17,18 @@
     ],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "safety_alignment",
+    "reason": "OpenAI 对模型行为问题的反思和改进，涉及 AI 对齐和安全问题",
+    "isWeekly": 1,
+    "score": 4
   },
   {
     "id": "1917607109853872183",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
-    "content": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
+    "title": "太平洋时间上午 9:30 与模型行为负责人 @joannejang 进行 AMA，讨论 ChatGPT 的个性问题",
+    "content": "太平洋时间上午 9:30 与模型行为负责人 @joannejang 进行 AMA，讨论 ChatGPT 的个性问题。\n\nhttps://t.co/thPLEMMADY",
     "rawContent": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
     "link": "https://twitter.com/OpenAI/status/1917607109853872183",
     "date": "2025-04-30 23:48:57",
@@ -37,14 +41,18 @@
     ],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "safety_alignment",
+    "reason": "OpenAI 专家讨论模型个性问题，涉及 AI 行为和安全",
+    "isWeekly": 1,
+    "score": 3
   },
   {
     "id": "1917411480548565332",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
-    "content": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
+    "title": "我们已回滚上周 ChatGPT 中的 GPT-4o 更新，因为它过于奉承和顺从",
+    "content": "我们已回滚上周 ChatGPT 中的 GPT-4o 更新，因为它过于奉承和顺从。您现在可以访问一个行为更平衡的早期版本。\n\n更多关于发生了什么、为什么重要以及我们如何解决奉承问题的信息：https://t.co/LOhOU7i7DC",
     "rawContent": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
     "link": "https://twitter.com/OpenAI/status/1917411480548565332",
     "date": "2025-04-30 10:51:35",
@@ -57,14 +65,18 @@
     ],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "safety_alignment",
+    "reason": "OpenAI 对模型行为问题的公开说明和改进措施",
+    "isWeekly": 1,
+    "score": 4
   },
   {
     "id": "1917292316114706884",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
-    "content": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
+    "title": "RT @sama: 我们昨晚开始回滚 GPT-4o 的最新更新",
+    "content": "RT @sama: 我们昨晚开始回滚 GPT-4o 的最新更新\n\n现在已 100% 回滚给免费用户，我们将在修复后再次更新...",
     "rawContent": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
     "link": "https://twitter.com/OpenAI/status/1917292316114706884",
     "date": "2025-04-30 02:58:04",
@@ -72,14 +84,18 @@
     "media": [],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "not_recommended",
+    "reason": "内容重复，信息量不足",
+    "isWeekly": 0,
+    "score": 2
   },
   {
     "id": "1915097151472079141",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
-    "content": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
+    "title": "RT @OpenAIDevs: 图像生成现在已在 API 中可用！",
+    "content": "RT @OpenAIDevs: 图像生成现在已在 API 中可用！\n\n我们正在推出 gpt-image-1，使 ChatGPT 的强大图像生成能力...",
     "rawContent": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
     "link": "https://twitter.com/OpenAI/status/1915097151472079141",
     "date": "2025-04-24 01:35:16",
@@ -87,14 +103,18 @@
     "media": [],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "product_update",
+    "reason": "OpenAI 发布新的 API 功能，具有产品更新价值",
+    "isWeekly": 1,
+    "score": 3
   },
   {
     "id": "1912549344978645199",
     "author": "OpenAI (@OpenAI)",
     "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-    "title": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
-    "content": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
+    "title": "OpenAI o3 和 o4-mini",
+    "content": "OpenAI o3 和 o4-mini\n\nhttps://t.co/giS4K1yNh9",
     "rawContent": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
     "link": "https://twitter.com/OpenAI/status/1912549344978645199",
     "date": "2025-04-17 00:51:11",
@@ -107,6 +127,10 @@
     ],
     "category": [],
     "tags": [],
-    "platform": "twitter"
+    "platform": "twitter",
+    "ownCategory": "not_recommended",
+    "reason": "信息不完整，缺乏具体内容",
+    "isWeekly": 0,
+    "score": 1
   }
 ]

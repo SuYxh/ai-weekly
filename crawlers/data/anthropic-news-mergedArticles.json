@@ -1,0 +1,288 @@
+[
+  {
+    "id": "art_1746462492468_3011",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Anthropic推出AI科学计划",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/ai-for-science-program",
+    "date": "2025-05-05 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb235baff40443ce8858b54e8d5d73ab7b8e55a13-1600x1203.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Announcements"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "company_news",
+    "reason": "Anthropic作为知名AI公司，其科学计划可能涉及重要研究方向",
+    "isWeekly": 1,
+    "score": 4
+  },
+  {
+    "id": "art_1746462492469_7216",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Claude现在可以连接你的世界",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/integrations",
+    "date": "2025-05-01 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4514bea5710e2690966d88ad19294aedab3337e5-1681x1261.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Product"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "product_update",
+    "reason": "Claude作为主流AI产品，其连接功能更新值得关注",
+    "isWeekly": 1,
+    "score": 4
+  },
+  {
+    "id": "art_1746462492469_9119",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "保障美国计算优势：Anthropic对扩散规则的立场",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
+    "date": "2025-04-30 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F02a64107eca399bb4a0b7d9ef4265633ab8a7d9d-1600x1203.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Policy"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "safety_alignment",
+    "reason": "涉及AI政策与国家安全，具有行业影响力",
+    "isWeekly": 1,
+    "score": 5
+  },
+  {
+    "id": "art_1746462492469_1672",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "介绍Anthropic经济顾问委员会",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/introducing-the-anthropic-economic-advisory-council",
+    "date": "2025-04-28 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F83b08dacbd6c815c34289c7c09ca100462258927-1600x1203.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Announcements"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "company_news",
+    "reason": "组织架构变动，但信息价值有限",
+    "isWeekly": 0,
+    "score": 2
+  },
+  {
+    "id": "art_1746462492469_5125",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Anthropic经济指数：AI对软件开发的影响",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/research/impact-software-development",
+    "date": "2025-04-28 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F05ad8715b4cc9f08c7858e7fd2a3ef35c4d36b5d-1600x1203.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Societal Impacts"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "company_news",
+    "reason": "行业影响分析报告，具有一定参考价值",
+    "isWeekly": 1,
+    "score": 3
+  },
+  {
+    "id": "art_1746462492469_6880",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "检测和对抗Claude的恶意使用：2025年3月",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+    "date": "2025-04-23 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffbc2b3b568205a8ac3f47134dd21846ac72a7392-1600x1203.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Societal Impacts"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "safety_alignment",
+    "reason": "涉及AI安全实践，具有行业参考意义",
+    "isWeekly": 1,
+    "score": 4
+  },
+  {
+    "id": "art_1746462492470_8843",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "我们理解和解决AI危害的方法",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
+    "date": "2025-04-21 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F69d30213eb0120f3c7a0a668d2b314bfe3714f5e-1680x1260.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Policy"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "safety_alignment",
+    "reason": "Anthropic的AI安全方法论，具有标杆意义",
+    "isWeekly": 1,
+    "score": 5
+  },
+  {
+    "id": "art_1746462492470_7394",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Claude将研究推向新高度",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/research",
+    "date": "2025-04-15 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0d259ed89e181ad18dea036804f50080ea61e77a-1680x1260.svg"
+      }
+    ],
+    "category": [
+      "Product"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "product_update",
+    "reason": "产品研究功能更新，但信息不具体",
+    "isWeekly": 0,
+    "score": 2
+  },
+  {
+    "id": "art_1746462492470_2707",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "推出Max计划",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/max-plan",
+    "date": "2025-04-09 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6214650e82ff766d6f82c190ae4446c50704e3c7-3361x2521.png&w=3840&q=75"
+      }
+    ],
+    "category": [
+      "Product"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "product_update",
+    "reason": "新产品计划发布，但缺乏细节说明",
+    "isWeekly": 0,
+    "score": 2
+  },
+  {
+    "id": "art_1746462492470_4290",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Anthropic教育报告：大学生如何使用Claude",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude",
+    "date": "2025-04-08 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/16f763380c8565e697df3ea3f0f23d8580bb4d25-1680x1260.svg"
+      }
+    ],
+    "category": [
+      "Announcements"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "company_news",
+    "reason": "特定用户群体分析，数据价值有限",
+    "isWeekly": 0,
+    "score": 2
+  },
+  {
+    "id": "art_1746462492470_9904",
+    "author": "Anthropic",
+    "avatar": "",
+    "title": "Anthropic任命Guillaume Princen为EMEA负责人并宣布在该地区新增100多个职位",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.anthropic.com/news/head-of-EMEA-new-roles",
+    "date": "2025-04-08 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.anthropic.com"
+      }
+    ],
+    "category": [
+      "Announcements"
+    ],
+    "tags": [],
+    "platform": "anthropic",
+    "ownCategory": "company_news",
+    "reason": "区域性人事变动，行业影响有限",
+    "isWeekly": 0,
+    "score": 1
+  }
+]

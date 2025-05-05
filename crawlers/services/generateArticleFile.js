@@ -12,7 +12,7 @@ export async function generateArticleFile({ platform, mergedArticles, recentNews
     console.log(`✅ 共抓取 ${recentNews.length} 条资讯, 共合并 ${mergedArticles.length} 条资讯，周刊推荐 ${isWeeklyNum} 条资讯 ✅`);
 }
 
-export async function generateHtmlFile({ platform, html }) {  
-    const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', `${platform}-html.json`);
+export async function generateHtmlFile({ platform, html, ext = 'html' }) {  
+    const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', `${platform}-html.${ext}`);
     await writeFileContent(outputFilePath, html)
 }

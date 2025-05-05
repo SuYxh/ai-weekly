@@ -1,0 +1,162 @@
+[
+  {
+    "id": "art_1746462904124_2165",
+    "author": "Linoy Tsaban",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f308fc4444c6ca870b60a/Q11NK-8-JbiilJ-vk2LAR.png",
+    "title": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯",
+    "content": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯\n✅ fully open sourced + amazing quality + reduced memory + improved speed\nbut more even - its gonna facilitate *soooo* many downstream applications\nlike this version adapted for landscape rotation 👇https://huggingface.co/spaces/tori29umai/FramePack_rotate_landscape",
+    "rawContent": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯\n✅ fully open sourced + amazing quality + reduced memory + improved speed\nbut more even - its gonna facilitate *soooo* many downstream applications\nlike this version adapted for landscape rotation 👇https://huggingface.co/spaces/tori29umai/FramePack_rotate_landscape",
+    "link": "https://huggingface.co/posts/linoyts/432481894400843",
+    "date": "2025-05-06 00:21:50",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_3865",
+    "author": "Pro Creations",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/658a4c914bb41498f7d5e3ca/zMJjxfazi9ePc7GZ1jRAE.jpeg",
+    "title": "Intellite Chat training script is working!",
+    "content": "Intellite Chat training script is working!\n\nTraining works fine, normal loss, no more gradient explosion or gradient vanishing, etc.\nBUT, before I officially flip the switch and turn on training, I wanna make sure its the best possible 100m parameter model it can be, so I am working a bit more (probably an extra 3-5 days) to add even more innovative AI improvements to intellite. ",
+    "rawContent": "Intellite Chat training script is working!\n\nTraining works fine, normal loss, no more gradient explosion or gradient vanishing, etc.\nBUT, before I officially flip the switch and turn on training, I wanna make sure its the best possible 100m parameter model it can be, so I am working a bit more (probably an extra 3-5 days) to add even more innovative AI improvements to intellite. ",
+    "link": "https://huggingface.co/posts/ProCreations/906373389478833",
+    "date": "2025-05-05 14:12:04",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_2987",
+    "author": "raahul thakur",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a4c25dc44ffdaf67f6927a/Jlj4tIwF7spz5pwRs94UO.jpeg",
+    "title": "FinSightX: Your AI Financial Co-Pilot",
+    "content": "FinSightX: Your AI Financial Co-Pilot\nFinSightX is a multi-agent financial assistant powered by language models. Designed for analysts, investors, and fintech developers, it combines insights from multiple domains into a single, sleek Streamlit interface.\n\nFeatures\nEquity Analyst Agent → Ask questions about stocks, indicators, performance.\n\nMacro Strategist Agent → Get macroeconomic insights using language models.\nNews Summarizer Agent → Summarizes market headlines instantly.\nQuant Backtester Agent → Run basic backtests using bt.\nRegulatory Radar Agent → Monitor policy shifts and alerts.\nClient Advisor Agent → Assist with client queries or hypothetical portfolios.\n\nTech Stack\ntransformers, sentence-transformers\ntorch, scikit-learn, neuralprophet\nbt for strategy backtesting\nchromadb for vector storage\nStreamlit + FastAPI for UI/backend\n\nDeveloped and maintained by @Raahul-Thakur\nLive Space: https://huggingface.co/spaces/Raahulthakur/FinsightX\n\nBuilt using open-source tools and financial domain knowledge. Contributions, feedback, and forks welcome!",
+    "rawContent": "FinSightX: Your AI Financial Co-Pilot\nFinSightX is a multi-agent financial assistant powered by language models. Designed for analysts, investors, and fintech developers, it combines insights from multiple domains into a single, sleek Streamlit interface.\n\nFeatures\nEquity Analyst Agent → Ask questions about stocks, indicators, performance.\n\nMacro Strategist Agent → Get macroeconomic insights using language models.\nNews Summarizer Agent → Summarizes market headlines instantly.\nQuant Backtester Agent → Run basic backtests using bt.\nRegulatory Radar Agent → Monitor policy shifts and alerts.\nClient Advisor Agent → Assist with client queries or hypothetical portfolios.\n\nTech Stack\ntransformers, sentence-transformers\ntorch, scikit-learn, neuralprophet\nbt for strategy backtesting\nchromadb for vector storage\nStreamlit + FastAPI for UI/backend\n\nDeveloped and maintained by @Raahul-Thakur\nLive Space: https://huggingface.co/spaces/Raahulthakur/FinsightX\n\nBuilt using open-source tools and financial domain knowledge. Contributions, feedback, and forks welcome!",
+    "link": "https://huggingface.co/posts/Raahulthakur/638579217973846",
+    "date": "2025-05-05 10:22:33",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_1350",
+    "author": "Sami Halawa",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d00458fff501149572827f/E6nxYRxqRmBGRf9wSQq4Y.jpeg",
+    "title": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent",
+    "content": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent\nEver been stuck debugging buttons that don’t work? Broken flows? Inconsistent UI behavior?\n\nVUDA sees it, clicks it, fixes it.\nAn automated visual debug agent that inspects, validates, and repairs your UI — like magic 🧠✨ Better that any other playwright / puppeteer. \n\n🔧 Install now via Smithery:\n\nnpx -y @smithery/cli@latest install @samihalawa/visual-ui-debug-agent-mcp --client cursor\n\n\n\n⸻\n\nWant a shorter alt for social media too?",
+    "rawContent": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent\nEver been stuck debugging buttons that don’t work? Broken flows? Inconsistent UI behavior?\n\nVUDA sees it, clicks it, fixes it.\nAn automated visual debug agent that inspects, validates, and repairs your UI — like magic 🧠✨ Better that any other playwright / puppeteer. \n\n🔧 Install now via Smithery:\n\nnpx -y @smithery/cli@latest install @samihalawa/visual-ui-debug-agent-mcp --client cursor\n\n\n\n⸻\n\nWant a shorter alt for social media too?",
+    "link": "https://huggingface.co/posts/samihalawa/966135943196710",
+    "date": "2025-05-05 07:56:21",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn-uploads.huggingface.co/production/uploads/65d00458fff501149572827f/UXLoV6FCtQyGBqekAn9p3.png"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_7570",
+    "author": "Caden Holman",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6807e05270a0cec724c2322d/oGoVu3Zzvzj3piKdlm3xF.png",
+    "title": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models.",
+    "content": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models.\n\nCode Debugger\n⭐ Submit your code (supports PHP, Python, JavaScript, HTML, SQL, CSS, and more)\n⭐ Receive a detailed AI-generated bug report with suggestions for improvement\n\nCode Formatter\n⭐ Submit your code (same language support)\n⭐ Instantly receive clean, consistently formatted code\n\nFor both tools:\n⭐ Supports virtually any programming language\n⭐ No sign-up or login required\n⭐ Your code is automatically deleted after 24 hours for privacy\n\nGive it a try:\n👉 https://CodeDebugger.ai/",
+    "rawContent": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models.\n\nCode Debugger\n⭐ Submit your code (supports PHP, Python, JavaScript, HTML, SQL, CSS, and more)\n⭐ Receive a detailed AI-generated bug report with suggestions for improvement\n\nCode Formatter\n⭐ Submit your code (same language support)\n⭐ Instantly receive clean, consistently formatted code\n\nFor both tools:\n⭐ Supports virtually any programming language\n⭐ No sign-up or login required\n⭐ Your code is automatically deleted after 24 hours for privacy\n\nGive it a try:\n👉 https://CodeDebugger.ai/",
+    "link": "https://huggingface.co/posts/CadenHolman/617263708184375",
+    "date": "2025-05-05 06:57:39",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_4585",
+    "author": "nyuuzyou",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/643ac5d2e2b979ae6144d68c/Z7PCNopn4cQeAYnVJDoqG.png",
+    "title": "🖼️ PublicDomainFiles.com Collection - https://huggingface.co/datasets/nyuuzyou/publicdomainfiles",
+    "content": "🖼️ PublicDomainFiles.com Collection - https://huggingface.co/datasets/nyuuzyou/publicdomainfiles\n\nCollection of 206,204 Public Domain multimedia files featuring:\n\n- Comprehensive metadata: title, description, creator name, keywords, original page URL, and more.\n- Contains various media types including images, clip art, artwork, fonts, videos, and TV shows.\n- All content explicitly released into the public domain under the CC0 license.\n- Organized in a single `train` split with 206,204 entries.",
+    "rawContent": "🖼️ PublicDomainFiles.com Collection - https://huggingface.co/datasets/nyuuzyou/publicdomainfiles\n\nCollection of 206,204 Public Domain multimedia files featuring:\n\n- Comprehensive metadata: title, description, creator name, keywords, original page URL, and more.\n- Contains various media types including images, clip art, artwork, fonts, videos, and TV shows.\n- All content explicitly released into the public domain under the CC0 license.\n- Organized in a single `train` split with 206,204 entries.",
+    "link": "https://huggingface.co/posts/nyuuzyou/896622962900908",
+    "date": "2025-05-05 05:19:00",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_5041",
+    "author": "Furkan Gözükara",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6345bd89fe134dfd7a0dba40/72EZjBiatKqqsu96txd_v.jpeg",
+    "title": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality",
+    "content": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality\n\nTutorial Link\n\nhttps://youtu.be/fTzlQ0tjxj0\n\nTutorial Information\n\nIf you want to generate the very best AI videos and images on your Windows computer locally this is the tutorial that you were looking for. Literally 1-click to install most powerful and advanced generative AI interface SwarmUI (with Flash Attention, Sage Attention, Triton, DeepSpeed, xFormers, RTX 5000 series perfect compatibility) and download the very best AI image and video generation models with ultra advanced model downloader Gradio app. SwarmUI utilizes the famous and most powerful, advanced, performant and optimized ComfyUI as a backend. So SwarmUI is the ultimate generative AI tool at the moment with vast amount of features and constant updates.\n\nTutorial Important Download Links App Links\n🔗Follow below link to download the zip file that contains SwarmUI installer and AI models downloader Gradio App - the one used in the tutorial ⤵️\n\n▶️ https://www.patreon.com/posts/SwarmUI-Installer-AI-Videos-Downloader-114517862\n\n🔗Follow below link to download the zip file that contains ComfyUI 1-click installer that has all the Flash Attention, Sage Attention, xFormers, Triton, DeepSpeed, RTX 5000 series support ⤵️\n\n▶️ https://www.patreon.com/posts/Advanced-ComfyUI-1-Click-Installer-105023709\n\n🔗 Python, Git, CUDA, C++, FFMPEG, MSVC installation tutorial - needed for ComfyUI ⤵️\n\n▶️ https://youtu.be/DrhUHnYfwC0\n\n🔗 SECourses Official Discord 10500+ Members ⤵️\n\n▶️ https://discord.com/servers/software-engineering-courses-secourses-772774097734074388\n\n🔗 Stable Diffusion, FLUX, Generative AI Tutorials and Resources GitHub ⤵️\n\n▶️ https://github.com/FurkanGozukara/Stable-Diffusion\n",
+    "rawContent": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality\n\nTutorial Link\n\nhttps://youtu.be/fTzlQ0tjxj0\n\nTutorial Information\n\nIf you want to generate the very best AI videos and images on your Windows computer locally this is the tutorial that you were looking for. Literally 1-click to install most powerful and advanced generative AI interface SwarmUI (with Flash Attention, Sage Attention, Triton, DeepSpeed, xFormers, RTX 5000 series perfect compatibility) and download the very best AI image and video generation models with ultra advanced model downloader Gradio app. SwarmUI utilizes the famous and most powerful, advanced, performant and optimized ComfyUI as a backend. So SwarmUI is the ultimate generative AI tool at the moment with vast amount of features and constant updates.\n\nTutorial Important Download Links App Links\n🔗Follow below link to download the zip file that contains SwarmUI installer and AI models downloader Gradio App - the one used in the tutorial ⤵️\n\n▶️ https://www.patreon.com/posts/SwarmUI-Installer-AI-Videos-Downloader-114517862\n\n🔗Follow below link to download the zip file that contains ComfyUI 1-click installer that has all the Flash Attention, Sage Attention, xFormers, Triton, DeepSpeed, RTX 5000 series support ⤵️\n\n▶️ https://www.patreon.com/posts/Advanced-ComfyUI-1-Click-Installer-105023709\n\n🔗 Python, Git, CUDA, C++, FFMPEG, MSVC installation tutorial - needed for ComfyUI ⤵️\n\n▶️ https://youtu.be/DrhUHnYfwC0\n\n🔗 SECourses Official Discord 10500+ Members ⤵️\n\n▶️ https://discord.com/servers/software-engineering-courses-secourses-772774097734074388\n\n🔗 Stable Diffusion, FLUX, Generative AI Tutorials and Resources GitHub ⤵️\n\n▶️ https://github.com/FurkanGozukara/Stable-Diffusion\n",
+    "link": "https://huggingface.co/posts/MonsterMMORPG/846082369642024",
+    "date": "2025-05-05 05:16:26",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://cdn-uploads.huggingface.co/production/uploads/6345bd89fe134dfd7a0dba40/DaGCK7J_kbOrw9e-grW9d.png"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_7361",
+    "author": "Kenneth Hamilton",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/656e3808d4de03a07d116850/62cFw46AmuhdI3gS24F1M.jpeg",
+    "title": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥",
+    "content": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥 \n\nWith the rise of Vibe Coding, and the potential risks that are introduced by humans letting LLMs build their apps for them, lots of people are (rightfully) concerned about the safety of the code that is hitting prod.\n\nIn response to that, I'm happy to present my final submission to the Reasoning Dataset Competition and attempt to start benchmarking the ability of LLMs to identify unsafe and / or exploitable code by way of the CoSa (Code Safety) benchmark: https://huggingface.co/datasets/ZennyKenny/cosa-benchmark-dataset\n\nCurrently a curated set of 200 examples, calibrated on OpenAI's standard issue models (GPT-4.1, o4 mini, and GPT-3.5 Turbo) as \"baseline performance\" (70% decile). Check it out and drop a ❤️ if you think it could be useful or hit the Community section with suggestions / critiques.",
+    "rawContent": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥 \n\nWith the rise of Vibe Coding, and the potential risks that are introduced by humans letting LLMs build their apps for them, lots of people are (rightfully) concerned about the safety of the code that is hitting prod.\n\nIn response to that, I'm happy to present my final submission to the Reasoning Dataset Competition and attempt to start benchmarking the ability of LLMs to identify unsafe and / or exploitable code by way of the CoSa (Code Safety) benchmark: https://huggingface.co/datasets/ZennyKenny/cosa-benchmark-dataset\n\nCurrently a curated set of 200 examples, calibrated on OpenAI's standard issue models (GPT-4.1, o4 mini, and GPT-3.5 Turbo) as \"baseline performance\" (70% decile). Check it out and drop a ❤️ if you think it could be useful or hit the Community section with suggestions / critiques.",
+    "link": "https://huggingface.co/posts/ZennyKenny/253232746889795",
+    "date": "2025-05-04 19:32:27",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_4846",
+    "author": "Ksenia Se",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64838b28c235ef76b63e4999/ZhQCYoU3vps71Ag7Jezj6.jpeg",
+    "title": "10 new Chain-of-Thoughts (CoT) methods",
+    "content": "10 new Chain-of-Thoughts (CoT) methods\n\nCoT has long been one of the hottest techniques in AI thanks to its effectiveness and compelling core idea: encouraging models to solve complex problems through explicit intermediate reasoning steps. But usually researchers modify original CoT approach, finding tips that further improve LLMs' reasoning. That's what we're going to talk about today.\n\nHere's a list of 10 latest enhanced CoT approaches:\n\n1. Chain-of-Defensive-Thought -> https://huggingface.co/papers/2504.20769\nProvides a few structured, defensive reasoning exemplars to improve the robustness of LLMs\n\n2. Hybrid-CoT -> https://huggingface.co/papers/2504.21659\nProposes using Adaptive Hybrid Reasoning Model (AdaR1) that combines Long- and Short-CoT, and applying bi-level preference training to select effective reasoning styles\n\n3. Semantic-level and token-level CoT -> https://huggingface.co/papers/2505.00703\nIntroduces T2I-R1 text-to-image gen model, that uses semantic-level CoT for prompt planning and token-level CoT for pixel-level generation, while BiCoT-GRPO coordinates them both\n\n4. Speculative CoT (SCoT) -> https://huggingface.co/papers/2504.19095\nSCoT drafts multiple reasoning paths with a lightweight draft, selects the best, and uses the target model for correction - all this to reduce latency by 48–66%\n\n5. Collaborative CoT (Co-CoT) -> https://huggingface.co/papers/2504.17091\nBreaks reasoning into blocks that users can inspect, modify and re-run, promoting active engagement. An adaptation mechanism aligns outputs with diverse cognitive styles and user goals\n\n6. XS-CoT -> https://huggingface.co/papers/2504.20835\nIt's a cross-lingual framework that integrates speech-to-text translation into reasoning, using a semi-implicit CoT approach to compress intermediate tokens. This improves non-core language responses by up to 45%\n\nRead further in the comments 👇\n\nIf you liked this, also subscribe to the Turing Post -> https://www.turingpost.com/subscribe",
+    "rawContent": "10 new Chain-of-Thoughts (CoT) methods\n\nCoT has long been one of the hottest techniques in AI thanks to its effectiveness and compelling core idea: encouraging models to solve complex problems through explicit intermediate reasoning steps. But usually researchers modify original CoT approach, finding tips that further improve LLMs' reasoning. That's what we're going to talk about today.\n\nHere's a list of 10 latest enhanced CoT approaches:\n\n1. Chain-of-Defensive-Thought -> https://huggingface.co/papers/2504.20769\nProvides a few structured, defensive reasoning exemplars to improve the robustness of LLMs\n\n2. Hybrid-CoT -> https://huggingface.co/papers/2504.21659\nProposes using Adaptive Hybrid Reasoning Model (AdaR1) that combines Long- and Short-CoT, and applying bi-level preference training to select effective reasoning styles\n\n3. Semantic-level and token-level CoT -> https://huggingface.co/papers/2505.00703\nIntroduces T2I-R1 text-to-image gen model, that uses semantic-level CoT for prompt planning and token-level CoT for pixel-level generation, while BiCoT-GRPO coordinates them both\n\n4. Speculative CoT (SCoT) -> https://huggingface.co/papers/2504.19095\nSCoT drafts multiple reasoning paths with a lightweight draft, selects the best, and uses the target model for correction - all this to reduce latency by 48–66%\n\n5. Collaborative CoT (Co-CoT) -> https://huggingface.co/papers/2504.17091\nBreaks reasoning into blocks that users can inspect, modify and re-run, promoting active engagement. An adaptation mechanism aligns outputs with diverse cognitive styles and user goals\n\n6. XS-CoT -> https://huggingface.co/papers/2504.20835\nIt's a cross-lingual framework that integrates speech-to-text translation into reasoning, using a semi-implicit CoT approach to compress intermediate tokens. This improves non-core language responses by up to 45%\n\nRead further in the comments 👇\n\nIf you liked this, also subscribe to the Turing Post -> https://www.turingpost.com/subscribe",
+    "link": "https://huggingface.co/posts/Kseniase/864305548620639",
+    "date": "2025-05-04 19:06:55",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  },
+  {
+    "id": "art_1746462904125_2924",
+    "author": "Bram Vanroy",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594192845975-5e1e17b6fcf41d740b6996a8.jpeg",
+    "title": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!",
+    "content": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!\n\nC5 is a large-scale effort to heavily filter web-crawled data, as collected by the non-profit Common Crawl, to only documents that are Creative Commons-licensed such as cc-by-4.0 or public domain cc0. At this stage 150 billion tokens have been collected.\n\n---\n📄 data: https://huggingface.co/datasets/BramVanroy/CommonCrawl-CreativeCommons\n🧰 software: https://github.com/BramVanroy/CommonCrawl-CreativeCommons\n---\n\n</> To build C5, HTML pages are scrutinized and all links (if any) to CC licenses are collected, both in regular hyperlinks as well as in metadata. Additional data fields are included such as \"was the license found in the `head`?\" or \"if multiple licenses were found, do they contradict each other?\", which makes further filtering a breeze. \n\n🌐 In this first version of C5, 8 languages are included (Afrikaans, German, English, French, Frysian, Italian, Dutch and Spanish). The language set was limited for two reasons: computational and storage limitations, and a collaboration with GPT-NL, which requested CC data for these languages to train a Dutch-focused, copyright-conscious LLM. In total, this V1 release contains almost 150 thousand documents and 150 billion tokens. This data was not filtered on quality nor deduplicated so that you can decide for yourself how much data to keep. To give some quality indication, a dataset field is present to describe whether a document is included in the FineWeb(-2) datasets, which are of high quality.\n\n🔍 More work needs to be done! Only 7 out of 100+ Common Crawl crawls have been processed so far. That's encouraging because it means there is a lot more Creative Commons data to be collected! But to get there I need help in terms of compute. The current processing was already heavily sponsored by the Flemish Supercomputer but more is needed. If you have the compute available and which to collaborate in an open and transparent manner, please get in touch! ",
+    "rawContent": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!\n\nC5 is a large-scale effort to heavily filter web-crawled data, as collected by the non-profit Common Crawl, to only documents that are Creative Commons-licensed such as cc-by-4.0 or public domain cc0. At this stage 150 billion tokens have been collected.\n\n---\n📄 data: https://huggingface.co/datasets/BramVanroy/CommonCrawl-CreativeCommons\n🧰 software: https://github.com/BramVanroy/CommonCrawl-CreativeCommons\n---\n\n</> To build C5, HTML pages are scrutinized and all links (if any) to CC licenses are collected, both in regular hyperlinks as well as in metadata. Additional data fields are included such as \"was the license found in the `head`?\" or \"if multiple licenses were found, do they contradict each other?\", which makes further filtering a breeze. \n\n🌐 In this first version of C5, 8 languages are included (Afrikaans, German, English, French, Frysian, Italian, Dutch and Spanish). The language set was limited for two reasons: computational and storage limitations, and a collaboration with GPT-NL, which requested CC data for these languages to train a Dutch-focused, copyright-conscious LLM. In total, this V1 release contains almost 150 thousand documents and 150 billion tokens. This data was not filtered on quality nor deduplicated so that you can decide for yourself how much data to keep. To give some quality indication, a dataset field is present to describe whether a document is included in the FineWeb(-2) datasets, which are of high quality.\n\n🔍 More work needs to be done! Only 7 out of 100+ Common Crawl crawls have been processed so far. That's encouraging because it means there is a lot more Creative Commons data to be collected! But to get there I need help in terms of compute. The current processing was already heavily sponsored by the Flemish Supercomputer but more is needed. If you have the compute available and which to collaborate in an open and transparent manner, please get in touch! ",
+    "link": "https://huggingface.co/posts/BramVanroy/471518743184430",
+    "date": "2025-05-04 18:49:42",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "huggingface"
+  }
+]

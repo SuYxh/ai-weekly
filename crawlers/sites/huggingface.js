@@ -1,9 +1,13 @@
-import { formatArticleData } from '../services/formatArticleData.js'
-import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
+import { formatArticleData, generateArticleFile, generateHtmlFile } from "../services/index.js";
+import { parseDateString, filterRecentNews, mergeGptWithArticles, generateArticleId } from "../../utils/index.js";
+import { classifyArticleListForWeekly } from "../../ai/services/classifyArticleListForWeekly.js";
+
+const PLATFORM = 'huggingface'
 
 
 export async function crawlHuggingfaceNews({ skip = 0 }) {
     console.log(`📥 正在抓取 HuggingFace 资讯...`);
+
     const response = await fetch(`https://huggingface.co/api/posts?skip=${skip}&sort=recent`, {
         headers: {
             'User-Agent': 'Mozilla/5.0',
@@ -13,6 +17,8 @@ export async function crawlHuggingfaceNews({ skip = 0 }) {
 
     const data = await response.json();
 
+    await generateHtmlFile({ platform: PLATFORM, html: data, ext: 'txt' })
+
     const rawPosts = data?.socialPosts || [];
 
     const parsed = [];
@@ -20,35 +26,34 @@ export async function crawlHuggingfaceNews({ skip = 0 }) {
     for (const [index, post] of rawPosts.entries()) {
         const coverImage = post.attachments?.find(a => a.type === 'image')?.url;
 
-        // const summary = await summarizeText(post.rawContent); // ⬅️ 添加自动摘要
-        // const content = await translateText(post.rawContent); // ⬅️ 添加自动翻译
-
-        const summary = ''; // ⬅️ 添加自动摘要
-        const content = ''; // ⬅️ 添加自动翻译
-
         const formattedArticle = formatArticleData({
+            id: generateArticleId(),
             author: post.author.fullname,
             avatar: post.author.avatarUrl,
             title: post.rawContent.split('\n')[0].trim(),
-            content,
+            content: post.rawContent,
             rawContent: post.rawContent,
             link: `https://huggingface.co${post.url}`,
             date: parseDateString(post.publishedAt),
-            summary,
+            summary: '',
             img: coverImage,
-            platform: 'huggingface',
+            platform: PLATFORM,
         })
 
         parsed.push(formattedArticle);
     }
 
-
+    // 过滤最近的新闻
     const recentNews = filterRecentNews(parsed);
 
-    // 使用 __dirname 构建路径 (代码不变)
-    const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'huggingface-news.json');
-    await writeFileContent(outputFilePath, recentNews)
+    // 调用大模型进行分类
+    const classifiedArticles = await classifyArticleListForWeekly(recentNews);
 
-    console.log(`✅ 共抓取 ${recentNews.length} 条资讯 ✅`);
-    return recentNews;
+    // 合并 GPT 数据
+    const mergedArticles = mergeGptWithArticles(classifiedArticles, recentNews);
+
+    // 生成 log 文件
+    await generateArticleFile({ platform: PLATFORM, mergedArticles, recentNews })
+
+    return mergedArticles;
 }

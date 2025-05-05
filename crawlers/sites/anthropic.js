@@ -1,14 +1,19 @@
-import { fetchHtml, formatArticleData } from "../services/index.js";
-import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
+import { fetchHtml, formatArticleData, generateArticleFile, generateHtmlFile } from "../services/index.js";
+import { parseDateString, filterRecentNews, mergeGptWithArticles, generateArticleId } from "../../utils/index.js";
+import { classifyArticleListForWeekly } from "../../ai/services/classifyArticleListForWeekly.js";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
 const BASE_URL = "https://www.anthropic.com/news";
+const PLATFORM = 'anthropic'
+
 
 async function fetchAnthropicNews() {
     console.log(`📥 正在抓取 Anthropic 资讯...`);
     const html = await fetchHtml(BASE_URL)
+
+    generateHtmlFile({ platform: PLATFORM, html })
 
     const $ = cheerio.load(html);
     const articles = [];
@@ -27,6 +32,7 @@ async function fetchAnthropicNews() {
 
         if (title && url) {
             const formattedArticle = formatArticleData({
+                id: generateArticleId(),
                 author: "Anthropic",
                 title,
                 content: '',
@@ -36,7 +42,7 @@ async function fetchAnthropicNews() {
                 summary: '',
                 img: coverImage,
                 category: [category],
-                platform: 'Anthropic',
+                platform: PLATFORM,
             })
 
             articles.push(formattedArticle);
@@ -49,20 +55,21 @@ async function fetchAnthropicNews() {
 
 
 export async function crawlAnthropicNews() {
+    // 所有的信息
     const allNews = await fetchAnthropicNews()
 
-    // 使用 __dirname 构建路径 (代码不变)
-    const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'anthropic-news.json');
-    await writeFileContent(outputFilePath, allNews)
+    // 过滤最近的新闻
+    const recentNews = filterRecentNews(allNews)
 
-    let recentTwoWeeksNews = filterRecentNews(allNews);
-    console.log(`🔍 筛选出最近 2 周发布的 ${recentTwoWeeksNews.length} 条资讯 🔍`);
+    // 调用大模型进行分类
+    const classifiedArticles = await classifyArticleListForWeekly(recentNews);
 
-    if (recentTwoWeeksNews.length === 0) {
-        console.log("❌ 最近 2 周没有发布新的资讯 ❌, 准备获取最近 1 个月的资讯...");
-        recentTwoWeeksNews = filterRecentNews(allNews, 30);
-    }
+    // 合并 GPT 数据
+    const mergedArticles = mergeGptWithArticles(classifiedArticles, recentNews);
 
-    return recentTwoWeeksNews
+    // 生成 log 文件
+    await generateArticleFile({ platform: PLATFORM, mergedArticles, recentNews })
+
+    return mergedArticles
 }
 

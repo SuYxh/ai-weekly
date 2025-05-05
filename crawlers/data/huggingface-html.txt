@@ -1,0 +1,1838 @@
+{
+  "socialPosts": [
+    {
+      "slug": "432481894400843",
+      "content": [
+        {
+          "type": "text",
+          "value": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯",
+          "raw": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "✅ fully open sourced + amazing quality + reduced memory + improved speed",
+          "raw": "✅ fully open sourced + amazing quality + reduced memory + improved speed"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "but more even - its gonna facilitate *soooo* many downstream applications",
+          "raw": "but more even - its gonna facilitate *soooo* many downstream applications"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "like this version adapted for landscape rotation 👇https://huggingface.co/spaces/tori29umai/FramePack_rotate_landscape",
+          "raw": "like this version adapted for landscape rotation 👇https://huggingface.co/spaces/tori29umai/FramePack_rotate_landscape"
+        }
+      ],
+      "rawContent": "FramePack is hands down one of the best OS releases in video generation 🙇🏻‍♀️🤯\n✅ fully open sourced + amazing quality + reduced memory + improved speed\nbut more even - its gonna facilitate *soooo* many downstream applications\nlike this version adapted for landscape rotation 👇https://huggingface.co/spaces/tori29umai/FramePack_rotate_landscape",
+      "author": {
+        "_id": "638f308fc4444c6ca870b60a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f308fc4444c6ca870b60a/Q11NK-8-JbiilJ-vk2LAR.png",
+        "fullname": "Linoy Tsaban",
+        "name": "linoyts",
+        "type": "user",
+        "isPro": true,
+        "isHf": true,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 247,
+        "isFollowing": false
+      },
+      "attachments": [
+        {
+          "type": "video",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/638f308fc4444c6ca870b60a/cBt608NnSrdLL_5mShjVa.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/638f308fc4444c6ca870b60a/Gj-k7TVodJvTOenrQuhmD.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/638f308fc4444c6ca870b60a/jhnCKE21v3ygcYyKiO0pn.mp4"
+        }
+      ],
+      "mentions": [],
+      "reactions": [],
+      "publishedAt": "2025-05-05T16:21:50.000Z",
+      "updatedAt": "2025-05-05T16:22:06.495Z",
+      "commentators": [],
+      "url": "/posts/linoyts/432481894400843",
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.8344252109527588
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "906373389478833",
+      "content": [
+        {
+          "type": "text",
+          "value": "Intellite Chat training script is working!",
+          "raw": "Intellite Chat training script is working!"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Training works fine, normal loss, no more gradient explosion or gradient vanishing, etc.",
+          "raw": "Training works fine, normal loss, no more gradient explosion or gradient vanishing, etc."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "BUT, before I officially flip the switch and turn on training, I wanna make sure its the best possible 100m parameter model it can be, so I am working a bit more (probably an extra 3-5 days) to add even more innovative AI improvements to intellite. ",
+          "raw": "BUT, before I officially flip the switch and turn on training, I wanna make sure its the best possible 100m parameter model it can be, so I am working a bit more (probably an extra 3-5 days) to add even more innovative AI improvements to intellite. "
+        }
+      ],
+      "rawContent": "Intellite Chat training script is working!\n\nTraining works fine, normal loss, no more gradient explosion or gradient vanishing, etc.\nBUT, before I officially flip the switch and turn on training, I wanna make sure its the best possible 100m parameter model it can be, so I am working a bit more (probably an extra 3-5 days) to add even more innovative AI improvements to intellite. ",
+      "author": {
+        "_id": "658a4c914bb41498f7d5e3ca",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658a4c914bb41498f7d5e3ca/zMJjxfazi9ePc7GZ1jRAE.jpeg",
+        "fullname": "Pro Creations",
+        "name": "ProCreations",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 20,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "Clausss",
+            "John6666"
+          ],
+          "count": 2
+        }
+      ],
+      "publishedAt": "2025-05-05T06:12:04.000Z",
+      "updatedAt": "2025-05-05T06:12:04.360Z",
+      "commentators": [],
+      "url": "/posts/ProCreations/906373389478833",
+      "totalUniqueImpressions": 858,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.8576118350028992
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "638579217973846",
+      "content": [
+        {
+          "type": "text",
+          "value": "FinSightX: Your AI Financial Co-Pilot",
+          "raw": "FinSightX: Your AI Financial Co-Pilot"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "FinSightX is a multi-agent financial assistant powered by language models. Designed for analysts, investors, and fintech developers, it combines insights from multiple domains into a single, sleek Streamlit interface.",
+          "raw": "FinSightX is a multi-agent financial assistant powered by language models. Designed for analysts, investors, and fintech developers, it combines insights from multiple domains into a single, sleek Streamlit interface."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Features",
+          "raw": "Features"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Equity Analyst Agent → Ask questions about stocks, indicators, performance.",
+          "raw": "Equity Analyst Agent → Ask questions about stocks, indicators, performance."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Macro Strategist Agent → Get macroeconomic insights using language models.",
+          "raw": "Macro Strategist Agent → Get macroeconomic insights using language models."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "News Summarizer Agent → Summarizes market headlines instantly.",
+          "raw": "News Summarizer Agent → Summarizes market headlines instantly."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Quant Backtester Agent → Run basic backtests using bt.",
+          "raw": "Quant Backtester Agent → Run basic backtests using bt."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Regulatory Radar Agent → Monitor policy shifts and alerts.",
+          "raw": "Regulatory Radar Agent → Monitor policy shifts and alerts."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Client Advisor Agent → Assist with client queries or hypothetical portfolios.",
+          "raw": "Client Advisor Agent → Assist with client queries or hypothetical portfolios."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Tech Stack",
+          "raw": "Tech Stack"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "transformers, sentence-transformers",
+          "raw": "transformers, sentence-transformers"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "torch, scikit-learn, neuralprophet",
+          "raw": "torch, scikit-learn, neuralprophet"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "bt for strategy backtesting",
+          "raw": "bt for strategy backtesting"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "chromadb for vector storage",
+          "raw": "chromadb for vector storage"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Streamlit + FastAPI for UI/backend",
+          "raw": "Streamlit + FastAPI for UI/backend"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Developed and maintained by ",
+          "raw": "Developed and maintained by "
+        },
+        {
+          "type": "mention",
+          "user": "Raahul-Thakur",
+          "raw": "@Raahul-Thakur"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Live Space: ",
+          "raw": "Live Space: "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "space",
+            "id": "Raahulthakur/FinsightX"
+          },
+          "url": "https://huggingface.co/spaces/Raahulthakur/FinsightX",
+          "raw": "https://huggingface.co/spaces/Raahulthakur/FinsightX"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Built using open-source tools and financial domain knowledge. Contributions, feedback, and forks welcome!",
+          "raw": "Built using open-source tools and financial domain knowledge. Contributions, feedback, and forks welcome!"
+        }
+      ],
+      "rawContent": "FinSightX: Your AI Financial Co-Pilot\nFinSightX is a multi-agent financial assistant powered by language models. Designed for analysts, investors, and fintech developers, it combines insights from multiple domains into a single, sleek Streamlit interface.\n\nFeatures\nEquity Analyst Agent → Ask questions about stocks, indicators, performance.\n\nMacro Strategist Agent → Get macroeconomic insights using language models.\nNews Summarizer Agent → Summarizes market headlines instantly.\nQuant Backtester Agent → Run basic backtests using bt.\nRegulatory Radar Agent → Monitor policy shifts and alerts.\nClient Advisor Agent → Assist with client queries or hypothetical portfolios.\n\nTech Stack\ntransformers, sentence-transformers\ntorch, scikit-learn, neuralprophet\nbt for strategy backtesting\nchromadb for vector storage\nStreamlit + FastAPI for UI/backend\n\nDeveloped and maintained by @Raahul-Thakur\nLive Space: https://huggingface.co/spaces/Raahulthakur/FinsightX\n\nBuilt using open-source tools and financial domain knowledge. Contributions, feedback, and forks welcome!",
+      "author": {
+        "_id": "66a4c25dc44ffdaf67f6927a",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a4c25dc44ffdaf67f6927a/Jlj4tIwF7spz5pwRs94UO.jpeg",
+        "fullname": "raahul thakur",
+        "name": "Raahulthakur",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 1,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "❤️",
+          "users": [
+            "Raahulthakur",
+            "seonggyu",
+            "John6666"
+          ],
+          "count": 3
+        }
+      ],
+      "publishedAt": "2025-05-05T02:22:33.000Z",
+      "updatedAt": "2025-05-05T08:06:38.610Z",
+      "commentators": [],
+      "url": "/posts/Raahulthakur/638579217973846",
+      "totalUniqueImpressions": 1380,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.7920702695846558
+      },
+      "numComments": 2
+    },
+    {
+      "slug": "966135943196710",
+      "content": [
+        {
+          "type": "text",
+          "value": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent",
+          "raw": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Ever been stuck debugging buttons that don’t work? Broken flows? Inconsistent UI behavior?",
+          "raw": "Ever been stuck debugging buttons that don’t work? Broken flows? Inconsistent UI behavior?"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "VUDA sees it, clicks it, fixes it.",
+          "raw": "VUDA sees it, clicks it, fixes it."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "An automated visual debug agent that inspects, validates, and repairs your UI — like magic 🧠✨ Better that any other playwright / puppeteer. ",
+          "raw": "An automated visual debug agent that inspects, validates, and repairs your UI — like magic 🧠✨ Better that any other playwright / puppeteer. "
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔧 Install now via Smithery:",
+          "raw": "🔧 Install now via Smithery:"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "npx -y ",
+          "raw": "npx -y "
+        },
+        {
+          "type": "mention",
+          "user": "smithery",
+          "raw": "@smithery"
+        },
+        {
+          "type": "text",
+          "value": "/cli@latest install ",
+          "raw": "/cli@latest install "
+        },
+        {
+          "type": "mention",
+          "user": "samihalawa",
+          "raw": "@samihalawa"
+        },
+        {
+          "type": "text",
+          "value": "/visual-ui-debug-agent-mcp --client cursor",
+          "raw": "/visual-ui-debug-agent-mcp --client cursor"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⸻",
+          "raw": "⸻"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Want a shorter alt for social media too?",
+          "raw": "Want a shorter alt for social media too?"
+        }
+      ],
+      "rawContent": "HELLO GUYS 🚀 Just released my first MCP: VUDA – Visual UI Debug Agent\nEver been stuck debugging buttons that don’t work? Broken flows? Inconsistent UI behavior?\n\nVUDA sees it, clicks it, fixes it.\nAn automated visual debug agent that inspects, validates, and repairs your UI — like magic 🧠✨ Better that any other playwright / puppeteer. \n\n🔧 Install now via Smithery:\n\nnpx -y @smithery/cli@latest install @samihalawa/visual-ui-debug-agent-mcp --client cursor\n\n\n\n⸻\n\nWant a shorter alt for social media too?",
+      "author": {
+        "_id": "65d00458fff501149572827f",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d00458fff501149572827f/E6nxYRxqRmBGRf9wSQq4Y.jpeg",
+        "fullname": "Sami Halawa",
+        "name": "samihalawa",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 100,
+        "isFollowing": false
+      },
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/65d00458fff501149572827f/UXLoV6FCtQyGBqekAn9p3.png"
+        }
+      ],
+      "mentions": [
+        {
+          "_id": "65d00458fff501149572827f",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d00458fff501149572827f/E6nxYRxqRmBGRf9wSQq4Y.jpeg",
+          "fullname": "Sami Halawa",
+          "name": "samihalawa",
+          "type": "user",
+          "isPro": true,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false,
+          "followerCount": 100
+        },
+        {
+          "_id": "67be681889d80319d66b6385",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/VomIPAXdo58qMUlCBTDvq.png",
+          "fullname": "tech",
+          "name": "smithery",
+          "type": "user",
+          "isPro": false,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "Raahulthakur",
+            "John6666",
+            "Viac",
+            "SujaySN",
+            "Rutvik123"
+          ],
+          "count": 5
+        }
+      ],
+      "publishedAt": "2025-05-04T23:56:21.000Z",
+      "updatedAt": "2025-05-04T23:56:21.816Z",
+      "commentators": [],
+      "url": "/posts/samihalawa/966135943196710",
+      "totalUniqueImpressions": 1087,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.7191959619522095
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "617263708184375",
+      "content": [
+        {
+          "type": "text",
+          "value": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models.",
+          "raw": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Code Debugger",
+          "raw": "Code Debugger"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Submit your code (supports PHP, Python, JavaScript, HTML, SQL, CSS, and more)",
+          "raw": "⭐ Submit your code (supports PHP, Python, JavaScript, HTML, SQL, CSS, and more)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Receive a detailed AI-generated bug report with suggestions for improvement",
+          "raw": "⭐ Receive a detailed AI-generated bug report with suggestions for improvement"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Code Formatter",
+          "raw": "Code Formatter"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Submit your code (same language support)",
+          "raw": "⭐ Submit your code (same language support)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Instantly receive clean, consistently formatted code",
+          "raw": "⭐ Instantly receive clean, consistently formatted code"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "For both tools:",
+          "raw": "For both tools:"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Supports virtually any programming language",
+          "raw": "⭐ Supports virtually any programming language"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ No sign-up or login required",
+          "raw": "⭐ No sign-up or login required"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "⭐ Your code is automatically deleted after 24 hours for privacy",
+          "raw": "⭐ Your code is automatically deleted after 24 hours for privacy"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Give it a try:",
+          "raw": "Give it a try:"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "👉 ",
+          "raw": "👉 "
+        },
+        {
+          "type": "link",
+          "href": "https://CodeDebugger.ai/",
+          "raw": "https://CodeDebugger.ai/"
+        }
+      ],
+      "rawContent": "CodeDebugger.ai is a free suite of AI-powered tools built for developers. Instantly debug or format your code with help from advanced language models.\n\nCode Debugger\n⭐ Submit your code (supports PHP, Python, JavaScript, HTML, SQL, CSS, and more)\n⭐ Receive a detailed AI-generated bug report with suggestions for improvement\n\nCode Formatter\n⭐ Submit your code (same language support)\n⭐ Instantly receive clean, consistently formatted code\n\nFor both tools:\n⭐ Supports virtually any programming language\n⭐ No sign-up or login required\n⭐ Your code is automatically deleted after 24 hours for privacy\n\nGive it a try:\n👉 https://CodeDebugger.ai/",
+      "author": {
+        "_id": "6807e05270a0cec724c2322d",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6807e05270a0cec724c2322d/oGoVu3Zzvzj3piKdlm3xF.png",
+        "fullname": "Caden Holman",
+        "name": "CadenHolman",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "Raahulthakur",
+            "John6666"
+          ],
+          "count": 2
+        }
+      ],
+      "publishedAt": "2025-05-04T22:57:39.000Z",
+      "updatedAt": "2025-05-04T22:57:39.608Z",
+      "commentators": [],
+      "url": "/posts/CadenHolman/617263708184375",
+      "totalUniqueImpressions": 885,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.8460816144943237
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "896622962900908",
+      "content": [
+        {
+          "type": "text",
+          "value": "🖼️ PublicDomainFiles.com Collection - ",
+          "raw": "🖼️ PublicDomainFiles.com Collection - "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "dataset",
+            "id": "nyuuzyou/publicdomainfiles"
+          },
+          "url": "https://huggingface.co/datasets/nyuuzyou/publicdomainfiles",
+          "raw": "https://huggingface.co/datasets/nyuuzyou/publicdomainfiles"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Collection of 206,204 Public Domain multimedia files featuring:",
+          "raw": "Collection of 206,204 Public Domain multimedia files featuring:"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "- Comprehensive metadata: title, description, creator name, keywords, original page URL, and more.",
+          "raw": "- Comprehensive metadata: title, description, creator name, keywords, original page URL, and more."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "- Contains various media types including images, clip art, artwork, fonts, videos, and TV shows.",
+          "raw": "- Contains various media types including images, clip art, artwork, fonts, videos, and TV shows."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "- All content explicitly released into the public domain under the CC0 license.",
+          "raw": "- All content explicitly released into the public domain under the CC0 license."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "- Organized in a single ",
+          "raw": "- Organized in a single "
+        },
+        {
+          "type": "inline_code",
+          "code": "train",
+          "raw": "`train`"
+        },
+        {
+          "type": "text",
+          "value": " split with 206,204 entries.",
+          "raw": " split with 206,204 entries."
+        }
+      ],
+      "rawContent": "🖼️ PublicDomainFiles.com Collection - https://huggingface.co/datasets/nyuuzyou/publicdomainfiles\n\nCollection of 206,204 Public Domain multimedia files featuring:\n\n- Comprehensive metadata: title, description, creator name, keywords, original page URL, and more.\n- Contains various media types including images, clip art, artwork, fonts, videos, and TV shows.\n- All content explicitly released into the public domain under the CC0 license.\n- Organized in a single `train` split with 206,204 entries.",
+      "author": {
+        "_id": "643ac5d2e2b979ae6144d68c",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643ac5d2e2b979ae6144d68c/Z7PCNopn4cQeAYnVJDoqG.png",
+        "fullname": "nyuuzyou",
+        "name": "nyuuzyou",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 221,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "Raahulthakur",
+            "John6666",
+            "kristaller486",
+            "multimodalart"
+          ],
+          "count": 4
+        }
+      ],
+      "publishedAt": "2025-05-04T21:19:00.000Z",
+      "updatedAt": "2025-05-04T21:19:00.678Z",
+      "commentators": [],
+      "url": "/posts/nyuuzyou/896622962900908",
+      "totalUniqueImpressions": 1002,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.7439567446708679
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "846082369642024",
+      "content": [
+        {
+          "type": "text",
+          "value": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality",
+          "raw": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Tutorial Link",
+          "raw": "Tutorial Link"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "link",
+          "href": "https://youtu.be/fTzlQ0tjxj0",
+          "raw": "https://youtu.be/fTzlQ0tjxj0"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Tutorial Information",
+          "raw": "Tutorial Information"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "If you want to generate the very best AI videos and images on your Windows computer locally this is the tutorial that you were looking for. Literally 1-click to install most powerful and advanced generative AI interface SwarmUI (with Flash Attention, Sage Attention, Triton, DeepSpeed, xFormers, RTX 5000 series perfect compatibility) and download the very best AI image and video generation models with ultra advanced model downloader Gradio app. SwarmUI utilizes the famous and most powerful, advanced, performant and optimized ComfyUI as a backend. So SwarmUI is the ultimate generative AI tool at the moment with vast amount of features and constant updates.",
+          "raw": "If you want to generate the very best AI videos and images on your Windows computer locally this is the tutorial that you were looking for. Literally 1-click to install most powerful and advanced generative AI interface SwarmUI (with Flash Attention, Sage Attention, Triton, DeepSpeed, xFormers, RTX 5000 series perfect compatibility) and download the very best AI image and video generation models with ultra advanced model downloader Gradio app. SwarmUI utilizes the famous and most powerful, advanced, performant and optimized ComfyUI as a backend. So SwarmUI is the ultimate generative AI tool at the moment with vast amount of features and constant updates."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Tutorial Important Download Links App Links",
+          "raw": "Tutorial Important Download Links App Links"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔗Follow below link to download the zip file that contains SwarmUI installer and AI models downloader Gradio App - the one used in the tutorial ⤵️",
+          "raw": "🔗Follow below link to download the zip file that contains SwarmUI installer and AI models downloader Gradio App - the one used in the tutorial ⤵️"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "▶️ ",
+          "raw": "▶️ "
+        },
+        {
+          "type": "link",
+          "href": "https://www.patreon.com/posts/SwarmUI-Installer-AI-Videos-Downloader-114517862",
+          "raw": "https://www.patreon.com/posts/SwarmUI-Installer-AI-Videos-Downloader-114517862"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔗Follow below link to download the zip file that contains ComfyUI 1-click installer that has all the Flash Attention, Sage Attention, xFormers, Triton, DeepSpeed, RTX 5000 series support ⤵️",
+          "raw": "🔗Follow below link to download the zip file that contains ComfyUI 1-click installer that has all the Flash Attention, Sage Attention, xFormers, Triton, DeepSpeed, RTX 5000 series support ⤵️"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "▶️ ",
+          "raw": "▶️ "
+        },
+        {
+          "type": "link",
+          "href": "https://www.patreon.com/posts/Advanced-ComfyUI-1-Click-Installer-105023709",
+          "raw": "https://www.patreon.com/posts/Advanced-ComfyUI-1-Click-Installer-105023709"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔗 Python, Git, CUDA, C++, FFMPEG, MSVC installation tutorial - needed for ComfyUI ⤵️",
+          "raw": "🔗 Python, Git, CUDA, C++, FFMPEG, MSVC installation tutorial - needed for ComfyUI ⤵️"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "▶️ ",
+          "raw": "▶️ "
+        },
+        {
+          "type": "link",
+          "href": "https://youtu.be/DrhUHnYfwC0",
+          "raw": "https://youtu.be/DrhUHnYfwC0"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔗 SECourses Official Discord 10500+ Members ⤵️",
+          "raw": "🔗 SECourses Official Discord 10500+ Members ⤵️"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "▶️ ",
+          "raw": "▶️ "
+        },
+        {
+          "type": "link",
+          "href": "https://discord.com/servers/software-engineering-courses-secourses-772774097734074388",
+          "raw": "https://discord.com/servers/software-engineering-courses-secourses-772774097734074388"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔗 Stable Diffusion, FLUX, Generative AI Tutorials and Resources GitHub ⤵️",
+          "raw": "🔗 Stable Diffusion, FLUX, Generative AI Tutorials and Resources GitHub ⤵️"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "▶️ ",
+          "raw": "▶️ "
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/FurkanGozukara/Stable-Diffusion",
+          "raw": "https://github.com/FurkanGozukara/Stable-Diffusion"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        }
+      ],
+      "rawContent": "Just published a tutorial that shows how to properly install ComfyUI, SwarmUI, use installed ComfyUI as a backend in SwarmUI with absolutely maximum best performance such as out of the box Sage Attention, Flash Attention, RTX 5000 Series support and more. Also how to upscale images with max quality\n\nTutorial Link\n\nhttps://youtu.be/fTzlQ0tjxj0\n\nTutorial Information\n\nIf you want to generate the very best AI videos and images on your Windows computer locally this is the tutorial that you were looking for. Literally 1-click to install most powerful and advanced generative AI interface SwarmUI (with Flash Attention, Sage Attention, Triton, DeepSpeed, xFormers, RTX 5000 series perfect compatibility) and download the very best AI image and video generation models with ultra advanced model downloader Gradio app. SwarmUI utilizes the famous and most powerful, advanced, performant and optimized ComfyUI as a backend. So SwarmUI is the ultimate generative AI tool at the moment with vast amount of features and constant updates.\n\nTutorial Important Download Links App Links\n🔗Follow below link to download the zip file that contains SwarmUI installer and AI models downloader Gradio App - the one used in the tutorial ⤵️\n\n▶️ https://www.patreon.com/posts/SwarmUI-Installer-AI-Videos-Downloader-114517862\n\n🔗Follow below link to download the zip file that contains ComfyUI 1-click installer that has all the Flash Attention, Sage Attention, xFormers, Triton, DeepSpeed, RTX 5000 series support ⤵️\n\n▶️ https://www.patreon.com/posts/Advanced-ComfyUI-1-Click-Installer-105023709\n\n🔗 Python, Git, CUDA, C++, FFMPEG, MSVC installation tutorial - needed for ComfyUI ⤵️\n\n▶️ https://youtu.be/DrhUHnYfwC0\n\n🔗 SECourses Official Discord 10500+ Members ⤵️\n\n▶️ https://discord.com/servers/software-engineering-courses-secourses-772774097734074388\n\n🔗 Stable Diffusion, FLUX, Generative AI Tutorials and Resources GitHub ⤵️\n\n▶️ https://github.com/FurkanGozukara/Stable-Diffusion\n",
+      "author": {
+        "_id": "6345bd89fe134dfd7a0dba40",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6345bd89fe134dfd7a0dba40/72EZjBiatKqqsu96txd_v.jpeg",
+        "fullname": "Furkan Gözükara",
+        "name": "MonsterMMORPG",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 576,
+        "isFollowing": false
+      },
+      "attachments": [
+        {
+          "type": "image",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/6345bd89fe134dfd7a0dba40/DaGCK7J_kbOrw9e-grW9d.png"
+        },
+        {
+          "type": "image",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/6345bd89fe134dfd7a0dba40/8PopSV2C0euUvH2Sb-hjd.png"
+        },
+        {
+          "type": "image",
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/6345bd89fe134dfd7a0dba40/fWnbSPZoO3PuqbYFyqIzo.png"
+        }
+      ],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "👀",
+          "users": [
+            "MonsterMMORPG",
+            "John6666"
+          ],
+          "count": 2
+        },
+        {
+          "reaction": "❤️",
+          "users": [
+            "MonsterMMORPG",
+            "TheSlimer"
+          ],
+          "count": 2
+        },
+        {
+          "reaction": "🔥",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "🚀",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "🤗",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "😎",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "➕",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "🧠",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "👍",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "🤝",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        },
+        {
+          "reaction": "🤯",
+          "users": [
+            "MonsterMMORPG"
+          ],
+          "count": 1
+        }
+      ],
+      "publishedAt": "2025-05-04T21:16:26.000Z",
+      "updatedAt": "2025-05-04T21:16:26.636Z",
+      "commentators": [],
+      "url": "/posts/MonsterMMORPG/846082369642024",
+      "totalUniqueImpressions": 1132,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.8362880349159241
+      },
+      "numComments": 0
+    },
+    {
+      "slug": "253232746889795",
+      "content": [
+        {
+          "type": "text",
+          "value": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥 ",
+          "raw": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥 "
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "With the rise of Vibe Coding, and the potential risks that are introduced by humans letting LLMs build their apps for them, lots of people are (rightfully) concerned about the safety of the code that is hitting prod.",
+          "raw": "With the rise of Vibe Coding, and the potential risks that are introduced by humans letting LLMs build their apps for them, lots of people are (rightfully) concerned about the safety of the code that is hitting prod."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "In response to that, I'm happy to present my final submission to the Reasoning Dataset Competition and attempt to start benchmarking the ability of LLMs to identify unsafe and / or exploitable code by way of the CoSa (Code Safety) benchmark: ",
+          "raw": "In response to that, I'm happy to present my final submission to the Reasoning Dataset Competition and attempt to start benchmarking the ability of LLMs to identify unsafe and / or exploitable code by way of the CoSa (Code Safety) benchmark: "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "dataset",
+            "id": "ZennyKenny/cosa-benchmark-dataset"
+          },
+          "url": "https://huggingface.co/datasets/ZennyKenny/cosa-benchmark-dataset",
+          "raw": "https://huggingface.co/datasets/ZennyKenny/cosa-benchmark-dataset"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Currently a curated set of 200 examples, calibrated on OpenAI's standard issue models (GPT-4.1, o4 mini, and GPT-3.5 Turbo) as \"baseline performance\" (70% decile). Check it out and drop a ❤️ if you think it could be useful or hit the Community section with suggestions / critiques.",
+          "raw": "Currently a curated set of 200 examples, calibrated on OpenAI's standard issue models (GPT-4.1, o4 mini, and GPT-3.5 Turbo) as \"baseline performance\" (70% decile). Check it out and drop a ❤️ if you think it could be useful or hit the Community section with suggestions / critiques."
+        }
+      ],
+      "rawContent": "When I heard the Reasoning Dataset Competition deadline was extended to 9 May, I knew I had time to get in one more entry. 🔥🔥🔥 \n\nWith the rise of Vibe Coding, and the potential risks that are introduced by humans letting LLMs build their apps for them, lots of people are (rightfully) concerned about the safety of the code that is hitting prod.\n\nIn response to that, I'm happy to present my final submission to the Reasoning Dataset Competition and attempt to start benchmarking the ability of LLMs to identify unsafe and / or exploitable code by way of the CoSa (Code Safety) benchmark: https://huggingface.co/datasets/ZennyKenny/cosa-benchmark-dataset\n\nCurrently a curated set of 200 examples, calibrated on OpenAI's standard issue models (GPT-4.1, o4 mini, and GPT-3.5 Turbo) as \"baseline performance\" (70% decile). Check it out and drop a ❤️ if you think it could be useful or hit the Community section with suggestions / critiques.",
+      "author": {
+        "_id": "656e3808d4de03a07d116850",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656e3808d4de03a07d116850/62cFw46AmuhdI3gS24F1M.jpeg",
+        "fullname": "Kenneth Hamilton",
+        "name": "ZennyKenny",
+        "type": "user",
+        "isPro": true,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 68,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "ACOT",
+            "Muizzzz8",
+            "John6666"
+          ],
+          "count": 3
+        }
+      ],
+      "publishedAt": "2025-05-04T11:32:27.000Z",
+      "updatedAt": "2025-05-04T14:10:10.849Z",
+      "commentators": [
+        {
+          "_id": "659a224de1604bf9968d23dd",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/QXt_m3AziUMHHOOFVOcsD.jpeg",
+          "fullname": "NMN",
+          "name": "PATHANB",
+          "type": "user",
+          "isPro": false,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false,
+          "isFollowing": false
+        },
+        {
+          "_id": "656e3808d4de03a07d116850",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656e3808d4de03a07d116850/62cFw46AmuhdI3gS24F1M.jpeg",
+          "fullname": "Kenneth Hamilton",
+          "name": "ZennyKenny",
+          "type": "user",
+          "isPro": true,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false,
+          "followerCount": 68,
+          "isFollowing": false
+        }
+      ],
+      "url": "/posts/ZennyKenny/253232746889795",
+      "totalUniqueImpressions": 1795,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.9377416968345642
+      },
+      "numComments": 2
+    },
+    {
+      "slug": "864305548620639",
+      "content": [
+        {
+          "type": "text",
+          "value": "10 new Chain-of-Thoughts (CoT) methods",
+          "raw": "10 new Chain-of-Thoughts (CoT) methods"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "CoT has long been one of the hottest techniques in AI thanks to its effectiveness and compelling core idea: encouraging models to solve complex problems through explicit intermediate reasoning steps. But usually researchers modify original CoT approach, finding tips that further improve LLMs' reasoning. That's what we're going to talk about today.",
+          "raw": "CoT has long been one of the hottest techniques in AI thanks to its effectiveness and compelling core idea: encouraging models to solve complex problems through explicit intermediate reasoning steps. But usually researchers modify original CoT approach, finding tips that further improve LLMs' reasoning. That's what we're going to talk about today."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Here's a list of 10 latest enhanced CoT approaches:",
+          "raw": "Here's a list of 10 latest enhanced CoT approaches:"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "1. Chain-of-Defensive-Thought -> ",
+          "raw": "1. Chain-of-Defensive-Thought -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2504.20769"
+          },
+          "url": "https://huggingface.co/papers/2504.20769",
+          "raw": "https://huggingface.co/papers/2504.20769",
+          "label": "Chain-of-Defensive-Thought: Structured Reasoning Elicits Robustness in\n  Large Language Models against Reference Corruption (2504.20769)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Provides a few structured, defensive reasoning exemplars to improve the robustness of LLMs",
+          "raw": "Provides a few structured, defensive reasoning exemplars to improve the robustness of LLMs"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "2. Hybrid-CoT -> ",
+          "raw": "2. Hybrid-CoT -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2504.21659"
+          },
+          "url": "https://huggingface.co/papers/2504.21659",
+          "raw": "https://huggingface.co/papers/2504.21659",
+          "label": "AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning\n  Optimization (2504.21659)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Proposes using Adaptive Hybrid Reasoning Model (AdaR1) that combines Long- and Short-CoT, and applying bi-level preference training to select effective reasoning styles",
+          "raw": "Proposes using Adaptive Hybrid Reasoning Model (AdaR1) that combines Long- and Short-CoT, and applying bi-level preference training to select effective reasoning styles"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "3. Semantic-level and token-level CoT -> ",
+          "raw": "3. Semantic-level and token-level CoT -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2505.00703"
+          },
+          "url": "https://huggingface.co/papers/2505.00703",
+          "raw": "https://huggingface.co/papers/2505.00703",
+          "label": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level\n  and Token-level CoT (2505.00703)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Introduces T2I-R1 text-to-image gen model, that uses semantic-level CoT for prompt planning and token-level CoT for pixel-level generation, while BiCoT-GRPO coordinates them both",
+          "raw": "Introduces T2I-R1 text-to-image gen model, that uses semantic-level CoT for prompt planning and token-level CoT for pixel-level generation, while BiCoT-GRPO coordinates them both"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "4. Speculative CoT (SCoT) -> ",
+          "raw": "4. Speculative CoT (SCoT) -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2504.19095"
+          },
+          "url": "https://huggingface.co/papers/2504.19095",
+          "raw": "https://huggingface.co/papers/2504.19095",
+          "label": "Efficient Reasoning for LLMs through Speculative Chain-of-Thought (2504.19095)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "SCoT drafts multiple reasoning paths with a lightweight draft, selects the best, and uses the target model for correction - all this to reduce latency by 48–66%",
+          "raw": "SCoT drafts multiple reasoning paths with a lightweight draft, selects the best, and uses the target model for correction - all this to reduce latency by 48–66%"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "5. Collaborative CoT (Co-CoT) -> ",
+          "raw": "5. Collaborative CoT (Co-CoT) -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2504.17091"
+          },
+          "url": "https://huggingface.co/papers/2504.17091",
+          "raw": "https://huggingface.co/papers/2504.17091",
+          "label": "Co-CoT: A Prompt-Based Framework for Collaborative Chain-of-Thought\n  Reasoning (2504.17091)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Breaks reasoning into blocks that users can inspect, modify and re-run, promoting active engagement. An adaptation mechanism aligns outputs with diverse cognitive styles and user goals",
+          "raw": "Breaks reasoning into blocks that users can inspect, modify and re-run, promoting active engagement. An adaptation mechanism aligns outputs with diverse cognitive styles and user goals"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "6. XS-CoT -> ",
+          "raw": "6. XS-CoT -> "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "paper",
+            "id": "2504.20835"
+          },
+          "url": "https://huggingface.co/papers/2504.20835",
+          "raw": "https://huggingface.co/papers/2504.20835",
+          "label": "Enhancing Non-Core Language Instruction-Following in Speech LLMs via\n  Semi-Implicit Cross-Lingual CoT Reasoning (2504.20835)"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "It's a cross-lingual framework that integrates speech-to-text translation into reasoning, using a semi-implicit CoT approach to compress intermediate tokens. This improves non-core language responses by up to 45%",
+          "raw": "It's a cross-lingual framework that integrates speech-to-text translation into reasoning, using a semi-implicit CoT approach to compress intermediate tokens. This improves non-core language responses by up to 45%"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Read further in the comments 👇",
+          "raw": "Read further in the comments 👇"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "If you liked this, also subscribe to the Turing Post -> ",
+          "raw": "If you liked this, also subscribe to the Turing Post -> "
+        },
+        {
+          "type": "link",
+          "href": "https://www.turingpost.com/subscribe",
+          "raw": "https://www.turingpost.com/subscribe"
+        }
+      ],
+      "rawContent": "10 new Chain-of-Thoughts (CoT) methods\n\nCoT has long been one of the hottest techniques in AI thanks to its effectiveness and compelling core idea: encouraging models to solve complex problems through explicit intermediate reasoning steps. But usually researchers modify original CoT approach, finding tips that further improve LLMs' reasoning. That's what we're going to talk about today.\n\nHere's a list of 10 latest enhanced CoT approaches:\n\n1. Chain-of-Defensive-Thought -> https://huggingface.co/papers/2504.20769\nProvides a few structured, defensive reasoning exemplars to improve the robustness of LLMs\n\n2. Hybrid-CoT -> https://huggingface.co/papers/2504.21659\nProposes using Adaptive Hybrid Reasoning Model (AdaR1) that combines Long- and Short-CoT, and applying bi-level preference training to select effective reasoning styles\n\n3. Semantic-level and token-level CoT -> https://huggingface.co/papers/2505.00703\nIntroduces T2I-R1 text-to-image gen model, that uses semantic-level CoT for prompt planning and token-level CoT for pixel-level generation, while BiCoT-GRPO coordinates them both\n\n4. Speculative CoT (SCoT) -> https://huggingface.co/papers/2504.19095\nSCoT drafts multiple reasoning paths with a lightweight draft, selects the best, and uses the target model for correction - all this to reduce latency by 48–66%\n\n5. Collaborative CoT (Co-CoT) -> https://huggingface.co/papers/2504.17091\nBreaks reasoning into blocks that users can inspect, modify and re-run, promoting active engagement. An adaptation mechanism aligns outputs with diverse cognitive styles and user goals\n\n6. XS-CoT -> https://huggingface.co/papers/2504.20835\nIt's a cross-lingual framework that integrates speech-to-text translation into reasoning, using a semi-implicit CoT approach to compress intermediate tokens. This improves non-core language responses by up to 45%\n\nRead further in the comments 👇\n\nIf you liked this, also subscribe to the Turing Post -> https://www.turingpost.com/subscribe",
+      "author": {
+        "_id": "64838b28c235ef76b63e4999",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64838b28c235ef76b63e4999/ZhQCYoU3vps71Ag7Jezj6.jpeg",
+        "fullname": "Ksenia Se",
+        "name": "Kseniase",
+        "type": "user",
+        "isPro": false,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 835,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "🔥",
+          "users": [
+            "Raahulthakur",
+            "John6666"
+          ],
+          "count": 2
+        },
+        {
+          "reaction": "👍",
+          "users": [
+            "BuiDoan",
+            "Annapurna07"
+          ],
+          "count": 2
+        }
+      ],
+      "publishedAt": "2025-05-04T11:06:55.000Z",
+      "updatedAt": "2025-05-04T11:07:41.325Z",
+      "commentators": [
+        {
+          "_id": "64838b28c235ef76b63e4999",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64838b28c235ef76b63e4999/ZhQCYoU3vps71Ag7Jezj6.jpeg",
+          "fullname": "Ksenia Se",
+          "name": "Kseniase",
+          "type": "user",
+          "isPro": false,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false,
+          "followerCount": 835,
+          "isFollowing": false
+        }
+      ],
+      "url": "/posts/Kseniase/864305548620639",
+      "totalUniqueImpressions": 1464,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.8547897338867188
+      },
+      "numComments": 1
+    },
+    {
+      "slug": "471518743184430",
+      "content": [
+        {
+          "type": "text",
+          "value": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!",
+          "raw": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "C5 is a large-scale effort to heavily filter web-crawled data, as collected by the non-profit Common Crawl, to only documents that are Creative Commons-licensed such as cc-by-4.0 or public domain cc0. At this stage 150 billion tokens have been collected.",
+          "raw": "C5 is a large-scale effort to heavily filter web-crawled data, as collected by the non-profit Common Crawl, to only documents that are Creative Commons-licensed such as cc-by-4.0 or public domain cc0. At this stage 150 billion tokens have been collected."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "---",
+          "raw": "---"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "📄 data: ",
+          "raw": "📄 data: "
+        },
+        {
+          "type": "resource",
+          "resource": {
+            "type": "dataset",
+            "id": "BramVanroy/CommonCrawl-CreativeCommons"
+          },
+          "url": "https://huggingface.co/datasets/BramVanroy/CommonCrawl-CreativeCommons",
+          "raw": "https://huggingface.co/datasets/BramVanroy/CommonCrawl-CreativeCommons"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🧰 software: ",
+          "raw": "🧰 software: "
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/BramVanroy/CommonCrawl-CreativeCommons",
+          "raw": "https://github.com/BramVanroy/CommonCrawl-CreativeCommons"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "---",
+          "raw": "---"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "</> To build C5, HTML pages are scrutinized and all links (if any) to CC licenses are collected, both in regular hyperlinks as well as in metadata. Additional data fields are included such as \"was the license found in the ",
+          "raw": "</> To build C5, HTML pages are scrutinized and all links (if any) to CC licenses are collected, both in regular hyperlinks as well as in metadata. Additional data fields are included such as \"was the license found in the "
+        },
+        {
+          "type": "inline_code",
+          "code": "head",
+          "raw": "`head`"
+        },
+        {
+          "type": "text",
+          "value": "?\" or \"if multiple licenses were found, do they contradict each other?\", which makes further filtering a breeze. ",
+          "raw": "?\" or \"if multiple licenses were found, do they contradict each other?\", which makes further filtering a breeze. "
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🌐 In this first version of C5, 8 languages are included (Afrikaans, German, English, French, Frysian, Italian, Dutch and Spanish). The language set was limited for two reasons: computational and storage limitations, and a collaboration with GPT-NL, which requested CC data for these languages to train a Dutch-focused, copyright-conscious LLM. In total, this V1 release contains almost 150 thousand documents and 150 billion tokens. This data was not filtered on quality nor deduplicated so that you can decide for yourself how much data to keep. To give some quality indication, a dataset field is present to describe whether a document is included in the FineWeb(-2) datasets, which are of high quality.",
+          "raw": "🌐 In this first version of C5, 8 languages are included (Afrikaans, German, English, French, Frysian, Italian, Dutch and Spanish). The language set was limited for two reasons: computational and storage limitations, and a collaboration with GPT-NL, which requested CC data for these languages to train a Dutch-focused, copyright-conscious LLM. In total, this V1 release contains almost 150 thousand documents and 150 billion tokens. This data was not filtered on quality nor deduplicated so that you can decide for yourself how much data to keep. To give some quality indication, a dataset field is present to describe whether a document is included in the FineWeb(-2) datasets, which are of high quality."
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "new_line",
+          "raw": "\n"
+        },
+        {
+          "type": "text",
+          "value": "🔍 More work needs to be done! Only 7 out of 100+ Common Crawl crawls have been processed so far. That's encouraging because it means there is a lot more Creative Commons data to be collected! But to get there I need help in terms of compute. The current processing was already heavily sponsored by the Flemish Supercomputer but more is needed. If you have the compute available and which to collaborate in an open and transparent manner, please get in touch! ",
+          "raw": "🔍 More work needs to be done! Only 7 out of 100+ Common Crawl crawls have been processed so far. That's encouraging because it means there is a lot more Creative Commons data to be collected! But to get there I need help in terms of compute. The current processing was already heavily sponsored by the Flemish Supercomputer but more is needed. If you have the compute available and which to collaborate in an open and transparent manner, please get in touch! "
+        }
+      ],
+      "rawContent": "📢💾 Introducing the Common Crawl Creative Commons Corpus (C5)!\n\nC5 is a large-scale effort to heavily filter web-crawled data, as collected by the non-profit Common Crawl, to only documents that are Creative Commons-licensed such as cc-by-4.0 or public domain cc0. At this stage 150 billion tokens have been collected.\n\n---\n📄 data: https://huggingface.co/datasets/BramVanroy/CommonCrawl-CreativeCommons\n🧰 software: https://github.com/BramVanroy/CommonCrawl-CreativeCommons\n---\n\n</> To build C5, HTML pages are scrutinized and all links (if any) to CC licenses are collected, both in regular hyperlinks as well as in metadata. Additional data fields are included such as \"was the license found in the `head`?\" or \"if multiple licenses were found, do they contradict each other?\", which makes further filtering a breeze. \n\n🌐 In this first version of C5, 8 languages are included (Afrikaans, German, English, French, Frysian, Italian, Dutch and Spanish). The language set was limited for two reasons: computational and storage limitations, and a collaboration with GPT-NL, which requested CC data for these languages to train a Dutch-focused, copyright-conscious LLM. In total, this V1 release contains almost 150 thousand documents and 150 billion tokens. This data was not filtered on quality nor deduplicated so that you can decide for yourself how much data to keep. To give some quality indication, a dataset field is present to describe whether a document is included in the FineWeb(-2) datasets, which are of high quality.\n\n🔍 More work needs to be done! Only 7 out of 100+ Common Crawl crawls have been processed so far. That's encouraging because it means there is a lot more Creative Commons data to be collected! But to get there I need help in terms of compute. The current processing was already heavily sponsored by the Flemish Supercomputer but more is needed. If you have the compute available and which to collaborate in an open and transparent manner, please get in touch! ",
+      "author": {
+        "_id": "5e1e17b6fcf41d740b6996a8",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594192845975-5e1e17b6fcf41d740b6996a8.jpeg",
+        "fullname": "Bram Vanroy",
+        "name": "BramVanroy",
+        "type": "user",
+        "isPro": false,
+        "isHf": false,
+        "isHfAdmin": false,
+        "isMod": false,
+        "followerCount": 197,
+        "isFollowing": false
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        {
+          "reaction": "❤️",
+          "users": [
+            "stefan-it",
+            "Nielly"
+          ],
+          "count": 2
+        },
+        {
+          "reaction": "🚀",
+          "users": [
+            "John6666",
+            "Nielly"
+          ],
+          "count": 2
+        }
+      ],
+      "publishedAt": "2025-05-04T10:49:42.000Z",
+      "updatedAt": "2025-05-04T12:13:41.671Z",
+      "commentators": [
+        {
+          "_id": "5e1e17b6fcf41d740b6996a8",
+          "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594192845975-5e1e17b6fcf41d740b6996a8.jpeg",
+          "fullname": "Bram Vanroy",
+          "name": "BramVanroy",
+          "type": "user",
+          "isPro": false,
+          "isHf": false,
+          "isHfAdmin": false,
+          "isMod": false,
+          "followerCount": 197,
+          "isFollowing": false
+        }
+      ],
+      "url": "/posts/BramVanroy/471518743184430",
+      "totalUniqueImpressions": 983,
+      "identifiedLanguage": {
+        "language": "en",
+        "probability": 0.9492132067680359
+      },
+      "numComments": 1
+    }
+  ],
+  "numTotalItems": 4272
+}
