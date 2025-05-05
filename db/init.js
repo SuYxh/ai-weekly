@@ -44,6 +44,20 @@ export async function initDb() {
     );
   `);
 
+  // ✅ 创建 tags 主表（全局唯一 tag 名）
+  await db.exec(`
+      CREATE TABLE IF NOT EXISTS tags (
+        name TEXT PRIMARY KEY
+      );
+    `);
+
+  // ✅ 创建 categories 主表（全局唯一分类）
+  await db.exec(`
+      CREATE TABLE IF NOT EXISTS categories (
+        name TEXT PRIMARY KEY
+      );
+    `);
+
   // 创建 article_tags 表（标签多对多）
   await db.exec(`
     CREATE TABLE IF NOT EXISTS article_tags (

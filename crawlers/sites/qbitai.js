@@ -1,5 +1,5 @@
 import { createRequire } from "module";
-import { fetchHtml } from '../services/fetchHtml.js'
+import { fetchHtml, formatArticleData } from '../services/index.js'
 import { writeFileContent, resolvePathFromMeta } from '../../utils/file.js'
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
@@ -7,15 +7,7 @@ const cheerio = require("cheerio");
 const BASE_URL = "https://www.qbitai.com/category/%E8%B5%84%E8%AE%AF?page=";
 
 export async function fetchOnePage(page = 1, perPage = 10) {
-  // const res = await axios.get(`${BASE_URL}${page}`, {
-  //   headers: {
-  //     "User-Agent":
-  //       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0 Safari/537.36",
-  //   },
-  // });
-
   const html = await fetchHtml(`${BASE_URL}${page}`);
-  console.log('html', html)
 
   const $ = cheerio.load(html);
   const articles = [];
@@ -41,7 +33,9 @@ export async function fetchOnePage(page = 1, perPage = 10) {
       });
 
     if (title && link) {
-      articles.push({ title, link, date, summary, img, tags });
+      articles.push(formatArticleData({
+        title, link, date, summary, img, tags, platform: 'qbitai'
+      }));
     }
   });
 
@@ -49,6 +43,7 @@ export async function fetchOnePage(page = 1, perPage = 10) {
 }
 
 export async function crawlQbitNews({ pages = 1, perPage = 20 }) {
+  console.log(`📥 正在抓取量子位资讯...`);
   let allArticles = [];
 
   for (let i = 1; i <= pages; i++) {

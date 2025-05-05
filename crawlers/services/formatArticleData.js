@@ -1,12 +1,15 @@
-import { parseDateString } from "../../utils/date.js";
+import { parseDateString, generateArticleId } from "../../utils/index.js";
+
+
+
 /**
  * 将从不同平台提取的原始数据格式化为标准结构
  * @param {object} rawData - 包含原始数据的对象 { title, link, summary, dateStr, img, tags }
  * @returns {object} - 符合标准结构的文章对象
  */
 export function formatArticleData(rawData) {
-  const {
-    id,
+  let {
+    id = generateArticleId(),
     author,
     title,
     content,

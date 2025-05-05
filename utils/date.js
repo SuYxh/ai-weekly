@@ -31,6 +31,10 @@ export function parseDateString(dateStr) {
   const minuteMatch = dateStr.match(/(\d+)\s*分钟前/);
   const hourMatch = dateStr.match(/(\d+)\s*小时前/);
   const dayMatch = dateStr.match(/(\d+)\s*天前/);
+    // 匹配"前天 HH:MM"格式
+    const dayBeforeYesterdayMatch = dateStr.match(/前天\s*(\d{1,2}):(\d{1,2})/);
+    // 匹配"昨天 HH:MM"格式
+    const yesterdayMatch = dateStr.match(/昨天\s*(\d{1,2}):(\d{1,2})/);
 
   if (minuteMatch) {
     const minutesAgo = parseInt(minuteMatch[1], 10);
@@ -38,6 +42,21 @@ export function parseDateString(dateStr) {
   } else if (hourMatch) {
     const hoursAgo = parseInt(hourMatch[1], 10);
     date = new Date(now.getTime() - hoursAgo * 60 * 60 * 1000);
+  } else if (dayBeforeYesterdayMatch) {
+    // 处理"前天 HH:MM"格式
+    date = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
+    const hours = parseInt(dayBeforeYesterdayMatch[1], 10);
+    const minutes = parseInt(dayBeforeYesterdayMatch[2], 10);
+    date.setHours(hours, minutes, 0, 0);
+  } else if (yesterdayMatch) {
+    // 处理"昨天 HH:MM"格式
+    date = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+    const hours = parseInt(yesterdayMatch[1], 10);
+    const minutes = parseInt(yesterdayMatch[2], 10);
+    date.setHours(hours, minutes, 0, 0);
+  }  else if (dateStr.includes('前天')) {
+    // 简单处理：设置为前天的当前时间
+    date = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
   } else if (dateStr.includes('昨天')) {
     // 简单处理：设置为昨天的当前时间
     date = new Date(now.getTime() - 24 * 60 * 60 * 1000);
