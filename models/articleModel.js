@@ -217,6 +217,41 @@ export async function resetArticlesTable() {
   }
 }
 
+/**
+ * 清空所有表并重置自增ID
+ * @returns {Promise<string>} 操作结果消息
+ */
+export async function resetAllTables() {
+  const db = await getDb();
+  
+  try {
+    // 开始事务
+    await db.exec('BEGIN TRANSACTION');
+    
+    // 清空所有表
+    await db.run('DELETE FROM article_tags');
+    await db.run('DELETE FROM article_categories');
+    await db.run('DELETE FROM media');
+    await db.run('DELETE FROM articles');
+    await db.run('DELETE FROM tags');
+    await db.run('DELETE FROM categories');
+    await db.run('DELETE FROM users');
+    
+    // 重置所有自增ID
+    await db.run("DELETE FROM sqlite_sequence WHERE name IN ('users', 'media')");
+    
+    // 提交事务
+    await db.exec('COMMIT');
+    
+    console.log('✅ 所有表已清空，自增ID已重置');
+    return '所有表已清空，自增ID已重置';
+  } catch (err) {
+    // 回滚事务
+    await db.exec('ROLLBACK');
+    console.error('❌ 清空表失败:', err);
+    return `清空表失败: ${err.message}`;
+  }
+}
 
 /**
  * 获取所有文章（包含完整信息）

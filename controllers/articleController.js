@@ -1,5 +1,18 @@
 import { success, fail } from "../utils/response.js";
-import { resetArticlesTable, getAllArticles } from "../models/articleModel.js";
+import { resetArticlesTable, resetAllTables, getAllArticles } from "../models/articleModel.js";
+
+export async function cleanAllTable(req, res) {
+  try {
+    const message = await resetAllTables();
+    // 返回 JSON 响应
+    res.json(success({}, message));
+  } catch (error) {
+    // 如果在爬取过程中发生错误，传递给错误处理中间件
+    console.error("cleanAllTable 出错:", error);
+    // 或者直接返回错误响应
+    res.status(500).json(fail("获取信息失败"));
+  }
+}
 
 export async function cleanArticlesTable(req, res) {
   try {
