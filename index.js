@@ -11,6 +11,9 @@ import { router as articleRouter } from './routes/articleRoutes.js'
 import { initDb } from './db/init.js'
 import errorHandler from './middlewares/errorHandler.js';
 import logger from './middlewares/logger.js';
+import { startCrawlScheduler } from './schedule/index.js';
+
+
 
 dotenv.config();
 
@@ -53,6 +56,10 @@ async function main() {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
     console.log(`✅ Server running at http://localhost:${PORT}`);
+
+     // 启动定时爬虫任务
+     startCrawlScheduler('0 0 0 * * *'); // 每天晚上12点执行
+     console.log('✅ 定时爬虫任务已启动');
   });
 }
 

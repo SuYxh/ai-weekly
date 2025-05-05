@@ -143,3 +143,8 @@ export async function crawlAllPlatforms(options = {}) {
     console.log(`🎉 所有平台爬取完成，共保存 ${results.total} 条数据`);
     return results;
 }
+
+
+export function crawlAllPlatforms2() {
+    console.log('🚀 开始爬取所有平台数据...');
+}
