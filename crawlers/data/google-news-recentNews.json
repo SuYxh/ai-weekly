@@ -1,0 +1,90 @@
+[
+  {
+    "id": "art_1746462022600_0920",
+    "author": "google",
+    "avatar": "",
+    "title": "Music AI Sandbox, now with new features and broader access",
+    "content": "Helping music professionals explore the potential of generative AI",
+    "rawContent": "Helping music professionals explore the potential of generative AI",
+    "link": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+    "date": "2025-04-24 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/XFT_zIfIE9A9pNk0hylwxSrXa2z3AncSXWjkjl9064wCTmFqGcQ7dz2NMUOgcZWL3myEyX0qjeBdugClyEvfAwPsFj6xONo7saU52TXLSo6xcAPTdsk=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746462022600_1852",
+    "author": "google",
+    "avatar": "",
+    "title": "Introducing Gemini 2.5 Flash",
+    "content": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+    "rawContent": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+    "link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "date": "2025-04-17 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/oLv3Jl8j5l64yXU6YCE-238fqaeNuq9DOmOhksHZwUjJNDlB18xVehDswPohGRaN1cdArPSFA5cdZsXSqhFU-Jy5F6THyhGfo9L_QkZfNQDeKzxP2S8=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746462022600_7688",
+    "author": "google",
+    "avatar": "",
+    "title": "Generate videos in Gemini and Whisk with Veo 2",
+    "content": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+    "rawContent": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+    "link": "https://blog.google/products/gemini/video-generation/",
+    "date": "2025-04-15 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/kKc-lZheuv6Uf2ime6MiysAb6tyEP0dU-w0l0x5T_aFP3P7kyKOli2n-UlncPcDBripaYBiLUGZE8eHvPep0BkoI085RqoPXajYQKE25lguhrgq2Cw=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Technologies"
+    ],
+    "tags": [],
+    "platform": "google"
+  },
+  {
+    "id": "art_1746462022600_8169",
+    "author": "google",
+    "avatar": "",
+    "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+    "content": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+    "rawContent": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+    "link": "https://blog.google/technology/ai/dolphingemma/",
+    "date": "2025-04-14 00:00:00",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://lh3.googleusercontent.com/I4XIOUffm7QcLIdlD4MzdDyyhRfZSPyX6Ay0GSZ6f_LcmQ0FS3MoGg8mTsHsePHQkfG1Mg4P8C-nG17FDk0MJ2lQIhe1c_TkOwYKGOiWHMC9ouRzsQ=w400-h225-n-nu"
+      }
+    ],
+    "category": [
+      "Research"
+    ],
+    "tags": [],
+    "platform": "google"
+  }
+]

@@ -1,17 +1,18 @@
 import { createRequire } from "module";
-import { fetchHtml, formatArticleData } from '../services/index.js'
+import { fetchHtml, formatArticleData, generateArticleFile, generateHtmlFile } from '../services/index.js'
 import { generateArticleId, parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta, mergeGptWithArticles } from "../../utils/index.js";
 import { classifyArticleListForWeekly } from "../../ai/services/classifyArticleListForWeekly.js";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
 const BASE_URL = "https://www.qbitai.com/category/%E8%B5%84%E8%AE%AF?page=";
+const PLATFORM = 'qbitai'
 
 export async function fetchOnePage(page = 1, perPage = 10) {
   const html = await fetchHtml(`${BASE_URL}${page}`);
 
-  const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'qbit-html.txt');
-  await writeFileContent(outputFilePath, html)
+  // 记录一下 html 结构
+  await generateHtmlFile({ platform: PLATFORM, html })
 
   const $ = cheerio.load(html);
   const articles = [];
@@ -44,7 +45,11 @@ export async function fetchOnePage(page = 1, perPage = 10) {
         author: authorName,
         avatar: '',
         title, link, 
-        date: parseDateString(date), summary, img, tags, platform: 'qbitai'
+        date: parseDateString(date), 
+        summary, 
+        img, 
+        tags, 
+        platform: PLATFORM
       }));
     }
   });
@@ -72,12 +77,9 @@ export async function crawlQbitNews({ pages = 1, perPage = 20 }) {
   // 合并 GPT 数据
   const mergedArticles = mergeGptWithArticles(classifiedArticles, recentNews);
 
-  // 使用 __dirname 构建路径 (代码不变)
-  const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'qbit-news.json');
-  await writeFileContent(outputFilePath, mergedArticles)
+  // 生成 log 文件
+  await generateArticleFile({ platform: PLATFORM, mergedArticles, recentNews })
 
-  console.log(`✅ 共抓取 ${recentNews.length} 条资讯 ✅`);
-  console.log(`✅ 共mergedArticles ${mergedArticles.length} 条资讯 ✅`);
   return mergedArticles;
 }
 

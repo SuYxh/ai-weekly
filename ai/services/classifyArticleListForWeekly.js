@@ -1,17 +1,19 @@
 import { chatWithAI } from '../clients/volcengine.js';
 import { extractGPTResults } from '../../utils/index.js';
-import { classifyArticleListForWeeklySystemPrompt } from '../prompt/classifyArticleForWeeklyPrompt.js';
-
-console.log('classifyArticleListForWeeklySystemPrompt', classifyArticleListForWeeklySystemPrompt);
+import {  getClassifyArticlesSystemPrompt } from '../prompt/classifyArticleForWeeklyPrompt.js';
 
 
 export async function classifyArticleListForWeekly(articleList) {
+
+  // 根据中文或者英文获取不同的系统提示词
+  const systemPrompt = getClassifyArticlesSystemPrompt(articleList[0]?.platform)
+
   const userPrompt = `以下是本期待评估的文章列表，请按照说明进行处理：
     ${JSON.stringify(articleList, null, 2)}
   `;
 
   const response = await chatWithAI({
-    systemPrompt: classifyArticleListForWeeklySystemPrompt, // 使用上面定义的 System Prompt
+    systemPrompt, // 使用上面定义的 System Prompt
     messages: [
       { role: 'user', content: userPrompt },
     ],

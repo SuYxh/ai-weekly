@@ -1,13 +1,16 @@
-import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
-import { fetchHtml, formatArticleData } from "../services/index.js";
+import { parseDateString, filterRecentNews, mergeGptWithArticles, generateArticleId } from "../../utils/index.js";
+import { fetchHtml, formatArticleData, generateArticleFile, generateHtmlFile } from "../services/index.js";
+import { classifyArticleListForWeekly } from "../../ai/services/classifyArticleListForWeekly.js";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
 const BASE_URL = 'https://deepmind.google/blocks/card_group_blog_block/';
+const PLATFORM = 'google'
 
 async function fetchGooglePage(page = 1) {
     const html = await fetchHtml(`${BASE_URL}?page=${page}&fetch=true`)
+    await generateHtmlFile({ platform: PLATFORM, html })
 
     const $ = cheerio.load(html);
     const articles = [];
@@ -25,6 +28,7 @@ async function fetchGooglePage(page = 1) {
         if (title && url) {
 
             const formattedArticle = formatArticleData({
+                id: generateArticleId(),
                 author: 'google',
                 title,
                 content: description,
@@ -34,7 +38,7 @@ async function fetchGooglePage(page = 1) {
                 summary: '',
                 img: image,
                 category: [category],
-                platform: 'google',
+                platform: PLATFORM,
             })
 
             articles.push(formattedArticle);
@@ -60,11 +64,15 @@ export async function crawlGoogleNews({ maxPages = 3 }) {
     // 过滤最近的新闻
     const recentNews = filterRecentNews(allArticles)
 
-    // 使用 __dirname 构建路径 (代码不变)
-    const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'google-news.json');
-    await writeFileContent(outputFilePath, allArticles)
-    
-    return recentNews;
+    // 调用大模型进行分类
+    const classifiedArticles = await classifyArticleListForWeekly(recentNews);
+
+    // 合并 GPT 数据
+    const mergedArticles = mergeGptWithArticles(classifiedArticles, recentNews);
+
+    // 生成 log 文件
+    await generateArticleFile({ platform: PLATFORM, mergedArticles, recentNews })
+    return mergedArticles;
 }
 
 
