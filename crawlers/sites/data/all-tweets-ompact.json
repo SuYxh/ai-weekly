@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1918321280790741189",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
+    "content": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
+    "rawContent": "We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT.\n\nExpanding on what we missed with sycophancy and the changes we’re going to make in the future:\nhttps://t.co/LX0fSIe72s",
+    "link": "https://twitter.com/OpenAI/status/1918321280790741189",
+    "date": "2025-05-02 23:06:48",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/card_img/1918319782291734528/LmIxp0ty?format=jpg&name=800x419"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  },
+  {
+    "id": "1917607109853872183",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
+    "content": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
+    "rawContent": "AMA at 9:30am PT with Head of Model Behavior @joannejang to talk all things ChatGPT's personality.\n\nhttps://t.co/thPLEMMADY",
+    "link": "https://twitter.com/OpenAI/status/1917607109853872183",
+    "date": "2025-04-30 23:48:57",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/card_img/1917607114484375554/28DeiDp9?format=jpg&name=800x419"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  },
+  {
+    "id": "1917411480548565332",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
+    "content": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
+    "rawContent": "We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior.\n\nMore on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC",
+    "link": "https://twitter.com/OpenAI/status/1917411480548565332",
+    "date": "2025-04-30 10:51:35",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/card_img/1917409424857313280/MzbxhD7g?format=jpg&name=800x419"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  },
+  {
+    "id": "1917292316114706884",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
+    "content": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
+    "rawContent": "RT @sama: we started rolling back the latest update to GPT-4o last night\n\nit's now 100% rolled back for free users and we'll update again w…",
+    "link": "https://twitter.com/OpenAI/status/1917292316114706884",
+    "date": "2025-04-30 02:58:04",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  },
+  {
+    "id": "1915097151472079141",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
+    "content": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
+    "rawContent": "RT @OpenAIDevs: Image gen is now available in the API!\n\nWe’re launching gpt-image-1, making ChatGPT’s powerful image generation capabilitie…",
+    "link": "https://twitter.com/OpenAI/status/1915097151472079141",
+    "date": "2025-04-24 01:35:16",
+    "summary": "",
+    "media": [],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  },
+  {
+    "id": "1912549344978645199",
+    "author": "OpenAI (@OpenAI)",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "title": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
+    "content": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
+    "rawContent": "OpenAI o3 and o4-mini\n\nhttps://t.co/giS4K1yNh9",
+    "link": "https://twitter.com/OpenAI/status/1912549344978645199",
+    "date": "2025-04-17 00:51:11",
+    "summary": "",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/card_img/1919186906132381696/O6QTX-CX?format=jpg&name=800x419"
+      }
+    ],
+    "category": [],
+    "tags": [],
+    "platform": "twitter-openai"
+  }
+]

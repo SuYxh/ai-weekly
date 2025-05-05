@@ -4,6 +4,8 @@ import { crawlQbitNews } from './sites/qbitai.js'
 import { crawlHuggingfaceNews } from './sites/huggingface.js'
 import { crawlAnthropicNews } from './sites/anthropic.js'
 import { crawlGoogleNews } from './sites/google.js'
+import { crawlTwitterNews } from './sites/x/index.js'
+
 
 
 // 导入通用服务
@@ -19,5 +21,7 @@ export {
   // Anthropic 数据爬取
   crawlAnthropicNews,
   // Google 数据爬取
-  crawlGoogleNews
+  crawlGoogleNews,
+ // Twitter 数据爬取
+  crawlTwitterNews
 }

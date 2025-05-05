@@ -1,0 +1,114 @@
+{
+  "user": {
+    "result": {
+      "__typename": "User",
+      "id": "VXNlcjo0Mzk4NjI2MTIy",
+      "rest_id": "4398626122",
+      "affiliates_highlighted_label": {},
+      "parody_commentary_fan_label": "None",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "legacy": {
+        "created_at": "Sun Dec 06 22:51:08 +0000 2015",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6Lg202",
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "display_url": "openai.com/jobs",
+                "expanded_url": "http://openai.com/jobs",
+                "url": "https://t.co/dJGr6Lg202",
+                "indices": [
+                  107,
+                  130
+                ]
+              }
+            ]
+          },
+          "url": {
+            "urls": [
+              {
+                "display_url": "openai.com",
+                "expanded_url": "https://openai.com",
+                "url": "https://t.co/3bPlZZjXod",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          }
+        },
+        "fast_followers_count": 0,
+        "favourites_count": 808,
+        "followers_count": 4119113,
+        "friends_count": 3,
+        "has_custom_timelines": false,
+        "is_translator": false,
+        "listed_count": 23264,
+        "location": "",
+        "media_count": 332,
+        "name": "OpenAI",
+        "normal_followers_count": 4119113,
+        "pinned_tweet_ids_str": [
+          "1916947241086095434"
+        ],
+        "possibly_sensitive": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1738590484",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+        "profile_interstitial_type": "",
+        "screen_name": "OpenAI",
+        "statuses_count": 1169,
+        "translator_type": "none",
+        "url": "https://t.co/3bPlZZjXod",
+        "verified": false,
+        "verified_type": "Business",
+        "withheld_in_countries": []
+      },
+      "tipjar_settings": {
+        "is_enabled": false,
+        "bandcamp_handle": "",
+        "bitcoin_handle": "",
+        "cash_app_handle": "",
+        "ethereum_handle": "",
+        "gofundme_handle": "",
+        "patreon_handle": "",
+        "pay_pal_handle": "",
+        "venmo_handle": ""
+      },
+      "legacy_extended_profile": {},
+      "is_profile_translatable": false,
+      "has_hidden_subscriptions_on_profile": false,
+      "verification_info": {
+        "is_identity_verified": false,
+        "reason": {
+          "description": {
+            "text": "This account is verified. Learn more",
+            "entities": [
+              {
+                "from_index": 26,
+                "to_index": 36,
+                "ref": {
+                  "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+                  "url_type": "ExternalUrl"
+                }
+              }
+            ]
+          },
+          "verified_since_msec": "1507188387580"
+        }
+      },
+      "highlights_info": {
+        "can_highlight_tweets": true,
+        "highlighted_tweets": "29"
+      },
+      "user_seed_tweet_count": 0,
+      "business_account": {
+        "affiliates_count": 5
+      },
+      "creator_subscriptions_count": 0
+    }
+  }
+}
