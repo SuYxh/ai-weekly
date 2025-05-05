@@ -57,9 +57,11 @@ async function main() {
   app.listen(PORT, () => {
     console.log(`✅ Server running at http://localhost:${PORT}`);
 
-     // 启动定时爬虫任务
-     startCrawlScheduler('0 0 0 * * *'); // 每天晚上12点执行
-     console.log('✅ 定时爬虫任务已启动');
+    // 启动定时爬虫任务
+    //  startCrawlScheduler('0 0 0 * * *'); // 每天晚上12点执行
+    startCrawlScheduler('* * * * *'); // 每天晚上12点执行
+
+    console.log('✅ 定时爬虫任务已启动');
   });
 }
 

@@ -1,6 +1,7 @@
 import { createRequire } from "module";
 import { fetchHtml, formatArticleData } from '../services/index.js'
-import { parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta } from "../../utils/index.js";
+import { generateArticleId, parseDateString, filterRecentNews, writeFileContent, resolvePathFromMeta, mergeGptWithArticles } from "../../utils/index.js";
+import { classifyArticleListForWeekly } from "../../ai/services/classifyArticleListForWeekly.js";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
@@ -39,6 +40,7 @@ export async function fetchOnePage(page = 1, perPage = 10) {
 
     if (title && link) {
       articles.push(formatArticleData({
+        id: generateArticleId(),
         author: authorName,
         avatar: '',
         title, link, 
@@ -64,11 +66,18 @@ export async function crawlQbitNews({ pages = 1, perPage = 20 }) {
   // 过滤最近的新闻
   const recentNews = filterRecentNews(allArticles, 14)
 
+  // 调用大模型进行分类
+  const classifiedArticles = await classifyArticleListForWeekly(recentNews); 
+
+  // 合并 GPT 数据
+  const mergedArticles = mergeGptWithArticles(classifiedArticles, recentNews);
+
   // 使用 __dirname 构建路径 (代码不变)
   const outputFilePath = resolvePathFromMeta(import.meta.url, '..', 'data', 'qbit-news.json');
-  await writeFileContent(outputFilePath, recentNews)
+  await writeFileContent(outputFilePath, mergedArticles)
 
   console.log(`✅ 共抓取 ${recentNews.length} 条资讯 ✅`);
-  return recentNews;
+  console.log(`✅ 共mergedArticles ${mergedArticles.length} 条资讯 ✅`);
+  return mergedArticles;
 }
 

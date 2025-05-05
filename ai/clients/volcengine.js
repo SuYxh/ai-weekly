@@ -33,13 +33,12 @@ export async function chatWithAI({
     systemPrompt = systemPrompt
   }
 
+  // console.log("chatWithAI-systemPrompt", systemPrompt)
   try {
     const fullMessages = [
       { role: 'system', content: systemPrompt },
       ...messages,
     ];
-
-    console.log("fullMessages", fullMessages)
 
     const res = await fetch(VOLCENGINE_API_URL, {
       method: 'POST',

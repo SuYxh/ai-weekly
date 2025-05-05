@@ -1,6 +1,3 @@
-import { generateArticleId } from "../../utils/index.js";
-
-
 
 /**
  * 将从不同平台提取的原始数据格式化为标准结构
@@ -9,7 +6,7 @@ import { generateArticleId } from "../../utils/index.js";
  */
 export function formatArticleData(rawData) {
   let {
-    id = generateArticleId(),
+    id,
     author,
     avatar,
     title,

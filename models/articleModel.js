@@ -22,8 +22,9 @@ export async function addNewsArticle(article) {
     const id = article.id;
     await db.run(
       `INSERT INTO articles (
-        id, author, avatar, title, content, raw_content, link, date, summary, category, tags, platform
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        id, author, avatar, title, content, raw_content, link, date, summary, category, tags, platform,
+        ownCategory, reason, isWeekly, score
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         id,
         article.author || '',
@@ -37,6 +38,10 @@ export async function addNewsArticle(article) {
         JSON.stringify(article.category || []),
         JSON.stringify(article.tags || []),
         article.platform || '',
+        article.ownCategory || null,
+        article.reason || null,
+        article.isWeekly || 0,
+        article.score || null,
       ]
     );
 

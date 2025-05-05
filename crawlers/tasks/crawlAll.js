@@ -147,4 +147,7 @@ export async function crawlAllPlatforms(options = {}) {
 
 export function crawlAllPlatforms2() {
     console.log('🚀 开始爬取所有平台数据...');
+    return {
+        total: 12
+    }
 }

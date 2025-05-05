@@ -20,3 +20,42 @@ export function filterRecentNews(newsList, days = 30) {
 export function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+export function extractGPTResults(outputText) {
+  // 安全处理（用于兼容 fallback 格式）
+  const cleaned = outputText.replace(/```json|```/g, '').trim();
+
+  try {
+    const parsed = JSON.parse(cleaned);
+    if (Array.isArray(parsed) && parsed[0]?.id && parsed[0]?.ownCategory) {
+      return parsed;
+    } else {
+      console.warn('返回结构不符合预期:', parsed);
+      return [];
+    }
+  } catch (e) {
+    console.error('解析失败:', e.message);
+    console.error('返回内容:', cleaned);
+    return [];
+  }
+}
+
+
+export function mergeGptWithArticles(gptResults, articles) {
+  const gptMap = new Map(gptResults.map(item => [item.id, item]));
+
+  const merged = articles.map(article => {
+    const gpt = gptMap.get(article.id);
+    if (gpt) {
+      return {
+        ...article,
+        ...gpt, // 简洁合并
+      };
+    } else {
+      console.warn('❗未匹配到 GPT 数据的文章 ID:', article.id);
+      return article;
+    }
+  });
+
+  return merged;
+}
