@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
+    "start": "(cd static-page && pnpm build) && node index.js",
     "updateSchema": "node ./db/update-schema.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

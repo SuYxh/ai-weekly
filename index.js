@@ -45,7 +45,7 @@ app.use('/api/v1/article', articleRouter);
 
 
 // 静态文件（仅用于非 API 的前端页面或资源）
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'static-page', 'public')));
 
 // 错误处理器（放最后）
 app.use(errorHandler);
