@@ -1,13 +1,41 @@
 [
   {
-    "id": "art_1746465014361_5973",
+    "id": "art_1746496404639_2698",
+    "author": "十三",
+    "avatar": "",
+    "title": "刚刚，OpenAI公司结构重大调整：继续由非营利实体控制，营利性部门要变公益公司",
+    "content": "",
+    "rawContent": "",
+    "link": "https://www.qbitai.com/2025/05/280257.html",
+    "date": "2025-05-06 08:53:24",
+    "summary": "还有一封Altman的全员信",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://www.qbitai.com/wp-content/uploads/2025/05/1-e1746489925953.png"
+      }
+    ],
+    "category": [],
+    "tags": [
+      "AGI",
+      "OpenAI",
+      "非营利组织"
+    ],
+    "platform": "qbitai",
+    "ownCategory": "company_news",
+    "reason": "OpenAI公司结构调整，涉及非营利实体控制，具有行业影响力",
+    "isWeekly": 1,
+    "score": 4
+  },
+  {
+    "id": "art_1746496404641_0646",
     "author": "衡宇",
     "avatar": "",
     "title": "细节直逼亚毫米级！港科广分层建模突破3D人体生成｜CVPR 2025",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/280103.html",
-    "date": "2025-05-05 13:10:14",
+    "date": "2025-05-05 12:53:24",
     "summary": "将人体分解为不同精度层级，再逐级细化",
     "media": [
       {
@@ -22,19 +50,19 @@
     ],
     "platform": "qbitai",
     "ownCategory": "highlight_tech",
-    "reason": "港科广在CVPR 2025上发表的3D人体生成技术，具备技术突破性，细节直逼亚毫米级，信息价值高。",
+    "reason": "港科广在CVPR 2025上的3D人体生成技术突破，具有技术亮点",
     "isWeekly": 1,
     "score": 5
   },
   {
-    "id": "art_1746465014362_2937",
+    "id": "art_1746496404642_9825",
     "author": "衡宇",
     "avatar": "",
     "title": "o3一张图锁定地球表面坐标，AI看图猜地点战胜人类大师，奥特曼：这是我的「直升机」时刻",
     "content": "",
     "rawContent": "",
     "link": "https://www.qbitai.com/2025/05/279974.html",
-    "date": "2025-05-05 13:10:14",
+    "date": "2025-05-05 12:53:24",
     "summary": "能力科幻般提升",
     "media": [
       {
@@ -50,12 +78,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "model_progress",
-    "reason": "OpenAI的o3模型在AI看图猜地点任务上表现优异，能力科幻般提升，具有行业影响力。",
+    "reason": "OpenAI的o3模型在地理定位上的能力提升，具有技术新颖性",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465014363_7806",
+    "id": "art_1746496404642_3749",
     "author": "十三",
     "avatar": "",
     "title": "3B模型逆袭7B巨头！Video-XL-Pro突破长视频理解极限，大海捞针准确率超98%",
@@ -78,12 +106,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "model_progress",
-    "reason": "上海交通大学的Video-XL-Pro在长视频理解上取得突破，准确率超98%，技术亮点明显。",
+    "reason": "上海交通大学的Video-XL-Pro在长视频理解上的突破，技术亮点明显",
     "isWeekly": 1,
-    "score": 4
+    "score": 5
   },
   {
-    "id": "art_1746465014363_6514",
+    "id": "art_1746496404642_7411",
     "author": "十三",
     "avatar": "",
     "title": "2年就过气！ChatGPT催生的百万年薪岗位，大厂不愿意招了",
@@ -104,13 +132,13 @@
       "提示词工程师"
     ],
     "platform": "qbitai",
-    "ownCategory": "company_news",
-    "reason": "讨论大模型进化对岗位的影响，涉及行业动态，但信息较为泛泛，缺乏具体数据支持。",
+    "ownCategory": "not_recommended",
+    "reason": "内容涉及岗位变化，缺乏技术或行业深度信息",
     "isWeekly": 0,
     "score": 2
   },
   {
-    "id": "art_1746465014364_0371",
+    "id": "art_1746496404643_5180",
     "author": "鱼羊",
     "avatar": "",
     "title": "大模型终于通关《宝可梦蓝》！网友：Gemini 2.5 Pro酷爆了",
@@ -132,12 +160,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "not_recommended",
-    "reason": "大模型通关《宝可梦蓝》娱乐性质较强，缺乏技术或行业深度信息。",
+    "reason": "大模型通关游戏，娱乐性质较强，缺乏技术深度",
     "isWeekly": 0,
-    "score": 1
+    "score": 2
   },
   {
-    "id": "art_1746465014364_1475",
+    "id": "art_1746496404643_8784",
     "author": "一水",
     "avatar": "",
     "title": "用多模态LLM超越YOLOv3！强化学习突破多模态感知极限｜开源",
@@ -158,12 +186,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "highlight_tech",
-    "reason": "多模态LLM超越YOLOv3，技术突破明显，开源项目具有实际应用价值。",
+    "reason": "多模态LLM在感知极限上的突破，技术亮点明显",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465014364_0149",
+    "id": "art_1746496404643_7380",
     "author": "一水",
     "avatar": "",
     "title": "OpenAI最新技术报告：GPT-4o变谄媚的原因万万没想到",
@@ -184,12 +212,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "safety_alignment",
-    "reason": "OpenAI技术报告讨论GPT-4o的倾向性问题，涉及AI伦理和对齐，信息价值高。",
+    "reason": "OpenAI技术报告涉及模型行为问题，具有伦理和安全讨论价值",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465014364_3542",
+    "id": "art_1746496404643_8669",
     "author": "克雷西",
     "avatar": "",
     "title": "Claude网页版接入MCP！10款应用一键调用，开发者30分钟可创建新集成",
@@ -211,12 +239,12 @@
     ],
     "platform": "qbitai",
     "ownCategory": "product_update",
-    "reason": "Claude网页版接入MCP，功能更新显著，开发者工具集成便捷，具有实际应用价值。",
+    "reason": "Claude网页版接入MCP，功能更新具有实用性",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465014365_1724",
+    "id": "art_1746496404644_7873",
     "author": "明敏",
     "avatar": "",
     "title": "大模型竞技场再被锤！Llama4私下测试27个版本，只取最佳成绩",
@@ -237,36 +265,9 @@
       "大模型竞技场"
     ],
     "platform": "qbitai",
-    "ownCategory": "company_news",
-    "reason": "讨论大模型竞技场的测试问题，涉及行业动态，但信息较为负面，缺乏建设性。",
+    "ownCategory": "not_recommended",
+    "reason": "内容涉及大模型竞技场刷榜，缺乏技术深度",
     "isWeekly": 0,
     "score": 2
-  },
-  {
-    "id": "art_1746465014366_6602",
-    "author": "明敏",
-    "avatar": "",
-    "title": "微软CEO和奥特曼失了和，OpenAI被“断粮”",
-    "content": "",
-    "rawContent": "",
-    "link": "https://www.qbitai.com/2025/05/279412.html",
-    "date": "2025-05-02 00:00:00",
-    "summary": "",
-    "media": [
-      {
-        "type": "photo",
-        "url": "https://www.qbitai.com/wp-content/uploads/replace/ddb9492eea36ccdc6b05b4a55c8d08db-e1746162747536.jpeg"
-      }
-    ],
-    "category": [],
-    "tags": [
-      "OpenAI",
-      "微软"
-    ],
-    "platform": "qbitai",
-    "ownCategory": "company_news",
-    "reason": "微软与OpenAI的合作问题，涉及行业重大动态，信息价值高。",
-    "isWeekly": 1,
-    "score": 3
   }
 ]

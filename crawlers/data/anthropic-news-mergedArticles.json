@@ -1,6 +1,6 @@
 [
   {
-    "id": "art_1746465052818_3778",
+    "id": "art_1746496470017_4837",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic推出AI科学计划",
@@ -21,12 +21,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "company_news",
-    "reason": "Anthropic作为知名AI公司，其科学计划可能涉及前沿研究，具有行业影响力。",
+    "reason": "Anthropic作为知名AI公司，其新计划值得关注",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465052818_6264",
+    "id": "art_1746496470018_3315",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude现在可以连接你的世界",
@@ -47,15 +47,15 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "product_update",
-    "reason": "Claude作为Anthropic的重要产品，其功能更新值得关注。",
+    "reason": "Claude作为知名AI产品，其功能更新具有信息价值",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465052819_0102",
+    "id": "art_1746496470018_3658",
     "author": "Anthropic",
     "avatar": "",
-    "title": "确保美国的计算优势：Anthropic对扩散规则的立场",
+    "title": "保障美国的计算优势：Anthropic对扩散规则的立场",
     "content": "",
     "rawContent": "",
     "link": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
@@ -73,12 +73,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "safety_alignment",
-    "reason": "涉及AI安全和政策，具有行业影响力。",
+    "reason": "涉及AI安全和政策，具有行业影响力",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465052819_9523",
+    "id": "art_1746496470018_7842",
     "author": "Anthropic",
     "avatar": "",
     "title": "介绍Anthropic经济顾问委员会",
@@ -99,12 +99,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "company_news",
-    "reason": "Anthropic的组织变动，具有行业影响力。",
+    "reason": "Anthropic的组织变动值得关注",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465052819_7198",
+    "id": "art_1746496470018_7639",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic经济指数：AI对软件开发的影响",
@@ -125,12 +125,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "company_news",
-    "reason": "涉及AI对经济的影响，具有信息价值。",
+    "reason": "研究AI对行业的影响，具有信息价值",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465052819_9598",
+    "id": "art_1746496470019_2904",
     "author": "Anthropic",
     "avatar": "",
     "title": "检测和对抗Claude的恶意使用：2025年3月",
@@ -151,12 +151,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "safety_alignment",
-    "reason": "涉及AI安全和伦理，具有行业影响力。",
+    "reason": "涉及AI安全和伦理，具有行业影响力",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465052819_1613",
+    "id": "art_1746496470019_7962",
     "author": "Anthropic",
     "avatar": "",
     "title": "我们理解和解决AI危害的方法",
@@ -177,12 +177,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "safety_alignment",
-    "reason": "涉及AI安全和伦理，具有行业影响力。",
+    "reason": "涉及AI安全和伦理，具有行业影响力",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746465052819_9359",
+    "id": "art_1746496470019_2352",
     "author": "Anthropic",
     "avatar": "",
     "title": "Claude将研究带到新高度",
@@ -203,12 +203,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "product_update",
-    "reason": "Claude作为Anthropic的重要产品，其功能更新值得关注。",
+    "reason": "Claude作为知名AI产品，其功能更新具有信息价值",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465052819_6804",
+    "id": "art_1746496470019_8921",
     "author": "Anthropic",
     "avatar": "",
     "title": "介绍Max计划",
@@ -229,12 +229,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "product_update",
-    "reason": "Anthropic的产品更新，具有信息价值。",
+    "reason": "Anthropic的新产品计划值得关注",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465052820_1955",
+    "id": "art_1746496470019_2977",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic教育报告：大学生如何使用Claude",
@@ -255,12 +255,12 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "company_news",
-    "reason": "涉及AI在教育领域的应用，具有信息价值。",
+    "reason": "研究AI在教育中的应用，具有信息价值",
     "isWeekly": 1,
     "score": 3
   },
   {
-    "id": "art_1746465052820_8623",
+    "id": "art_1746496470019_7453",
     "author": "Anthropic",
     "avatar": "",
     "title": "Anthropic任命Guillaume Princen为EMEA负责人并宣布在该地区新增100多个职位",
@@ -281,7 +281,7 @@
     "tags": [],
     "platform": "anthropic",
     "ownCategory": "company_news",
-    "reason": "Anthropic的组织变动，具有行业影响力。",
+    "reason": "Anthropic的组织变动值得关注",
     "isWeekly": 1,
     "score": 3
   }

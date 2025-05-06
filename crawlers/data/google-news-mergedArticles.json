@@ -1,9 +1,9 @@
 [
   {
-    "id": "art_1746462022600_0920",
+    "id": "art_1746496532601_7724",
     "author": "google",
     "avatar": "",
-    "title": "Music AI Sandbox 现已推出新功能并扩大访问范围",
+    "title": "Music AI Sandbox 新增功能并扩大访问范围",
     "content": "帮助音乐专业人士探索生成式AI的潜力",
     "rawContent": "Helping music professionals explore the potential of generative AI",
     "link": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
@@ -21,16 +21,16 @@
     "tags": [],
     "platform": "google",
     "ownCategory": "product_update",
-    "reason": "Google推出的音乐AI工具更新，具有明确的产品功能改进",
+    "reason": "Google推出的音乐AI工具更新，具有明确的产品价值",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746462022600_1852",
+    "id": "art_1746496532601_5855",
     "author": "google",
     "avatar": "",
     "title": "推出 Gemini 2.5 Flash",
-    "content": "Gemini 2.5 Flash 是我们的首个完全混合推理模型，为开发者提供了开启或关闭思考的能力。",
+    "content": "Gemini 2.5 Flash 是我们的第一个完全混合推理模型，为开发者提供了开启或关闭思考的能力。",
     "rawContent": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
     "link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
     "date": "2025-04-17 00:00:00",
@@ -47,16 +47,16 @@
     "tags": [],
     "platform": "google",
     "ownCategory": "model_progress",
-    "reason": "Google发布的新模型，具有创新的混合推理能力",
+    "reason": "Google发布的新模型，具有技术亮点和行业影响力",
     "isWeekly": 1,
     "score": 5
   },
   {
-    "id": "art_1746462022600_7688",
+    "id": "art_1746496532602_1900",
     "author": "google",
     "avatar": "",
     "title": "在 Gemini 和 Whisk 中使用 Veo 2 生成视频",
-    "content": "将基于文本的提示转换为高分辨率的八秒视频，在 Gemini Advanced 中使用，并通过 Whisk Animate 将图像转换为八秒动画片段。",
+    "content": "将基于文本的提示转换为高分辨率的八秒视频，在 Gemini Advanced 中使用 Whisk Animate 将图像转换为八秒动画片段。",
     "rawContent": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
     "link": "https://blog.google/products/gemini/video-generation/",
     "date": "2025-04-15 00:00:00",
@@ -73,16 +73,16 @@
     "tags": [],
     "platform": "google",
     "ownCategory": "product_update",
-    "reason": "Google的视频生成工具更新，展示了新的AI功能",
+    "reason": "Google的视频生成工具更新，具有明确的产品价值",
     "isWeekly": 1,
     "score": 4
   },
   {
-    "id": "art_1746462022600_8169",
+    "id": "art_1746496532602_7965",
     "author": "google",
     "avatar": "",
-    "title": "DolphinGemma：Google AI 如何帮助解码海豚的交流",
-    "content": "DolphinGemma 是由 Google 开发的大型语言模型，帮助科学家研究海豚如何交流，并希望找出它们在说什么。",
+    "title": "DolphinGemma：Google AI 如何帮助解码海豚通信",
+    "content": "DolphinGemma 是 Google 开发的大型语言模型，帮助科学家研究海豚如何交流，并希望找出它们在说什么。",
     "rawContent": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
     "link": "https://blog.google/technology/ai/dolphingemma/",
     "date": "2025-04-14 00:00:00",
@@ -99,8 +99,8 @@
     "tags": [],
     "platform": "google",
     "ownCategory": "highlight_tech",
-    "reason": "Google的AI研究项目，展示了AI在动物行为研究中的创新应用",
+    "reason": "Google在AI研究领域的创新应用，具有技术亮点和行业影响力",
     "isWeekly": 1,
-    "score": 4
+    "score": 5
   }
 ]
