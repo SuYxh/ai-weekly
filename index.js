@@ -45,7 +45,18 @@ app.use('/api/v1/article', articleRouter);
 
 
 // 静态文件（仅用于非 API 的前端页面或资源）
-app.use(express.static(path.join(__dirname, 'static-page', 'public')));
+// app.use(express.static(path.join(__dirname, 'static-page', 'public')));
+// 1. 访问 localhost:3000/ => Vue 构建产物（dist）
+app.use(express.static(path.join(__dirname, 'static-page', 'dist')));
+
+// 2. 访问 localhost:3000/public/... => 访问 public 中的资源
+app.use('/public', express.static(path.join(__dirname, 'static-page', 'public')));
+
+
+app.use((req, res, next) => {
+  res.status(404).sendFile(path.join(__dirname, 'static-page', 'dist', '404.html'));
+});
+
 
 // 错误处理器（放最后）
 app.use(errorHandler);
