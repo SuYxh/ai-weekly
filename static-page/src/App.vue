@@ -3,7 +3,9 @@
     <div v-if="loading">加载中...</div>
     <div v-else-if="error">加载失败: {{ error }}</div>
     <div v-else class="data-list">
-      <WeeklyDigest :data="data" />
+      <!-- <WeeklyDigest :data="data" /> -->
+      <!-- <WeeklyLayout :articles="data" /> -->
+      <WeeklyLayout :articleList="data" />
     </div>
   </div>
 </template>
@@ -11,6 +13,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import WeeklyDigest from './components/WeeklyDigest.vue'
+import WeeklyLayout from './components/WeeklyLayout.vue'
 
 const data = ref([])
 const loading = ref(true)
