@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vitejs/plugin-vue': ^5.2.3
+  '@yeger/vue-masonry-wall': ^5.0.17
   vite: ^6.3.5
   vue: ^3.5.13
 
 dependencies:
+  '@yeger/vue-masonry-wall': 5.0.17_vue@3.5.13
   vue: 3.5.13
 
 devDependencies:
@@ -514,6 +516,30 @@ packages:
 
   /@vue/shared/3.5.13:
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
+
+  /@yeger/debounce/2.0.11:
+    resolution: {integrity: sha512-vb0ndSVXJhUERayj9Nn64MRoJ0PljOizlR5wPcBp0gjP4blmgKxtDgRn1fRbDlWL5+pcDQ8sgYSxdQsAFmFkzw==}
+    dev: false
+
+  /@yeger/vue-lib-adapter/2.0.11:
+    resolution: {integrity: sha512-OPnyCJRNuPcAefGAIBqqU/ae7Nugy29FqWPYBKSLDXMuaAfbr6/5rTBZhBGjBZfvqudWuJlwSa7vYdqrOhP6Qg==}
+    dev: false
+
+  /@yeger/vue-masonry-wall-core/5.0.14:
+    resolution: {integrity: sha512-9J8kGYCHQiDfCYpjdKSvcPKBsninXAV3jNdJtSsfFMpmEXPJKREVVaO2lGVPtnsqF2jc9QhDL1ypLuhU5rcKlQ==}
+    dependencies:
+      '@yeger/debounce': 2.0.11
+      '@yeger/vue-lib-adapter': 2.0.11
+    dev: false
+
+  /@yeger/vue-masonry-wall/5.0.17_vue@3.5.13:
+    resolution: {integrity: sha512-gj9brDg6U1ujAnig7SUp+mjcRBZkU8OmIRM1tjRTkzJ5oQ7Y0HEFy2hZgjwWHfa9zMIkq7RNLkETPdLMoCohRQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@yeger/vue-masonry-wall-core': 5.0.14
+      vue: 3.5.13
+    dev: false
 
   /csstype/3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
