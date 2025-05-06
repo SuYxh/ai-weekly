@@ -5,7 +5,8 @@
     <div v-else class="data-list">
       <!-- <WeeklyDigest :data="data" /> -->
       <!-- <WeeklyLayout :articles="data" /> -->
-      <WeeklyLayout :articleList="data" />
+      <!-- <WeeklyLayout :articleList="data" /> -->
+      <WeeklyLayout :articles="data" />
     </div>
   </div>
 </template>
