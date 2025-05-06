@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { cleanArticlesTable,fetchAllArticles, cleanAllTable, fetchRecentArticles, fetchWeeklyArticles, fetchGroupWeeklyArticles } from '../controllers/articleController.js';
+import { cleanArticlesTable,fetchAllArticles, cleanAllTable, fetchRecentArticles, fetchWeeklyArticles, fetchGroupWeeklyArticles, fetchGroupWeeklyArticlesForCoze } from '../controllers/articleController.js';
 
 export const router = Router();
 
@@ -15,6 +15,10 @@ router.get('/fetchRecentArticles', fetchRecentArticles);
 router.get('/fetchWeeklyArticles', fetchWeeklyArticles);
 // 获取周刊-分组
 router.get('/fetchGroupWeeklyArticles', fetchGroupWeeklyArticles);
+// 获取周刊-分组-用于coze
+router.get('/fetchGroupWeeklyArticlesForCoze', fetchGroupWeeklyArticlesForCoze);
+
+
 
 
 

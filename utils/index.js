@@ -41,7 +41,8 @@ export const {
   sleep,
   extractGPTResults,
   mergeGptWithArticles,
-  groupArticlesByField
+  groupArticlesByField,
+  enhanceGroupedArticles,
   // 可能还有其他通用工具方法
 } = commonUtils;
 

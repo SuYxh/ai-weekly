@@ -71,3 +71,25 @@ export function groupArticlesByField(articles, field = 'ownCategory') {
   }, {});
 }
 
+
+export function enhanceGroupedArticles(data) {
+  const enhancedData = {};
+
+  for (const [category, articles] of Object.entries(data)) {
+    enhancedData[category] = articles.map((article) => {
+      const enhancedTitle = `${article.title}\n[点击查看 >>](${article.link})`;
+      const image =
+        Array.isArray(article.media) && article.media.length > 0
+          ? article.media[0].url
+          : 'https://qn.huat.xyz/mac/202505061130521.png';
+
+      return {
+        ...article,
+        title: enhancedTitle,
+        image,
+      };
+    });
+  }
+
+  return enhancedData;
+}

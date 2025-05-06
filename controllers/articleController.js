@@ -1,7 +1,7 @@
 import { success, fail } from "../utils/response.js";
 import { resetArticlesTable, resetAllTables } from "../models/articleModel.js";
 import { fetchAllArticlesService, getRecentAllPlatformArticlesService } from "../service/articleService.js";
-import { groupArticlesByField } from "../utils/index.js";
+import { groupArticlesByField, enhanceGroupedArticles } from "../utils/index.js";
 
 export async function fetchAllArticles(req, res) {
   try {
@@ -69,6 +69,30 @@ export async function fetchGroupWeeklyArticles(req, res) {
   } catch (error) {
     // 如果在爬取过程中发生错误，传递给错误处理中间件
     console.error("fetchRecentArticles 出错:", error);
+    // 或者直接返回错误响应
+    res.status(500).json(fail("获取信息失败"));
+  }
+}
+
+export async function fetchGroupWeeklyArticlesForCoze(req, res) {
+  try {
+    const recentArticles = await getRecentAllPlatformArticlesService();
+    
+    const weeklyArticles = recentArticles.filter(item => item.isWeekly === 1)
+
+    const goodsArticles = recentArticles.filter(item => item.score >= 4)
+    
+    const groupArticles = groupArticlesByField(goodsArticles)
+
+    const enhanceArticles = enhanceGroupedArticles(groupArticles)
+
+    console.log(`最近2周共计有文章 ${recentArticles.length} 篇, 其中周刊有 ${weeklyArticles.length} 篇， 高评分的有 ${goodsArticles.length} 篇`)
+    
+    // 返回 JSON 响应
+    res.json(success(enhanceArticles, "获取文章成功"));
+  } catch (error) {
+    // 如果在爬取过程中发生错误，传递给错误处理中间件
+    console.error("fetchGroupWeeklyArticlesForCoze 出错:", error);
     // 或者直接返回错误响应
     res.status(500).json(fail("获取信息失败"));
   }
