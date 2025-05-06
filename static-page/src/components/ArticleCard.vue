@@ -6,7 +6,14 @@
       <span class="date">{{ formatDate(article.date) }}</span>
     </div>
     <h3 class="title">{{ article.title }}</h3>
-    <div class="summary">{{ displayText }}</div>
+    
+    <div class="summary-container">
+      <div class="summary-label">📄 摘要</div>
+      <div class="summary" :class="{ 'expanded': isExpanded }">{{ displayText }}</div>
+      <div v-if="isTruncated" class="expand-btn" @click="toggleExpand">
+        {{ isExpanded ? '收起' : '展开全文' }}
+      </div>
+    </div>
 
     <div class="tags" v-if="article.tags?.length">
       <span class="tag" v-for="tag in article.tags" :key="tag">{{ tag }}</span>
@@ -17,8 +24,9 @@
     </a>
 
     <transition name="fade-slide">
-      <div class="reason" v-if="article.reason">
-        📝 {{ article.reason }}
+      <div class="reason-container" v-if="article.reason">
+        <div class="reason-label">🔍 推荐理由</div>
+        <div class="reason">{{ article.reason }}</div>
       </div>
     </transition>
   </div>
@@ -30,6 +38,12 @@ export default {
     article: {
       type: Object,
       required: true
+    }
+  },
+  data() {
+    return {
+      isExpanded: false,
+      isTruncated: false
     }
   },
   computed: {
@@ -45,6 +59,16 @@ export default {
     formatDate(date) {
       const d = new Date(date);
       return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+    },
+    toggleExpand() {
+      this.isExpanded = !this.isExpanded;
+    }
+  },
+  mounted() {
+    // 检查文本是否需要截断
+    const summaryText = this.displayText;
+    if (summaryText.length > 150) {
+      this.isTruncated = true;
     }
   }
 };
@@ -96,22 +120,66 @@ export default {
   color: #333;
 }
 
+.summary-container {
+  margin-bottom: 12px;
+}
+
+.summary-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4285f4;
+  margin-bottom: 4px;
+}
+
 .summary {
   font-size: 14px;
   color: #555;
-  margin-bottom: 8px;
-  line-height: 1.4;
-  max-height: 4.2em;
+  line-height: 1.5;
   overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.summary:not(.expanded) {
+  max-height: 4.5em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.summary.expanded {
+  max-height: 500px;
+}
+
+.expand-btn {
+  font-size: 12px;
+  color: #4285f4;
+  cursor: pointer;
+  margin-top: 4px;
+  text-align: right;
+}
+
+.expand-btn:hover {
+  text-decoration: underline;
+}
+
+.reason-container {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.reason-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ea4335;
+  margin-bottom: 4px;
 }
 
 .reason {
   font-size: 13px;
   color: #666;
-  background: #f8f8f8;
-  padding: 8px;
-  border-radius: 8px;
-  margin-top: 8px;
+  line-height: 1.4;
 }
 
 .tags {
