@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 周刊入选说明</title>
+  <style>
+    :root {
+      --primary: #4285f4;
+      --text: #333;
+      --muted: #666;
+      --bg: #f9fafb;
+      --border: #e5e7eb;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 2em 0 1em;
+      color: var(--primary);
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px 16px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f3f4f6;
+      font-weight: bold;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .category-card {
+      background: #f5f8ff;
+      border: 1px solid #dbeafe;
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .category-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transform: translateY(-3px);
+    }
+
+    .category-icon {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .category-title {
+      font-weight: bold;
+      color: #111827;
+      margin-bottom: 6px;
+    }
+
+    .category-desc {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 AI 周刊入选说明</h1>
+
+    <h2>📌 入选原则</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>📐 维度</th>
+          <th>✅ 收录建议</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>📢 来源可信度</td>
+          <td>官方机构、知名研究团队、主流媒体</td>
+        </tr>
+        <tr>
+          <td>🧠 技术深度</td>
+          <td>有明确成果、论文、发布内容（如新模型、新框架）</td>
+        </tr>
+        <tr>
+          <td>📡 行业趋势</td>
+          <td>体现大方向：多模态、开源、AI 社会影响等</td>
+        </tr>
+        <tr>
+          <td>📊 数据可靠性</td>
+          <td>引用实验证据、性能指标等</td>
+        </tr>
+        <tr>
+          <td>🧩 实用性/产品化</td>
+          <td>有开发者可用资源，如 API、工具、框架发布</td>
+        </tr>
+        <tr>
+          <td>🔥 话题热度/争议性</td>
+          <td>具讨论度/观点冲突，可配合背景材料适当选用</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section">
+      <h2>📂 内容分类标准</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="category-icon">🚀</div>
+          <div class="category-title">highlight_tech / 技术亮点</div>
+          <div class="category-desc">有显著技术创新或突破点，展示方法、架构、论文成果等。</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">📊</div>
+          <div class="category-title">model_progress / 模型进展</div>
+          <div class="category-desc">模型能力更新，SOTA 结果、训练效率优化、评估表现等。</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🧩</div>
+          <div class="category-title">product_update / 产品更新</div>
+          <div class="category-desc">新产品、新功能上线，如 Claude、ChatGPT 等平台集成或体验优化。</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🧠</div>
+          <div class="category-title">safety_alignment / 安全与对齐</div>
+          <div class="category-desc">涉及 AI 安全性、伦理问题、对齐策略、政策管控等。</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🗞️</div>
+          <div class="category-title">company_news / 公司动态</div>
+          <div class="category-desc">公司级别的重要声明、合作、裁员、开源动态、投资消息等。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
