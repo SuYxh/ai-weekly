@@ -1,13 +1,520 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO 元标签 -->
+  <title>AI 周刊 - 人工智能行业最新动态与前沿资讯</title>
+  <meta name="description" content="AI 周刊为您提供人工智能领域的最新研究、技术突破、行业动态和应用案例，每周精选优质内容，助您把握 AI 发展脉搏。" />
+  <meta name="keywords" content="AI周刊,人工智能,机器学习,深度学习,大语言模型,LLM,GPT,AI研究,AI应用" />
+
+  <!-- Open Graph 标签 (社交媒体分享优化) -->
+  <meta property="og:title" content="AI 周刊 - 人工智能行业最新动态与前沿资讯" />
+  <meta property="og:description" content="每周精选人工智能领域的最新研究、技术突破、行业动态和应用案例，助您把握 AI 发展脉搏。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ai.ironc.cn" />
+  <meta property="og:image" content="https://ai.ironc.cn/og-image.jpg" />
+
+  <!-- Twitter 卡片标签 -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI 周刊 - 人工智能行业最新动态与前沿资讯" />
+  <meta name="twitter:description" content="每周精选人工智能领域的最新研究、技术突破、行业动态和应用案例，助您把握 AI 发展脉搏。" />
+  <meta name="twitter:image" content="https://ai.ironc.cn/twitter-image.jpg" />
+
+  <!-- 规范链接 -->
+  <link rel="canonical" href="https://ai.ironc.cn" />
+
+  <!-- 网站作者和版权信息 -->
+  <meta name="author" content="AI 周刊团队" />
+  <meta name="copyright" content="版权所有 © 2025 AI周刊" />
+
+  <!-- 移动设备优化 -->
+  <meta name="theme-color" content="#4285f4" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- 结构化数据 (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI 周刊",
+      "description": "人工智能行业最新动态与前沿资讯",
+      "url": "https://ai.ironc.cn",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ai.ironc.cn/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  <!-- 预加载关键资源 -->
+  <link rel="preload" href="/src/main.js" as="script" />
+
+  <!-- 添加样式 -->
+  <style>
+    :root {
+      --primary-color: #4285f4;
+      --secondary-color: #34a853;
+      --accent-color: #ea4335;
+      --text-color: #333333;
+      --light-text: #ffffff;
+      --background-color: #f8f9fa;
+      --border-color: #e0e0e0;
+      --header-height: 70px;
+      --footer-height: 80px;
+      --max-width: 1200px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--background-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 现代化 Header 样式 */
+    header {
+      background-color: #fff;
+      color: #333;
+      /* 深色文字，与白色背景搭配 */
+      padding: 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      position: relative;
+    }
+
+    .header-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.1);
+      z-index: -1;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo img {
+      height: 50px;
+      width: auto;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+      transition: transform 0.3s ease;
+    }
+
+    .logo img:hover {
+      transform: scale(1.05);
+    }
+
+    .logo h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0;
+      /* background: linear-gradient(90deg, #4285f4, #34a853); */
+      background: linear-gradient(90deg, #111, #111);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: none;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin: 0 15px;
+      position: relative;
+    }
+
+    .nav-links a {
+      color: #333;
+      /* 改为深色 */
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      padding: 8px 0;
+      display: block;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #4285f4;
+      /* 改为主题色 */
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      transform: translateY(-2px);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* 主内容区域 */
+    main {
+      flex: 1;
+      padding: 40px 20px;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* 现代化 Footer 样式 */
+    footer {
+      background-color: #1a1a2e;
+      color: #f0f0f0;
+      position: relative;
+      margin-top: 50px;
+      padding-top: 0;
+    }
+
+    .footer-wave {
+      position: absolute;
+      top: -100px;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+
+    .footer-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 50px 20px 30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-section {
+      width: 22%;
+      margin-bottom: 30px;
+    }
+
+    .about-section {
+      width: 30%;
+    }
+
+    .footer-section h3 {
+      color: #fff;
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .footer-section h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50px;
+      height: 2px;
+      background: linear-gradient(90deg, #4285f4, #34a853);
+    }
+
+    .footer-section p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      background: #4285f4;
+      transform: translateY(-3px);
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 12px;
+    }
+
+    .footer-links a {
+      color: #ccc;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .footer-links a:hover {
+      color: #4285f4;
+      transform: translateX(5px);
+    }
+
+    .contact-links li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact-links i {
+      color: #4285f4;
+    }
+
+    .footer-bottom {
+      background-color: rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .copyright {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .copyright a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .copyright a:hover {
+      color: #4285f4;
+    }
+
+    .no-js-message {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff3cd;
+      color: #856404;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+
+    /* 响应式调整 */
+    @media (max-width: 768px) {
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(135deg, #4285f4, #34a853);
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+      }
+
+      .nav-links.active {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .nav-links li {
+        margin: 10px 0;
+      }
+
+      .header-container {
+        padding: 15px;
+      }
+
+      .footer-section {
+        width: 100%;
+      }
+
+      .about-section {
+        width: 100%;
+      }
+
+      .footer-container {
+        flex-direction: column;
+        padding: 40px 20px 20px;
+      }
+
+      .footer-wave {
+        top: -50px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="https://qn.huat.xyz/mac/202505061110384.png" alt="AI 周刊 Logo" />
+        <h1>AI 周刊</h1>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="icon-menu">≡</i>
+      </button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/">首页</a></li>
+          <li><a href="/archives">往期内容</a></li>
+          <li><a href="/categories">分类浏览</a></li>
+          <li><a href="/about">关于我们</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Vue 应用将在这里挂载 -->
+    <noscript>
+      <div class="no-js-message">
+        <p>请启用 JavaScript 以获得最佳体验。</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer>
+    <div class="footer-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#4285f4" fill-opacity="1"
+          d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+    <div class="footer-container">
+      <div class="footer-section about-section">
+        <h3>关于我们</h3>
+        <p>AI 周刊致力于为您提供人工智能领域的最新资讯、研究成果和行业动态，帮助您把握 AI 发展脉搏。</p>
+        <div class="social-links">
+          <a href="#" title="微信公众号" class="social-icon">
+            <i class="icon-wechat">微信</i>
+          </a>
+          <a href="#" title="知乎" class="social-icon">
+            <i class="icon-zhihu">知乎</i>
+          </a>
+          <a href="#" title="GitHub" class="social-icon">
+            <i class="icon-github">GitHub</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>快速链接</h3>
+        <ul class="footer-links">
+          <li><a href="/">首页</a></li>
+          <li><a href="/archives">往期内容</a></li>
+          <li><a href="/categories">分类浏览</a></li>
+          <li><a href="/about">关于我们</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>热门分类</h3>
+        <ul class="footer-links">
+          <li><a href="/categories/llm">大语言模型</a></li>
+          <li><a href="/categories/research">前沿研究</a></li>
+          <li><a href="/categories/applications">AI 应用</a></li>
+          <li><a href="/categories/tools">AI 工具</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>联系我们</h3>
+        <ul class="footer-links contact-links">
+          <li>
+            <i class="icon-mail">📧</i>
+            <a href="mailto:contact@aiweekly.com">contact@aiweekly.com</a>
+          </li>
+          <li>
+            <i class="icon-wechat">💬</i>
+            <span>微信公众号：AI周刊【暂无】</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="copyright">
+        &copy; 2025 AI周刊 版权所有 | <a href="/privacy">隐私政策</a> | <a href="/terms">使用条款</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 移动端菜单切换
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

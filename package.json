@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "(cd static-page && pnpm build) && nodemon index.js",
+    "firstStart": "(cd static-page && pnpm i && pnpm build) && (pnpm i && node index.js)",
     "start": "(cd static-page && pnpm build) && node index.js",
     "updateSchema": "node ./db/update-schema.js",
     "test": "echo \"Error: no test specified\" && exit 1"

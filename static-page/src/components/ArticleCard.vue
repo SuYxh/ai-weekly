@@ -35,7 +35,7 @@ export default {
   computed: {
     coverImage() {
       const media = this.article.media;
-      return media?.length ? media[0].url : 'https://placehold.co/600x360?text=No+Image';
+      return media?.length ? media[0].url : 'https://qn.huat.xyz/mac/202505061130521.png';
     },
     displayText() {
       return this.article.summary || this.article.content || '暂无简介';
@@ -53,7 +53,8 @@ export default {
 <style scoped>
 .article-card {
   width: 100%;
-  max-width: 23vw;
+  /* max-width: 23vw; */
+  max-width: 30vw;
   background: #fff;
   border-radius: 16px;
   overflow: hidden;
